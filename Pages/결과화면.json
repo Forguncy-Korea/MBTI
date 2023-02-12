@@ -1,0 +1,5847 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 18.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 50.0
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 11.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      61,
+      62,
+      63,
+      64
+    ],
+    "Count": 67
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 11.0
+        }
+      }
+    },
+    "Count": 95
+  },
+  "Values": {
+    "3,40": "당신의 성격유형은 :",
+    "18,45": "정신",
+    "19,34": "외향형",
+    "19,58": "내향형",
+    "20,37": 100,
+    "20,38": 95,
+    "20,39": 90.0,
+    "20,40": 85.0,
+    "20,41": 80.0,
+    "20,42": 75.0,
+    "20,43": 70.0,
+    "20,44": 65.0,
+    "20,45": 60,
+    "20,46": 55.0,
+    "20,47": 50.0,
+    "20,48": 45,
+    "20,49": 40.0,
+    "20,50": 35.0,
+    "20,51": 30.0,
+    "20,52": 25.0,
+    "20,53": 20.0,
+    "20,54": 15.0,
+    "20,55": 10.0,
+    "20,56": 5.0,
+    "23,46": "에너지",
+    "24,34": "직관형",
+    "24,57": "현실주의형",
+    "25,37": 100,
+    "25,38": 95,
+    "25,39": 90.0,
+    "25,40": 85.0,
+    "25,41": 80.0,
+    "25,42": 75.0,
+    "25,43": 70.0,
+    "25,44": 65.0,
+    "25,45": 60.0,
+    "25,46": 55.0,
+    "25,47": 50,
+    "25,48": 45,
+    "25,49": 40.0,
+    "25,50": 35.0,
+    "25,51": 30.0,
+    "25,52": 25.0,
+    "25,53": 20.0,
+    "25,54": 15.0,
+    "25,55": 10.0,
+    "25,56": 5.0,
+    "28,45": "본성",
+    "29,34": "사고형",
+    "29,58": "감정형",
+    "30,37": 100,
+    "30,38": 95,
+    "30,39": 90.0,
+    "30,40": 85.0,
+    "30,41": 80.0,
+    "30,42": 75.0,
+    "30,43": 70.0,
+    "30,44": 65.0,
+    "30,45": 60.0,
+    "30,46": 55.0,
+    "30,47": 50,
+    "30,48": 45,
+    "30,49": 40.0,
+    "30,50": 35.0,
+    "30,51": 30.0,
+    "30,52": 25.0,
+    "30,53": 20.0,
+    "30,54": 15.0,
+    "30,55": 10.0,
+    "30,56": 5.0,
+    "33,45": "전술",
+    "34,34": "계획형",
+    "34,58": "탐색형",
+    "35,37": 100,
+    "35,38": 95,
+    "35,39": 90.0,
+    "35,40": 85.0,
+    "35,41": 80.0,
+    "35,42": 75.0,
+    "35,43": 70.0,
+    "35,44": 65.0,
+    "35,45": 60.0,
+    "35,46": 55.0,
+    "35,47": 50,
+    "35,48": 45,
+    "35,49": 40.0,
+    "35,50": 35.0,
+    "35,51": 30.0,
+    "35,52": 25.0,
+    "35,53": 20.0,
+    "35,54": 15.0,
+    "35,55": 10.0,
+    "35,56": 5.0,
+    "58,28": "PDF",
+    "58,34": "Excel",
+    "58,40": "Mail",
+    "62,71": "생활양식",
+    "62,75": "판단기능",
+    "62,79": "인식기능",
+    "62,83": "에너지방향"
+  },
+  "Formulas": {
+    "63,79": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "7,44": "IF(CB64>50,\"S\",\"N\")",
+    "64,79": "IF(CB64>50,\"S\",\"N\")",
+    "64,83": "IF(CF64>50,\"E\",\"I\")",
+    "7,47": "IF(BX64>50,\"T\",\"F\")",
+    "63,83": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "63,71": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "7,50": "IF(BT64>50,\"J\",\"P\")",
+    "64,75": "IF(BX64>50,\"T\",\"F\")",
+    "64,71": "IF(BT64>50,\"J\",\"P\")",
+    "7,41": "IF(CF64>50,\"E\",\"I\")",
+    "63,75": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))"
+  },
+  "AttachInfos": {
+    "20,37": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,38": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,39": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,40": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,41": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,42": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,43": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,44": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,45": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,46": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,47": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,48": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,49": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,50": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,51": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,52": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,53": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,54": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,55": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "20,56": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CF$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,37": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,38": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,39": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,40": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,41": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,42": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,43": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,44": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,45": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,46": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 6,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,47": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,48": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,49": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,50": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,51": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,52": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,53": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,54": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,55": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,56": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$CB$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,37": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,38": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,39": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,40": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,41": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,42": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,43": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,44": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,45": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,46": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,47": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,48": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,49": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,50": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,51": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,52": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,53": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,54": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,55": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "30,56": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BX$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B029",
+              "Foreground": "#FF19B029",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,37": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,38": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,39": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,40": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,41": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,42": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,43": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,44": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,45": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,46": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FFDA18DA",
+              "Foreground": "#FFDA18DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,47": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,48": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,49": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,50": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,51": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,52": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,53": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,54": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,55": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "35,56": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=결과화면!$BT$64"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "58,28": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToPdfCommand, ServerDesignerCommon",
+            "AutoFitRowHeight": true,
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "PDF",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "58,34": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, ServerDesignerCommon",
+            "NewOtherName": ""
+          }
+        ],
+        "Text": "Excel",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "58,40": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "메일보내기",
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "=결과화면!AW62"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "=결과화면!BK59"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true,
+            "Disabled": true
+          },
+          {
+            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+            "From": "knh3110@gmail.net",
+            "Subject": "test",
+            "Content": "[%CurrentRow=(검사결과,MBTI)%]\r\n",
+            "EnhancedRecipient": {
+              "CommonValue": "nancy.kim@grapecity.com"
+            },
+            "ID": "633091fa88434dc4aefa724321a75740"
+          },
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": "메일이 전송되었습니다."
+          }
+        ],
+        "Text": "Mail",
+        "TemplateKey": "스타일2"
+      }
+    },
+    "63,71": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "63,75": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "63,79": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "63,83": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 32.0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 2
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 64.0,
+        "FontWeight": 2,
+        "Foreground": 1,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 2,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "FontWeight": 2,
+        "HorizontalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 2,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 6,
+        "FontFamily": 0,
+        "Foreground": 6,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 2,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "TextIndent": 20,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": 6,
+        "FontFamily": 0,
+        "Foreground": 6,
+        "Formatter": 3
+      },
+      {
+        "Background": 6,
+        "FontFamily": 0,
+        "Foreground": 6
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 5,
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 5,
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 2,
+        "HorizontalAlignment": 5
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 8,
+        "FontSize": 24.0,
+        "FontStyle": 9,
+        "FontWeight": 9,
+        "Foreground": 1,
+        "TextIndent": 17,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 10,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 2,
+        "Foreground": 1,
+        "TextIndent": 20,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 10,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 8,
+        "FontSize": 24.0,
+        "FontStyle": 9,
+        "FontWeight": 2,
+        "Foreground": 11,
+        "HorizontalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "Foreground": 11
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Bold",
+        "[AUTO]General",
+        "Right",
+        "Center",
+        "Background 1 -15",
+        "Left",
+        "나눔스퀘어 네오 OTF Regular",
+        "Normal",
+        "Top",
+        "#FF000000"
+      ],
+      "Borders": [
+        {
+          "Color": 6
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 1,
+      "0,40": 1,
+      "0,41": 1,
+      "0,42": 0,
+      "0,43": 0,
+      "0,44": 0,
+      "0,45": 0,
+      "0,46": 0,
+      "0,47": 1,
+      "0,48": 1,
+      "0,49": 1,
+      "0,50": 0,
+      "0,51": 0,
+      "0,52": 0,
+      "0,53": 0,
+      "0,54": 0,
+      "0,55": 1,
+      "0,56": 1,
+      "0,57": 1,
+      "0,58": 0,
+      "0,59": 0,
+      "0,60": 0,
+      "0,61": 0,
+      "0,62": 0,
+      "0,63": 0,
+      "0,64": 0,
+      "0,65": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "1,24": 0,
+      "1,25": 0,
+      "1,26": 0,
+      "1,27": 0,
+      "1,28": 0,
+      "1,29": 0,
+      "1,30": 0,
+      "1,31": 0,
+      "1,32": 0,
+      "1,33": 0,
+      "1,34": 0,
+      "1,35": 0,
+      "1,36": 0,
+      "1,37": 0,
+      "1,72": 0,
+      "1,73": 0,
+      "1,74": 0,
+      "1,75": 0,
+      "1,80": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "2,24": 0,
+      "2,25": 0,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "2,30": 0,
+      "2,31": 0,
+      "2,32": 0,
+      "2,33": 0,
+      "2,34": 0,
+      "2,35": 0,
+      "2,36": 0,
+      "2,37": 0,
+      "2,73": 0,
+      "2,74": 0,
+      "2,75": 0,
+      "2,80": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "3,22": 0,
+      "3,23": 0,
+      "3,24": 0,
+      "3,25": 0,
+      "3,26": 0,
+      "3,27": 0,
+      "3,28": 0,
+      "3,29": 0,
+      "3,30": 0,
+      "3,31": 0,
+      "3,32": 0,
+      "3,33": 0,
+      "3,34": 0,
+      "3,35": 0,
+      "3,36": 0,
+      "3,37": 0,
+      "3,38": 0,
+      "3,40": 2,
+      "3,41": 0,
+      "3,42": 0,
+      "3,43": 0,
+      "3,44": 0,
+      "3,45": 0,
+      "3,46": 0,
+      "3,47": 0,
+      "3,48": 0,
+      "3,49": 0,
+      "3,50": 0,
+      "3,51": 0,
+      "3,52": 0,
+      "3,53": 0,
+      "3,73": 0,
+      "3,74": 0,
+      "3,75": 0,
+      "3,80": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "4,22": 0,
+      "4,23": 0,
+      "4,24": 0,
+      "4,25": 0,
+      "4,26": 0,
+      "4,27": 0,
+      "4,28": 0,
+      "4,29": 0,
+      "4,30": 0,
+      "4,31": 0,
+      "4,32": 0,
+      "4,33": 0,
+      "4,34": 0,
+      "4,35": 0,
+      "4,36": 0,
+      "4,37": 0,
+      "4,38": 0,
+      "4,40": 0,
+      "4,41": 0,
+      "4,42": 0,
+      "4,43": 0,
+      "4,44": 0,
+      "4,45": 0,
+      "4,46": 0,
+      "4,47": 0,
+      "4,48": 0,
+      "4,49": 0,
+      "4,50": 0,
+      "4,51": 0,
+      "4,52": 0,
+      "4,53": 0,
+      "4,73": 0,
+      "4,74": 0,
+      "4,75": 0,
+      "4,80": 0,
+      "5,34": 0,
+      "5,35": 0,
+      "5,36": 0,
+      "5,37": 0,
+      "5,38": 0,
+      "5,40": 0,
+      "5,41": 0,
+      "5,42": 0,
+      "5,43": 0,
+      "5,44": 0,
+      "5,45": 0,
+      "5,46": 0,
+      "5,47": 0,
+      "5,48": 0,
+      "5,49": 0,
+      "5,50": 0,
+      "5,51": 0,
+      "5,52": 0,
+      "5,53": 0,
+      "5,72": 3,
+      "5,73": 0,
+      "5,74": 0,
+      "5,75": 0,
+      "5,80": 0,
+      "6,34": 0,
+      "6,35": 0,
+      "6,36": 0,
+      "6,37": 0,
+      "6,38": 0,
+      "6,40": 0,
+      "6,41": 0,
+      "6,42": 0,
+      "6,43": 0,
+      "6,44": 0,
+      "6,45": 0,
+      "6,46": 0,
+      "6,47": 0,
+      "6,48": 0,
+      "6,49": 0,
+      "6,50": 0,
+      "6,51": 0,
+      "6,52": 0,
+      "6,53": 0,
+      "6,72": 4,
+      "6,73": 0,
+      "6,74": 0,
+      "6,75": 0,
+      "6,80": 0,
+      "7,34": 0,
+      "7,35": 0,
+      "7,36": 0,
+      "7,37": 0,
+      "7,38": 0,
+      "7,40": 0,
+      "7,41": 5,
+      "7,42": 6,
+      "7,43": 6,
+      "7,44": 5,
+      "7,45": 0,
+      "7,46": 0,
+      "7,47": 5,
+      "7,48": 0,
+      "7,49": 0,
+      "7,50": 5,
+      "7,51": 0,
+      "7,52": 0,
+      "7,53": 0,
+      "7,74": 0,
+      "7,75": 0,
+      "7,80": 0,
+      "8,34": 0,
+      "8,35": 0,
+      "8,36": 0,
+      "8,37": 0,
+      "8,38": 0,
+      "8,40": 0,
+      "8,41": 6,
+      "8,42": 6,
+      "8,43": 6,
+      "8,44": 0,
+      "8,45": 0,
+      "8,46": 0,
+      "8,47": 0,
+      "8,48": 0,
+      "8,49": 0,
+      "8,50": 0,
+      "8,51": 0,
+      "8,52": 0,
+      "8,53": 0,
+      "8,74": 0,
+      "8,75": 0,
+      "8,80": 0,
+      "9,34": 0,
+      "9,35": 0,
+      "9,36": 0,
+      "9,37": 0,
+      "9,38": 0,
+      "9,40": 0,
+      "9,41": 0,
+      "9,42": 0,
+      "9,43": 0,
+      "9,44": 0,
+      "9,45": 0,
+      "9,46": 0,
+      "9,47": 0,
+      "9,48": 0,
+      "9,49": 0,
+      "9,50": 0,
+      "9,51": 0,
+      "9,52": 0,
+      "9,53": 0,
+      "9,74": 0,
+      "9,75": 0,
+      "9,80": 0,
+      "10,34": 0,
+      "10,35": 0,
+      "10,36": 0,
+      "10,37": 0,
+      "10,38": 0,
+      "10,40": 0,
+      "10,41": 0,
+      "10,42": 0,
+      "10,43": 0,
+      "10,44": 0,
+      "10,45": 0,
+      "10,46": 0,
+      "10,47": 0,
+      "10,48": 0,
+      "10,49": 0,
+      "10,50": 0,
+      "10,51": 0,
+      "10,52": 0,
+      "10,53": 0,
+      "10,72": 7,
+      "10,73": 7,
+      "10,74": 0,
+      "10,75": 0,
+      "10,80": 0,
+      "11,34": 0,
+      "11,35": 0,
+      "11,36": 0,
+      "11,37": 0,
+      "11,38": 0,
+      "11,40": 0,
+      "11,41": 0,
+      "11,42": 0,
+      "11,43": 0,
+      "11,44": 0,
+      "11,45": 0,
+      "11,46": 0,
+      "11,47": 0,
+      "11,48": 0,
+      "11,49": 0,
+      "11,50": 0,
+      "11,51": 0,
+      "11,52": 0,
+      "11,53": 0,
+      "11,72": 4,
+      "11,73": 0,
+      "11,74": 0,
+      "11,75": 0,
+      "11,80": 0,
+      "12,34": 0,
+      "12,35": 0,
+      "12,36": 0,
+      "12,37": 0,
+      "12,38": 0,
+      "12,40": 0,
+      "12,41": 8,
+      "12,42": 0,
+      "12,43": 0,
+      "12,44": 0,
+      "12,45": 0,
+      "12,46": 0,
+      "12,47": 0,
+      "12,48": 0,
+      "12,49": 0,
+      "12,50": 0,
+      "12,51": 0,
+      "12,52": 0,
+      "12,53": 0,
+      "12,73": 0,
+      "12,74": 0,
+      "12,75": 0,
+      "12,80": 0,
+      "13,34": 0,
+      "13,35": 0,
+      "13,36": 0,
+      "13,37": 0,
+      "13,38": 0,
+      "13,40": 0,
+      "13,41": 0,
+      "13,42": 0,
+      "13,43": 0,
+      "13,44": 0,
+      "13,45": 0,
+      "13,46": 0,
+      "13,47": 0,
+      "13,48": 0,
+      "13,49": 0,
+      "13,50": 0,
+      "13,51": 0,
+      "13,52": 0,
+      "13,53": 0,
+      "13,73": 0,
+      "13,74": 0,
+      "13,75": 0,
+      "13,80": 0,
+      "14,34": 0,
+      "14,35": 0,
+      "14,36": 0,
+      "14,37": 0,
+      "14,38": 0,
+      "14,40": 0,
+      "14,53": 0,
+      "14,73": 0,
+      "14,74": 0,
+      "14,75": 0,
+      "14,80": 0,
+      "15,34": 0,
+      "15,35": 0,
+      "15,36": 0,
+      "15,37": 0,
+      "15,38": 0,
+      "15,40": 0,
+      "15,41": 0,
+      "15,42": 0,
+      "15,43": 0,
+      "15,44": 0,
+      "15,45": 0,
+      "15,46": 0,
+      "15,47": 0,
+      "15,48": 0,
+      "15,49": 0,
+      "15,50": 0,
+      "15,51": 0,
+      "15,52": 0,
+      "15,53": 0,
+      "15,73": 0,
+      "15,74": 0,
+      "15,75": 0,
+      "15,80": 0,
+      "16,18": 0,
+      "16,19": 0,
+      "16,20": 0,
+      "16,21": 0,
+      "16,22": 0,
+      "16,23": 0,
+      "16,24": 0,
+      "16,25": 0,
+      "16,26": 0,
+      "16,27": 0,
+      "16,28": 0,
+      "16,29": 0,
+      "16,30": 0,
+      "16,31": 0,
+      "16,32": 0,
+      "16,33": 0,
+      "16,34": 0,
+      "16,35": 0,
+      "16,36": 0,
+      "16,37": 0,
+      "16,38": 0,
+      "16,39": 0,
+      "16,40": 0,
+      "16,41": 0,
+      "16,42": 0,
+      "16,43": 0,
+      "16,44": 0,
+      "16,45": 0,
+      "16,46": 0,
+      "16,47": 0,
+      "16,48": 0,
+      "16,49": 0,
+      "16,50": 0,
+      "16,51": 0,
+      "16,52": 0,
+      "16,53": 0,
+      "16,54": 0,
+      "16,55": 0,
+      "16,56": 0,
+      "16,57": 0,
+      "16,58": 0,
+      "16,59": 0,
+      "16,60": 0,
+      "16,61": 0,
+      "16,62": 0,
+      "16,63": 0,
+      "16,64": 0,
+      "16,65": 0,
+      "16,66": 0,
+      "16,67": 0,
+      "16,73": 0,
+      "16,74": 0,
+      "16,75": 0,
+      "16,80": 0,
+      "17,18": 0,
+      "17,19": 0,
+      "17,20": 0,
+      "17,21": 0,
+      "17,22": 0,
+      "17,23": 0,
+      "17,24": 0,
+      "17,25": 0,
+      "17,26": 0,
+      "17,27": 0,
+      "17,28": 0,
+      "17,29": 0,
+      "17,30": 9,
+      "17,31": 10,
+      "17,32": 10,
+      "17,33": 10,
+      "17,34": 10,
+      "17,35": 10,
+      "17,36": 10,
+      "17,37": 10,
+      "17,38": 10,
+      "17,39": 10,
+      "17,40": 10,
+      "17,41": 10,
+      "17,42": 10,
+      "17,43": 10,
+      "17,44": 10,
+      "17,45": 10,
+      "17,46": 10,
+      "17,47": 10,
+      "17,48": 10,
+      "17,49": 10,
+      "17,50": 10,
+      "17,51": 10,
+      "17,52": 10,
+      "17,53": 10,
+      "17,54": 10,
+      "17,55": 10,
+      "17,56": 10,
+      "17,57": 10,
+      "17,58": 10,
+      "17,59": 10,
+      "17,60": 10,
+      "17,61": 10,
+      "17,62": 10,
+      "17,63": 11,
+      "17,64": 0,
+      "17,65": 0,
+      "17,66": 0,
+      "17,67": 0,
+      "17,73": 0,
+      "17,74": 0,
+      "17,75": 0,
+      "17,80": 0,
+      "18,18": 0,
+      "18,19": 0,
+      "18,20": 0,
+      "18,21": 0,
+      "18,22": 0,
+      "18,23": 0,
+      "18,24": 0,
+      "18,25": 0,
+      "18,26": 0,
+      "18,27": 0,
+      "18,28": 0,
+      "18,29": 0,
+      "18,30": 12,
+      "18,31": 13,
+      "18,32": 13,
+      "18,33": 13,
+      "18,34": 13,
+      "18,35": 13,
+      "18,36": 13,
+      "18,37": 13,
+      "18,38": 13,
+      "18,39": 13,
+      "18,40": 13,
+      "18,41": 13,
+      "18,42": 13,
+      "18,43": 13,
+      "18,44": 13,
+      "18,45": 14,
+      "18,46": 13,
+      "18,47": 13,
+      "18,48": 13,
+      "18,49": 13,
+      "18,50": 13,
+      "18,51": 13,
+      "18,52": 13,
+      "18,53": 13,
+      "18,54": 13,
+      "18,55": 13,
+      "18,56": 13,
+      "18,57": 13,
+      "18,58": 13,
+      "18,59": 13,
+      "18,60": 13,
+      "18,61": 13,
+      "18,62": 13,
+      "18,63": 15,
+      "18,64": 0,
+      "18,65": 0,
+      "18,66": 0,
+      "18,67": 0,
+      "18,73": 0,
+      "18,74": 0,
+      "18,75": 0,
+      "18,80": 0,
+      "19,18": 0,
+      "19,19": 0,
+      "19,20": 0,
+      "19,21": 0,
+      "19,22": 0,
+      "19,23": 0,
+      "19,24": 0,
+      "19,25": 0,
+      "19,26": 0,
+      "19,27": 0,
+      "19,28": 0,
+      "19,29": 0,
+      "19,30": 12,
+      "19,31": 13,
+      "19,34": 16,
+      "19,35": 13,
+      "19,36": 13,
+      "19,37": 13,
+      "19,38": 13,
+      "19,39": 13,
+      "19,40": 13,
+      "19,41": 13,
+      "19,42": 13,
+      "19,43": 13,
+      "19,44": 13,
+      "19,45": 13,
+      "19,46": 13,
+      "19,47": 13,
+      "19,48": 13,
+      "19,49": 13,
+      "19,50": 13,
+      "19,51": 13,
+      "19,52": 13,
+      "19,53": 13,
+      "19,54": 13,
+      "19,55": 13,
+      "19,56": 13,
+      "19,57": 13,
+      "19,58": 16,
+      "19,59": 13,
+      "19,60": 13,
+      "19,61": 13,
+      "19,62": 13,
+      "19,63": 15,
+      "19,64": 0,
+      "19,65": 0,
+      "19,66": 0,
+      "19,67": 0,
+      "19,68": 0,
+      "19,69": 0,
+      "19,70": 0,
+      "19,71": 0,
+      "19,72": 0,
+      "19,73": 0,
+      "19,74": 0,
+      "19,75": 0,
+      "19,80": 0,
+      "20,18": 0,
+      "20,19": 0,
+      "20,20": 0,
+      "20,21": 0,
+      "20,22": 0,
+      "20,23": 0,
+      "20,24": 0,
+      "20,25": 0,
+      "20,26": 0,
+      "20,27": 0,
+      "20,28": 0,
+      "20,29": 0,
+      "20,30": 12,
+      "20,31": 13,
+      "20,34": 13,
+      "20,35": 13,
+      "20,36": 13,
+      "20,37": 17,
+      "20,38": 17,
+      "20,39": 17,
+      "20,40": 17,
+      "20,41": 17,
+      "20,42": 17,
+      "20,43": 17,
+      "20,44": 17,
+      "20,45": 17,
+      "20,46": 17,
+      "20,47": 17,
+      "20,48": 17,
+      "20,49": 17,
+      "20,50": 17,
+      "20,51": 17,
+      "20,52": 17,
+      "20,53": 17,
+      "20,54": 17,
+      "20,55": 17,
+      "20,56": 17,
+      "20,57": 13,
+      "20,58": 13,
+      "20,59": 13,
+      "20,60": 13,
+      "20,61": 13,
+      "20,62": 13,
+      "20,63": 15,
+      "20,64": 0,
+      "20,65": 0,
+      "20,66": 0,
+      "20,67": 0,
+      "20,68": 0,
+      "20,69": 0,
+      "20,70": 0,
+      "20,71": 0,
+      "20,72": 0,
+      "20,73": 0,
+      "20,74": 0,
+      "20,75": 0,
+      "20,80": 0,
+      "21,18": 0,
+      "21,19": 0,
+      "21,20": 0,
+      "21,21": 0,
+      "21,22": 0,
+      "21,23": 0,
+      "21,24": 0,
+      "21,25": 0,
+      "21,26": 0,
+      "21,27": 0,
+      "21,28": 0,
+      "21,29": 0,
+      "21,30": 18,
+      "21,31": 19,
+      "21,34": 19,
+      "21,35": 19,
+      "21,36": 19,
+      "21,37": 19,
+      "21,38": 19,
+      "21,39": 19,
+      "21,40": 19,
+      "21,41": 19,
+      "21,42": 19,
+      "21,43": 19,
+      "21,44": 19,
+      "21,45": 19,
+      "21,46": 19,
+      "21,47": 20,
+      "21,48": 19,
+      "21,49": 19,
+      "21,50": 19,
+      "21,51": 19,
+      "21,52": 19,
+      "21,53": 19,
+      "21,54": 19,
+      "21,55": 19,
+      "21,56": 19,
+      "21,57": 19,
+      "21,58": 19,
+      "21,59": 19,
+      "21,60": 19,
+      "21,61": 19,
+      "21,62": 19,
+      "21,63": 21,
+      "21,64": 0,
+      "21,65": 0,
+      "21,66": 0,
+      "21,67": 0,
+      "21,68": 0,
+      "21,69": 0,
+      "21,70": 0,
+      "21,71": 0,
+      "21,72": 0,
+      "21,73": 0,
+      "21,74": 0,
+      "21,75": 0,
+      "22,29": 0,
+      "22,30": 22,
+      "22,31": 23,
+      "22,32": 23,
+      "22,33": 10,
+      "22,34": 10,
+      "22,35": 10,
+      "22,36": 10,
+      "22,37": 10,
+      "22,38": 10,
+      "22,39": 10,
+      "22,40": 10,
+      "22,41": 10,
+      "22,42": 10,
+      "22,43": 10,
+      "22,44": 10,
+      "22,45": 10,
+      "22,46": 10,
+      "22,47": 24,
+      "22,48": 10,
+      "22,49": 10,
+      "22,50": 10,
+      "22,51": 10,
+      "22,52": 10,
+      "22,53": 10,
+      "22,54": 10,
+      "22,55": 10,
+      "22,56": 10,
+      "22,57": 10,
+      "22,58": 10,
+      "22,59": 10,
+      "22,60": 10,
+      "22,61": 10,
+      "22,62": 23,
+      "22,63": 25,
+      "22,64": 0,
+      "22,65": 0,
+      "22,66": 0,
+      "22,67": 0,
+      "23,29": 0,
+      "23,30": 26,
+      "23,31": 4,
+      "23,32": 4,
+      "23,33": 4,
+      "23,34": 0,
+      "23,35": 0,
+      "23,36": 0,
+      "23,37": 0,
+      "23,38": 0,
+      "23,39": 0,
+      "23,40": 0,
+      "23,41": 0,
+      "23,42": 0,
+      "23,43": 0,
+      "23,44": 0,
+      "23,45": 0,
+      "23,46": 4,
+      "23,47": 0,
+      "23,48": 0,
+      "23,49": 0,
+      "23,50": 0,
+      "23,51": 0,
+      "23,52": 0,
+      "23,53": 0,
+      "23,54": 0,
+      "23,55": 0,
+      "23,56": 0,
+      "23,57": 0,
+      "23,58": 0,
+      "23,59": 0,
+      "23,60": 0,
+      "23,61": 0,
+      "23,62": 4,
+      "23,63": 27,
+      "23,64": 0,
+      "23,65": 0,
+      "23,66": 0,
+      "23,67": 0,
+      "24,29": 0,
+      "24,30": 26,
+      "24,31": 0,
+      "24,34": 3,
+      "24,35": 0,
+      "24,36": 0,
+      "24,37": 0,
+      "24,38": 0,
+      "24,39": 0,
+      "24,40": 0,
+      "24,41": 0,
+      "24,42": 0,
+      "24,43": 0,
+      "24,44": 0,
+      "24,45": 0,
+      "24,46": 0,
+      "24,47": 0,
+      "24,48": 0,
+      "24,49": 0,
+      "24,50": 0,
+      "24,51": 0,
+      "24,52": 0,
+      "24,53": 0,
+      "24,54": 0,
+      "24,55": 0,
+      "24,56": 0,
+      "24,57": 28,
+      "24,58": 0,
+      "24,59": 0,
+      "24,60": 0,
+      "24,61": 0,
+      "24,62": 0,
+      "24,63": 29,
+      "24,64": 0,
+      "24,65": 0,
+      "24,66": 0,
+      "24,67": 0,
+      "25,29": 0,
+      "25,30": 26,
+      "25,31": 0,
+      "25,34": 0,
+      "25,35": 0,
+      "25,36": 0,
+      "25,37": 30,
+      "25,38": 30,
+      "25,39": 30,
+      "25,40": 30,
+      "25,41": 30,
+      "25,42": 30,
+      "25,43": 30,
+      "25,44": 30,
+      "25,45": 30,
+      "25,46": 30,
+      "25,47": 31,
+      "25,48": 30,
+      "25,49": 31,
+      "25,50": 30,
+      "25,51": 31,
+      "25,52": 30,
+      "25,53": 31,
+      "25,54": 30,
+      "25,55": 31,
+      "25,56": 30,
+      "25,57": 0,
+      "25,58": 0,
+      "25,59": 0,
+      "25,60": 0,
+      "25,61": 0,
+      "25,62": 0,
+      "25,63": 29,
+      "25,64": 0,
+      "25,65": 0,
+      "25,66": 0,
+      "25,67": 0,
+      "26,29": 0,
+      "26,30": 26,
+      "26,31": 0,
+      "26,34": 0,
+      "26,35": 0,
+      "26,36": 0,
+      "26,37": 0,
+      "26,38": 0,
+      "26,39": 0,
+      "26,40": 0,
+      "26,41": 0,
+      "26,42": 0,
+      "26,43": 0,
+      "26,44": 0,
+      "26,45": 0,
+      "26,46": 0,
+      "26,47": 1,
+      "26,48": 0,
+      "26,49": 0,
+      "26,50": 0,
+      "26,51": 0,
+      "26,52": 0,
+      "26,53": 0,
+      "26,54": 0,
+      "26,55": 0,
+      "26,56": 0,
+      "26,57": 0,
+      "26,58": 0,
+      "26,59": 0,
+      "26,60": 0,
+      "26,61": 0,
+      "26,62": 0,
+      "26,63": 29,
+      "26,64": 0,
+      "26,65": 0,
+      "26,66": 0,
+      "26,67": 0,
+      "27,29": 0,
+      "27,30": 22,
+      "27,31": 23,
+      "27,32": 23,
+      "27,33": 10,
+      "27,34": 10,
+      "27,35": 10,
+      "27,36": 10,
+      "27,37": 10,
+      "27,38": 10,
+      "27,39": 10,
+      "27,40": 10,
+      "27,41": 10,
+      "27,42": 10,
+      "27,43": 10,
+      "27,44": 10,
+      "27,45": 10,
+      "27,46": 10,
+      "27,47": 24,
+      "27,48": 10,
+      "27,49": 10,
+      "27,50": 10,
+      "27,51": 10,
+      "27,52": 10,
+      "27,53": 10,
+      "27,54": 10,
+      "27,55": 10,
+      "27,56": 10,
+      "27,57": 10,
+      "27,58": 10,
+      "27,59": 10,
+      "27,60": 32,
+      "27,61": 32,
+      "27,62": 32,
+      "27,63": 33,
+      "27,64": 0,
+      "27,65": 0,
+      "27,66": 0,
+      "27,67": 0,
+      "28,29": 0,
+      "28,30": 26,
+      "28,31": 4,
+      "28,32": 4,
+      "28,33": 4,
+      "28,34": 0,
+      "28,35": 0,
+      "28,36": 0,
+      "28,37": 0,
+      "28,38": 0,
+      "28,39": 0,
+      "28,40": 0,
+      "28,41": 0,
+      "28,42": 0,
+      "28,43": 0,
+      "28,44": 0,
+      "28,45": 34,
+      "28,46": 0,
+      "28,47": 0,
+      "28,48": 0,
+      "28,49": 0,
+      "28,50": 0,
+      "28,51": 0,
+      "28,52": 0,
+      "28,53": 0,
+      "28,54": 0,
+      "28,55": 0,
+      "28,56": 0,
+      "28,57": 0,
+      "28,58": 0,
+      "28,59": 0,
+      "28,60": 0,
+      "28,61": 0,
+      "28,62": 4,
+      "28,63": 27,
+      "28,64": 0,
+      "28,65": 0,
+      "28,66": 0,
+      "28,67": 0,
+      "29,29": 0,
+      "29,30": 26,
+      "29,31": 0,
+      "29,34": 3,
+      "29,35": 0,
+      "29,36": 0,
+      "29,37": 0,
+      "29,38": 0,
+      "29,39": 0,
+      "29,40": 0,
+      "29,41": 0,
+      "29,42": 0,
+      "29,43": 0,
+      "29,44": 0,
+      "29,45": 0,
+      "29,46": 0,
+      "29,47": 0,
+      "29,48": 0,
+      "29,49": 0,
+      "29,50": 0,
+      "29,51": 0,
+      "29,52": 0,
+      "29,53": 0,
+      "29,54": 0,
+      "29,55": 0,
+      "29,56": 0,
+      "29,57": 0,
+      "29,58": 3,
+      "29,59": 0,
+      "29,60": 0,
+      "29,61": 0,
+      "29,62": 0,
+      "29,63": 29,
+      "29,64": 0,
+      "29,65": 0,
+      "29,66": 0,
+      "29,67": 0,
+      "30,29": 0,
+      "30,30": 12,
+      "30,31": 13,
+      "30,32": 35,
+      "30,34": 0,
+      "30,35": 0,
+      "30,36": 0,
+      "30,37": 30,
+      "30,38": 30,
+      "30,39": 30,
+      "30,40": 30,
+      "30,41": 30,
+      "30,42": 30,
+      "30,43": 30,
+      "30,44": 30,
+      "30,45": 30,
+      "30,46": 30,
+      "30,47": 31,
+      "30,48": 31,
+      "30,49": 31,
+      "30,50": 30,
+      "30,51": 31,
+      "30,52": 30,
+      "30,53": 31,
+      "30,54": 30,
+      "30,55": 31,
+      "30,56": 30,
+      "30,57": 0,
+      "30,58": 0,
+      "30,59": 0,
+      "30,60": 0,
+      "30,61": 0,
+      "30,62": 0,
+      "30,63": 29,
+      "30,64": 0,
+      "30,65": 0,
+      "30,66": 0,
+      "30,67": 0,
+      "31,29": 0,
+      "31,30": 36,
+      "31,31": 37,
+      "31,32": 38,
+      "31,33": 39,
+      "31,34": 40,
+      "31,35": 40,
+      "31,36": 40,
+      "31,37": 40,
+      "31,38": 40,
+      "31,39": 40,
+      "31,40": 40,
+      "31,41": 40,
+      "31,42": 40,
+      "31,43": 40,
+      "31,44": 40,
+      "31,45": 40,
+      "31,46": 40,
+      "31,47": 41,
+      "31,48": 40,
+      "31,49": 40,
+      "31,50": 40,
+      "31,51": 40,
+      "31,52": 40,
+      "31,53": 40,
+      "31,54": 40,
+      "31,55": 40,
+      "31,56": 40,
+      "31,57": 40,
+      "31,58": 40,
+      "31,59": 40,
+      "31,60": 40,
+      "31,61": 40,
+      "31,62": 40,
+      "31,63": 42,
+      "31,64": 0,
+      "31,65": 0,
+      "31,66": 0,
+      "31,67": 0,
+      "32,29": 0,
+      "32,30": 43,
+      "32,31": 3,
+      "32,32": 3,
+      "32,33": 0,
+      "32,34": 0,
+      "32,35": 0,
+      "32,36": 0,
+      "32,37": 0,
+      "32,38": 0,
+      "32,39": 0,
+      "32,40": 0,
+      "32,41": 0,
+      "32,42": 0,
+      "32,43": 0,
+      "32,44": 0,
+      "32,45": 0,
+      "32,46": 0,
+      "32,47": 1,
+      "32,48": 0,
+      "32,49": 0,
+      "32,50": 0,
+      "32,51": 0,
+      "32,52": 0,
+      "32,53": 0,
+      "32,54": 0,
+      "32,55": 0,
+      "32,56": 0,
+      "32,57": 0,
+      "32,58": 0,
+      "32,59": 0,
+      "32,60": 0,
+      "32,61": 0,
+      "32,62": 3,
+      "32,63": 44,
+      "32,64": 0,
+      "32,65": 0,
+      "32,66": 0,
+      "32,67": 0,
+      "33,29": 0,
+      "33,30": 26,
+      "33,31": 4,
+      "33,32": 4,
+      "33,33": 4,
+      "33,34": 0,
+      "33,35": 0,
+      "33,36": 0,
+      "33,37": 0,
+      "33,38": 0,
+      "33,39": 0,
+      "33,40": 0,
+      "33,41": 0,
+      "33,42": 0,
+      "33,43": 0,
+      "33,44": 0,
+      "33,45": 45,
+      "33,46": 0,
+      "33,47": 0,
+      "33,48": 0,
+      "33,49": 0,
+      "33,50": 0,
+      "33,51": 0,
+      "33,52": 0,
+      "33,53": 0,
+      "33,54": 0,
+      "33,55": 0,
+      "33,56": 0,
+      "33,57": 0,
+      "33,58": 0,
+      "33,59": 0,
+      "33,60": 0,
+      "33,61": 0,
+      "33,62": 4,
+      "33,63": 27,
+      "33,64": 0,
+      "33,65": 0,
+      "33,66": 0,
+      "33,67": 0,
+      "34,29": 0,
+      "34,30": 26,
+      "34,31": 0,
+      "34,34": 3,
+      "34,35": 0,
+      "34,36": 0,
+      "34,37": 0,
+      "34,38": 0,
+      "34,39": 0,
+      "34,40": 0,
+      "34,41": 0,
+      "34,42": 0,
+      "34,43": 0,
+      "34,44": 0,
+      "34,45": 0,
+      "34,46": 0,
+      "34,47": 0,
+      "34,48": 0,
+      "34,49": 0,
+      "34,50": 0,
+      "34,51": 0,
+      "34,52": 0,
+      "34,53": 0,
+      "34,54": 0,
+      "34,55": 0,
+      "34,56": 0,
+      "34,57": 0,
+      "34,58": 3,
+      "34,59": 0,
+      "34,60": 0,
+      "34,61": 0,
+      "34,62": 0,
+      "34,63": 29,
+      "34,64": 46,
+      "34,65": 46,
+      "34,66": 46,
+      "34,67": 46,
+      "35,29": 0,
+      "35,30": 26,
+      "35,31": 0,
+      "35,34": 0,
+      "35,35": 0,
+      "35,36": 0,
+      "35,37": 30,
+      "35,38": 30,
+      "35,39": 30,
+      "35,40": 30,
+      "35,41": 30,
+      "35,42": 30,
+      "35,43": 30,
+      "35,44": 30,
+      "35,45": 30,
+      "35,46": 30,
+      "35,47": 31,
+      "35,48": 30,
+      "35,49": 30,
+      "35,50": 30,
+      "35,51": 30,
+      "35,52": 30,
+      "35,53": 30,
+      "35,54": 30,
+      "35,55": 30,
+      "35,56": 30,
+      "35,57": 0,
+      "35,58": 0,
+      "35,59": 0,
+      "35,60": 0,
+      "35,61": 0,
+      "35,62": 0,
+      "35,63": 29,
+      "35,64": 46,
+      "35,65": 46,
+      "35,66": 46,
+      "35,67": 46,
+      "36,29": 46,
+      "36,30": 47,
+      "36,31": 40,
+      "36,32": 39,
+      "36,33": 39,
+      "36,34": 40,
+      "36,35": 40,
+      "36,36": 40,
+      "36,37": 40,
+      "36,38": 40,
+      "36,39": 40,
+      "36,40": 40,
+      "36,41": 40,
+      "36,42": 40,
+      "36,43": 40,
+      "36,44": 40,
+      "36,45": 40,
+      "36,46": 40,
+      "36,47": 41,
+      "36,48": 40,
+      "36,49": 40,
+      "36,50": 40,
+      "36,51": 40,
+      "36,52": 40,
+      "36,53": 40,
+      "36,54": 40,
+      "36,55": 40,
+      "36,56": 40,
+      "36,57": 40,
+      "36,58": 40,
+      "36,59": 40,
+      "36,60": 40,
+      "36,61": 40,
+      "36,62": 40,
+      "36,63": 42,
+      "36,64": 46,
+      "36,65": 46,
+      "36,66": 46,
+      "36,67": 46,
+      "37,25": 46,
+      "37,68": 46,
+      "37,69": 46,
+      "37,70": 46,
+      "37,71": 46,
+      "37,72": 46,
+      "37,73": 46,
+      "37,74": 46,
+      "38,25": 46,
+      "38,68": 46,
+      "38,69": 46,
+      "38,70": 46,
+      "38,71": 46,
+      "38,72": 46,
+      "38,73": 46,
+      "38,74": 46,
+      "39,24": 46,
+      "39,25": 46,
+      "39,26": 46,
+      "39,27": 46,
+      "39,28": 46,
+      "39,29": 48,
+      "39,30": 0,
+      "39,31": 0,
+      "39,32": 0,
+      "39,33": 0,
+      "39,34": 0,
+      "39,35": 0,
+      "39,36": 0,
+      "39,37": 0,
+      "39,38": 0,
+      "39,39": 0,
+      "39,40": 0,
+      "39,41": 0,
+      "39,42": 0,
+      "39,43": 0,
+      "39,44": 0,
+      "39,45": 0,
+      "39,46": 0,
+      "39,47": 0,
+      "39,48": 0,
+      "39,49": 0,
+      "39,50": 0,
+      "39,51": 0,
+      "39,52": 0,
+      "39,53": 0,
+      "39,54": 0,
+      "39,55": 0,
+      "39,56": 0,
+      "39,57": 0,
+      "39,58": 0,
+      "39,59": 0,
+      "39,60": 0,
+      "39,61": 0,
+      "39,62": 0,
+      "39,63": 0,
+      "39,64": 0,
+      "39,65": 0,
+      "39,66": 0,
+      "39,67": 0,
+      "39,69": 46,
+      "39,70": 46,
+      "39,71": 46,
+      "39,72": 46,
+      "39,73": 46,
+      "39,74": 46,
+      "41,20": 0,
+      "41,21": 0,
+      "41,22": 0,
+      "41,23": 0,
+      "41,24": 0,
+      "41,25": 0,
+      "41,26": 0,
+      "41,27": 46,
+      "41,67": 0,
+      "41,68": 0,
+      "41,69": 0,
+      "41,70": 0,
+      "41,71": 0,
+      "41,72": 0,
+      "41,73": 0,
+      "41,74": 0,
+      "41,75": 0,
+      "42,19": 0,
+      "42,20": 0,
+      "42,21": 0,
+      "42,22": 0,
+      "42,23": 0,
+      "42,24": 0,
+      "42,25": 0,
+      "42,26": 0,
+      "42,67": 0,
+      "42,68": 0,
+      "42,69": 0,
+      "42,70": 0,
+      "42,71": 0,
+      "42,72": 0,
+      "42,73": 0,
+      "42,74": 0,
+      "42,75": 0,
+      "43,19": 0,
+      "43,20": 0,
+      "43,21": 0,
+      "43,22": 0,
+      "43,23": 0,
+      "43,24": 0,
+      "43,25": 0,
+      "43,26": 0,
+      "43,67": 0,
+      "43,68": 0,
+      "43,69": 0,
+      "43,70": 0,
+      "43,71": 0,
+      "43,72": 0,
+      "43,73": 0,
+      "43,74": 0,
+      "43,75": 0,
+      "44,19": 0,
+      "44,20": 0,
+      "44,21": 0,
+      "44,22": 0,
+      "44,23": 0,
+      "44,24": 0,
+      "44,25": 0,
+      "44,26": 0,
+      "44,67": 0,
+      "44,68": 0,
+      "44,69": 0,
+      "44,70": 0,
+      "44,71": 0,
+      "44,72": 0,
+      "44,73": 0,
+      "44,74": 0,
+      "44,75": 0,
+      "45,19": 0,
+      "45,20": 0,
+      "45,21": 0,
+      "45,22": 0,
+      "45,23": 0,
+      "45,24": 0,
+      "45,25": 0,
+      "45,26": 0,
+      "45,67": 0,
+      "45,68": 0,
+      "45,69": 0,
+      "45,70": 0,
+      "45,71": 0,
+      "45,72": 0,
+      "45,73": 0,
+      "45,74": 0,
+      "45,75": 0,
+      "46,19": 0,
+      "46,20": 0,
+      "46,21": 0,
+      "46,22": 0,
+      "46,23": 0,
+      "46,24": 0,
+      "46,25": 0,
+      "46,26": 0,
+      "46,67": 0,
+      "46,68": 0,
+      "46,69": 0,
+      "46,70": 0,
+      "46,71": 0,
+      "46,72": 0,
+      "46,73": 0,
+      "46,74": 0,
+      "46,75": 0,
+      "47,19": 0,
+      "47,20": 0,
+      "47,21": 0,
+      "47,22": 0,
+      "47,23": 0,
+      "47,24": 0,
+      "47,25": 0,
+      "47,26": 0,
+      "47,67": 0,
+      "47,68": 0,
+      "47,69": 0,
+      "47,70": 0,
+      "47,71": 0,
+      "47,72": 0,
+      "47,73": 0,
+      "47,74": 0,
+      "47,75": 0,
+      "48,19": 0,
+      "48,20": 0,
+      "48,21": 0,
+      "48,22": 0,
+      "48,23": 0,
+      "48,24": 0,
+      "48,25": 0,
+      "48,26": 0,
+      "48,67": 0,
+      "48,68": 0,
+      "48,69": 0,
+      "48,70": 0,
+      "48,71": 0,
+      "48,72": 0,
+      "48,73": 0,
+      "48,74": 0,
+      "48,75": 0,
+      "49,19": 0,
+      "49,20": 0,
+      "49,21": 0,
+      "49,22": 0,
+      "49,23": 0,
+      "49,24": 0,
+      "49,25": 0,
+      "49,26": 0,
+      "49,67": 0,
+      "49,68": 0,
+      "49,69": 0,
+      "49,70": 0,
+      "49,71": 0,
+      "49,72": 0,
+      "49,73": 0,
+      "49,74": 0,
+      "49,75": 0,
+      "50,19": 0,
+      "50,20": 0,
+      "50,21": 0,
+      "50,22": 0,
+      "50,23": 0,
+      "50,24": 0,
+      "50,25": 0,
+      "50,26": 0,
+      "50,67": 0,
+      "50,68": 0,
+      "50,69": 0,
+      "50,70": 0,
+      "50,71": 0,
+      "50,72": 0,
+      "50,73": 0,
+      "50,74": 0,
+      "50,75": 0,
+      "51,19": 0,
+      "51,20": 0,
+      "51,21": 0,
+      "51,22": 0,
+      "51,23": 0,
+      "51,24": 0,
+      "51,25": 0,
+      "51,26": 0,
+      "51,67": 0,
+      "51,68": 0,
+      "51,69": 0,
+      "51,70": 0,
+      "51,71": 0,
+      "51,72": 0,
+      "51,73": 0,
+      "51,74": 0,
+      "51,75": 0,
+      "58,28": 49,
+      "58,29": 0,
+      "58,30": 0,
+      "58,31": 0,
+      "58,32": 0,
+      "58,33": 0,
+      "58,34": 49,
+      "58,35": 0,
+      "58,36": 0,
+      "58,37": 0,
+      "58,38": 0,
+      "58,40": 49,
+      "58,41": 0,
+      "58,42": 0,
+      "58,43": 0,
+      "58,44": 0,
+      "58,48": 50,
+      "58,62": 50,
+      "59,28": 0,
+      "59,29": 0,
+      "59,30": 0,
+      "59,31": 0,
+      "59,32": 0,
+      "59,33": 0,
+      "59,34": 0,
+      "59,35": 0,
+      "59,36": 0,
+      "59,37": 0,
+      "59,38": 0,
+      "59,40": 0,
+      "59,41": 0,
+      "59,42": 0,
+      "59,43": 0,
+      "59,44": 0,
+      "62,71": 51,
+      "62,72": 0,
+      "62,73": 0,
+      "62,74": 0,
+      "62,75": 51,
+      "62,76": 0,
+      "62,77": 0,
+      "62,78": 0,
+      "62,79": 51,
+      "62,80": 0,
+      "62,81": 0,
+      "62,82": 0,
+      "62,83": 51,
+      "62,84": 0,
+      "62,85": 0,
+      "62,86": 0,
+      "63,71": 0,
+      "63,72": 0,
+      "63,73": 0,
+      "63,74": 0,
+      "63,75": 0,
+      "63,76": 0,
+      "63,77": 0,
+      "63,78": 0,
+      "63,79": 0,
+      "63,80": 0,
+      "63,81": 0,
+      "63,82": 0,
+      "63,83": 0,
+      "63,84": 0,
+      "63,85": 0,
+      "63,86": 0,
+      "64,71": 0,
+      "64,72": 0,
+      "64,73": 0,
+      "64,74": 0,
+      "64,75": 0,
+      "64,76": 0,
+      "64,77": 0,
+      "64,78": 0,
+      "64,79": 0,
+      "64,80": 0,
+      "64,81": 0,
+      "64,82": 0,
+      "64,83": 0,
+      "64,84": 0,
+      "64,85": 0,
+      "64,86": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "18,45,2,4",
+    "19,58,3,3",
+    "23,46,2,3",
+    "24,57,3,6",
+    "28,45,2,4",
+    "29,58,3,3",
+    "33,45,2,4",
+    "34,58,3,3",
+    "7,44,5,3",
+    "7,47,5,3",
+    "7,50,5,3",
+    "12,41,4,12",
+    "3,40,4,14",
+    "7,41,5,3",
+    "39,29,1,39",
+    "63,83,1,4",
+    "62,83,1,4",
+    "63,79,1,4",
+    "62,79,1,4",
+    "63,75,1,4",
+    "62,75,1,4",
+    "63,71,1,4",
+    "62,71,1,4",
+    "64,71,1,4",
+    "64,75,1,4",
+    "64,79,1,4",
+    "64,83,1,4",
+    "41,27,15,40",
+    "58,34,2,5",
+    "58,28,2,5",
+    "19,34,3,3",
+    "24,34,3,3",
+    "29,34,3,3",
+    "34,34,3,3",
+    "58,40,2,5",
+    "58,48,3,14",
+    "58,62,3,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "성격유형테스트마스터페이지",
+    "MobilePageName": "모바일_검사결과",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AP8"
+                  }
+                ]
+              },
+              "value": "E",
+              "Id": "4349360b-a9e5-4569-97af-a9433c9416dd"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!AI20"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#E13958"
+                  }
+                ]
+              }
+            ],
+            "ID": "ee14b7da-40f6-42af-9bce-2e17a0c4a01c"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AP8"
+                  }
+                ]
+              },
+              "value": "I",
+              "Id": "997f25d0-e924-4311-b7e2-4b4a2365a55f"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!BG20"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#009CFF"
+                  }
+                ]
+              }
+            ],
+            "ID": "76d8bbbf-6828-4401-b686-ce7561abc782"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AS8"
+                  }
+                ]
+              },
+              "value": "S",
+              "Id": "65882163-5641-4d41-839f-f59b598550a3"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!AI25"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#BAC100"
+                  }
+                ]
+              }
+            ],
+            "ID": "81cee548-9f0f-4f84-ab78-b4b657e450c8"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AS8"
+                  }
+                ]
+              },
+              "value": "N",
+              "Id": "fb9b0d1d-30cf-4789-b5ee-1295cdf8c78b"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!BF25"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#009CFF"
+                  }
+                ]
+              }
+            ],
+            "ID": "3817d73e-1f55-49da-92ea-3735aecbc6d1"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AV8"
+                  }
+                ]
+              },
+              "value": "T",
+              "Id": "94811091-95dd-401c-a7e8-4ccd05b3b07a"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!AI30"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#FF7300"
+                  }
+                ]
+              }
+            ],
+            "ID": "3972e920-643b-4dfa-9285-bcb7aaf165eb"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AV8"
+                  }
+                ]
+              },
+              "value": "F",
+              "Id": "def12d42-9f33-4b29-8f6e-190cd0138729"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!BG30"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#19B000"
+                  }
+                ]
+              }
+            ],
+            "ID": "b82422ba-2b80-4b10-8a3d-b65a921dc950"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AY8"
+                  }
+                ]
+              },
+              "value": "J",
+              "Id": "d187c4f0-4fff-4bbc-bd11-e65b4606a720"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!AI35"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#D800DA"
+                  }
+                ]
+              }
+            ],
+            "ID": "f3fc1549-c9a6-4075-84c2-4d5bc8913a18"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=결과화면!AY8"
+                  }
+                ]
+              },
+              "value": "P",
+              "Id": "f598b71b-89c8-4a09-9d2d-7297f72016ad"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!BG35"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#9C00FF"
+                  }
+                ]
+              }
+            ],
+            "ID": "a925ef39-0397-4b1a-bf7b-0273ff9eb3b7"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "3630d8a8-85a8-4172-a714-401e88dc4154"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "f03fce7e-95ed-4769-95f8-bccf6654cea7"
+                  },
+                  "Id": "574ed0d2-88ce-4802-8447-d7ee42ccd387"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "0d7f0634-c2ea-457c-9563-863b7480489a"
+                },
+                "Id": "22018e09-06da-423f-ba1d-07888341839d"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "e68e6be4-d895-45f8-a660-d37f5cb721d1"
+              },
+              "Id": "656ec8c1-37e6-4a72-9eaf-0ef8a3e39310"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "세상의 소금형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#FF737F4D"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "한번 시작한 일은 끝까지 해내는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "가장 다수의 사람이 속하는 성격 유형으로 인구의 대략 13%를 차지합니다. 청렴결백하면서도 실용적인 논리력과 헌신적으로 임무를 수행하는 성격으로 묘사되기도 하는 이들은, 가정 내에서뿐 아니라 법률 회사나 법 규제 기관 혹은 군대와 같이 전통이나 질서를 중시하는 조직에서 핵심 구성원 역할을 합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "479aa3d1-45a6-45bb-af16-60602ff56489"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "263963c7-c3ca-41a1-b703-0a0ff0d19880"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "8858c7c7-c57f-454f-82a0-f0f39bb30599"
+                  },
+                  "Id": "6a4b2e83-bb69-4c92-95e4-48af7cdfe22e"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "1939ef6d-6373-4e1c-88b2-7241f3bae5e7"
+                },
+                "Id": "d6212227-c9d3-4c0f-ab94-722c24e3c450"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "d9b7e5e6-90d4-4dcf-87c3-766e299002eb"
+              },
+              "Id": "ae5a08f2-5d79-4823-b326-e2ea881d2e6c"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "임금 뒷편의 권력형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#209D89"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "성실하고 온화하며 협조를 잘하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "무엇을 받으면 몇 배로 베푸는 진정한 이타주의자로 열정과 자애로움으로 일단 믿는 이들이라면 타인과도 잘 어울려 일에 정진합니다. 약 13%로 꽤 높은 인구 비율을 차지하는데, 인구 대다수를 차지하는 데 있어 이들보다 더 나은 성격 유형은 아마 없을 것입니다. 이들은 종종 의료 부분이나 학문, 혹은 사회단체와 같이 오랜 역사나 전통과 관련된 분야에 종사합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "6f075c2c-56e5-4b37-9a94-56b7f39c1525"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "9a9bfb93-876b-480a-9d3f-7c10dd9d6653"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "ca2821e2-b6d8-49e8-952a-ef0863a6bf16"
+                  },
+                  "Id": "35050ce1-89e2-48ad-a327-72c8fc604042"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "3f64c640-8168-467e-99f1-340b6b5cc66b"
+                },
+                "Id": "2e7af909-6dbd-4108-99a3-94bbc75d2942"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "9dc1fb94-3af4-4a83-a879-17ee77fdca59"
+              },
+              "Id": "19eb91e3-5d3e-4bcb-81f5-7f440c7abb4f"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "예언자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#FFF2634E"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "사람과 관련된 뛰어난 통찰력을 가지고 있는 사람"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "매우 희귀한 성격임에도 불구하고 세상에 큰 영향력을 발휘하곤 합니다. 이들은 이상주의적이고 원칙주의적인 성격으로, 삶에 순응하는 대신 삶에 맞서 변화를 만들어 내고자 합니다. 이들에게 성공이란 돈이나 지위가 아니라 자아를 실현하고 다른 사람을 도우며 세상에서 선을 실천하는 일입니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "418a5887-9091-46bf-9098-f67cd8080ff7"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "3f48480f-40f5-4e25-9b15-8c14fa899f5f"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "16811dca-58b2-4784-8a05-c615a9adf4a3"
+                  },
+                  "Id": "5774daee-59af-47b5-bc03-1a13f8f5dd07"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "4b245162-01ba-4e31-844f-7c2338578e53"
+                },
+                "Id": "a9266567-56ca-4745-a418-fb60230c90af"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "9e3a5416-4a4d-468b-b65e-56df8d309072"
+              },
+              "Id": "d8dfc0a2-85e7-468d-be2e-6fcae4fe226d"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "과학자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#9BBA3A"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "전체적인 부분을 조합하여 비전을 제시하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "매우 희귀한 성격이면서도 뛰어난 능력을 지닌 전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다. 전략가는 이성적이면서도 두뇌 회전이 빠른 성격으로, 자신의 뛰어난 사고 능력을 자랑스러워하며 거짓말과 위선을 꿰뚫어 보는 능력이 있습니다. 하지만 이로 인해 끊임없이 생각하고 주변의 모든 것을 분석하려는 자신의 성향을 이해할 수 있는 사람을 찾는 데 어려움을 겪기도 합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "162b4168-5f0d-48dc-b0cf-1aefaa8dc173"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "bdeea553-daaf-413c-9fa1-da42e6b5d637"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "5a3a8a3f-7451-4833-87a5-d0c5c2ed84b0"
+                  },
+                  "Id": "b75c4654-04c4-4a29-8545-95d20114ba54"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "f030f2ab-4c7d-4bd3-86e0-92007696e789"
+                },
+                "Id": "73a6f0ee-bda3-4c56-9ed7-9b47d8425e3a"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "32b32210-6a26-4c78-9139-1223b937d2cd"
+              },
+              "Id": "4e3c082a-995c-4ec1-804a-bbcab326c78a"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "백과사전형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#724F9A"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "논리적이고 뛰어난 상황 적응력을 가지고 있는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "과묵하며 절제된 호기심으로 인생을 관찰하고, 상황을 파악하는 민감성과 도구를 다루는 뛰어난 능력이 있다. 말수가 적으며, 객관적이고 합리적으로 인생을 관찰하는 유형이다. 인식형(P) 중에서는 판단(J) 성향이 가장 강하거나 판단(J)형과 인식(P)형이 반반으로 나오는 경우가 다소 있다.[4] 필요 이상으로 자신을 발휘하지 않으며, 일과 관계되지 않는 이상 어떤 상황이나 인간관계에 직접 뛰어들지 않는다. 가능한 에너지 소비를 하지 않으려 하며, 사실적 자료를 정리, 조직하기를 좋아하는 경향이 있으며 인과관계나 객관적 원리에 관심이 많다. 3차 기능인 Ni(내향 직관)으로 눈치가 빠르며, 조용히 자기 일만 하고 있는 것처럼 보이지만 사실 주변 상황파악도 다 하고 있다. 4차기능은 Fe(외향 감정)로 타인에게 공감을 잘 못하는 경향이 있다"
+                  }
+                ]
+              }
+            ],
+            "ID": "ed0c8a1f-7b02-4648-8716-5d008241eb7d"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "a584d7eb-6dcd-4e35-ac62-a4dab3ad6210"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "f6864c7e-1040-4861-9669-220f04a9d655"
+                  },
+                  "Id": "93156aae-0938-46e2-842f-e7e8ef0ca4a4"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "b73cdd67-0c65-4b12-88c8-53ac4fe37e18"
+                },
+                "Id": "54359f08-a97d-4665-bade-089d5de7c9a3"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "592501be-1622-492f-871f-29e4e0ca0911"
+              },
+              "Id": "d1518768-4f5d-4f39-9e30-b0aa690076e1"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "성인군자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#C3141A"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "호기심 많은 예술가"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "말없이 다정하고 온화하며 사람들에게 친절하고 상대방을 잘 알게 될 때까지 내면의 모습이 잘 보이지 않는다. 의견 충돌을 피하고, 인화를 중시한다. 인간과 관계되는 일을 할 때 자신의 감정과 타인의 감정에 지나치게 세심하고 민감한 경향이 있다. 이들은 결정력과 추진력을 기를 필요가 있을 것이다. 3차 기능인 Ni(내향 직관)으로 눈치가 빠르며, 조용히 자기 일만 하고 있는 것처럼 보이지만 사실 주변 상황파악도 다 하고 있다. 경험을 통해서 부기능 Se(외향 감각)과 함께 주기능 Fi(내향 감정)인 자신의 내면을 보호하는 데에 잘 사용할 수 있다."
+                  }
+                ]
+              }
+            ],
+            "ID": "9c09f051-8ae5-4863-b7d4-abe4f9110583"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "1874b85f-3cf2-4527-93f9-dc0674afde66"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "68172158-3524-4518-8314-f95d131aba50"
+                  },
+                  "Id": "9289b7df-ad3b-4019-860e-473a48c1343e"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "da8d2bba-2acb-45b7-b60c-f8c54193f6be"
+                },
+                "Id": "1af62807-04e4-46a6-ae7f-c94dba96653d"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "2c34663e-7635-4bed-af81-b29fd02411fa"
+              },
+              "Id": "25330c0d-5f14-461a-8e7b-5f88dab52f9d"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "잔다르크형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#F4781E"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "이상적인 세상을 만들어 가는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "세계 인구의 4%가 이 유형에 속하며 차분하고 창의적이며 낭만적인 성향으로 보이지만 내면은 내적신념이 깊은 열정적인 중재자 유형이다. 인간 본연에 대한 애정으로 사람들의 장점을 발견하고, 이들의 가능성을 성취할 수 있도록 도우며, 세상을 더 나은 곳으로 만든다. 하지만 대그룹에 있을 경우 그들의 에너지가 쉽게 고갈되는 경향이 있고, 그들이 엄선한 친밀도가 높은 소수의 사람들과 상호작용 하는 것을 선호한다. 혼자 있기를 좋아하는 개인적인 성향도 있지만, 수줍음과 혼동되어서는 안되며 혼자 시간을 보내는 것으로부터 에너지를 얻는다는 것을 의미한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "8dcdbc8f-ddf8-4bda-83d0-4d436d1879c9"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "87675c4f-21e4-4145-b5bc-f01184fad707"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "44a66722-6a03-4fbf-9f24-32ab2dcfca0d"
+                  },
+                  "Id": "d268c1ad-d46a-4c5c-aa6f-75345b25c076"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "b9381032-057d-43e4-b48a-437282e6a745"
+                },
+                "Id": "ae6bad33-ff32-473f-90cc-1af475faaff1"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "46c1b50d-39c4-4b08-ab44-35db1938f2b1"
+              },
+              "Id": "a1692678-aaed-4201-876b-16d722c5a568"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "아이디어 뱅크형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#77246C"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "비평적인 관점을 가지고 있는 뛰어난 전략가들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "논리와 분석으로 문제를 해결하기 좋아하며, 먼저 대화를 시작하지 않는 편이나 관심이 있는 분야에 대해서는 대화를 즐긴다. 이해가 빠르고 직관적으로 통찰하는 능력이 있으며 지적 호기심이 많아, 분석적이고 논리적이다. MBTI 16가지 성격 유형 중 창의적 지능과 논리 면에서 가장 뛰어나, 비과학적이거나 논리적이지 못한 사람에 대단히 거부반응을 보인다. 예컨대 맹목적인 종교인, 유사과학 예찬론자 등이 있다.아이디어와 원리, 인과관계에 관심이 많으며 실체보다는 실체가 품고 있는 가능성에 관심이 많다. 다시 말해 원리를 파악하는 것에 지대한 흥미를 보이지만, 반복 작업으로 어떠한 상황을 마무리 짓는 것에는 관심이 적은 편이다."
+                  }
+                ]
+              }
+            ],
+            "ID": "25f3cf7b-8811-4306-9d83-845022b04079"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "fb0b5875-aaec-4219-9ef2-9d17db933d05"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "9f648390-13f9-4840-b92a-b53d8d126bb2"
+                  },
+                  "Id": "60e74037-a48f-4548-b643-1f1b15183c6f"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "dd06ac61-bf29-4fd7-ae84-fa059c3a079d"
+                },
+                "Id": "9220dada-d6ca-4237-b0c1-51fccc805d51"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "45ab2a04-20d0-4d5a-a860-ef3aa2b9a6e1"
+              },
+              "Id": "4ed15ebe-3e5d-4b3d-b51b-4960b656c99e"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "수완좋은 활동가형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#00ADEF"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "친구, 운동, 음식 등 다양한 활동을 선호하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "사실적이고 관대하며 개방적이고 사람이나 사물에 대한 선입견이 별로 없다. 강한 현실 감각으로 타협책을 모색하고 문제를 해결하는 능력이 뛰어나다. 센스 있고 유머러스하다. 어디서든 적응을 잘 하고 친구와 어울리기를 좋아한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "dcfbeb54-08a0-4bf0-889f-0cec4730e1fa"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "a3cde3d8-5367-4784-bf47-1be86b90a2f1"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "251fab75-6db1-4a66-b947-8193fe66e813"
+                  },
+                  "Id": "5c8e5601-47ab-4a5b-8205-a88cd3dcfe54"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "14512ac3-6faa-495c-81a3-e585e3c8b05f"
+                },
+                "Id": "e9b2af78-822d-42d1-ae6f-3816a78f58b9"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "c6494112-a073-4b00-abac-6dd12a7070cb"
+              },
+              "Id": "b1eaa522-2c35-43c4-84cd-7ace729fdc87"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "사교적인 유형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#1A9149"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "분위기를 고조시키는 우호적 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "사교적이고 활동적이며 수용력이 강하고 친절하며 낙천적이다. 어떤 상황이든 잘 적응하며 현실적이고 실제적이다. 주위의 사람이나 일어나는 일에 대하여 관심이 많으며 사람이나 사물을 다루는 사실적인 상식이 풍부하다. 때로는 수다스럽고, 진지함이 결여되거나 마무리를 등한시하는 경향이 있으나, 어떤 조직체나 공동체에서 밝고 재미있는 분위기 조성 역할을 잘한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "afd83bcc-77d3-465e-b10a-c7bdba3b2da7"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "d586fba0-be1b-42c4-b766-287e590b02aa"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "f67ca3e4-beec-4e06-bcb2-b3dbe60b0042"
+                  },
+                  "Id": "527f3cd7-24e6-4065-be4c-837856c0a07c"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "0489981e-d2a9-401b-b848-10840ea99254"
+                },
+                "Id": "8a8b8a3e-6eb0-49bd-8a96-47827a94f2d7"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "a837b5c2-82f1-4a81-8641-b89de20f859a"
+              },
+              "Id": "41ca3631-c6ef-4272-8e1d-8ab275488e29"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "스파크형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#E4A71F"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "열정적으로 새로운 관계를 만드는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "정열적이고 활기가 넘치며 상상력이 풍부하다. 온정적이고 창의적이며 항상 새로운 가능성을 찾고 시도하는 유형이다. 문제 해결에 재빠르고 관심이 있는 일은 수행해내는 능력과 열성이 있다. 반복되는 일상적인 일을 참지 못하고 열성이 나지 않는다. 또한 한 가지 일을 끝내기도 전에 몇 가지 다른 일을 또 벌이는 경향을 가지고 있다. 통찰력과 창의력이 요구되지 않는 일에는 흥미를 느끼지 못하고 열성을 불러일으키지 못한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "ed9a7df5-4c8c-442c-a533-ce5383228c69"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "a95f33f3-858b-4f7e-92b3-0cfbcce95160"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "8f68223b-ff69-4530-94c3-ad27c44b1b68"
+                  },
+                  "Id": "30c711c7-d4e8-4340-afdc-cedf217e34ea"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "94dec55a-3fdd-45fc-9a75-9fa19b488221"
+                },
+                "Id": "f6e143fc-2d94-434c-886b-ec982d1d220c"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "7e1dc558-1563-4992-849a-c61b639a2461"
+              },
+              "Id": "01fb8ee1-77d5-4226-93bf-5eea7f65d273"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "발명가형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#337985"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "풍부한 상상력을 가지고 새로운 것에 도전하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "특유의 능글거리면서 경쾌한 성격과 문제의 본질을 파악하고 논리적으로 판단하려는 기질이 있고, 어느곳에서나 적응력이 빠른 성격이다. 본인이 구상하는 바를 실현시키고 싶어하는 기질이 강하며, 여기에 특유의 아웃사이더적인 성격까지 겹쳐 그야말로 혁명가의 기질을 띠고 있다. 모든 분야에 있어서, 기존의 체제 자체를 뒤집어 버리거나 분야 전체의 도약을 이루어내는 인물들이 많다."
+                  }
+                ]
+              }
+            ],
+            "ID": "536adc83-1a00-4b32-a920-2ab8a083f956"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "254f184a-aa3b-4103-8f7e-fa820f9cfb19"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "2c38082f-6d27-4d92-a3a5-789c4c1d7bbe"
+                  },
+                  "Id": "fe92640d-07dd-40ea-87d2-c25c00cff609"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "bf6f24ed-2900-456b-81dd-2faae83f52cf"
+                },
+                "Id": "75161d5e-b572-43f5-add8-828185b3ba3e"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "93740f5e-b586-4099-86ed-2d19ada71a21"
+              },
+              "Id": "1c94c5bd-de7b-43ab-810f-16a9b197e0b5"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "사업가형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#A4C535"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "사무적, 실용적, 현실적으로 일을 많이하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "현실적, 구체적, 사실적이며 어떠한 활동을 조직화하고 주도해 나가는 지도력이 있다. 실질적이고 현실 감각이 뛰어나며 일을 조직하고 계획하여 추진시키는 능력이 있다. 행정, 의료, 법조, 군대, 경찰, 재무, 특히나 모든 것을 망라한 한 단어로 '조직관리' 분야에 뛰어난 재능을 지녔으며, 체계적으로 사업체나 조직체를 이끌어 나간다. 타고난 지도자로서 프로젝트의 목표를 설정하고, 지시하고, 결정하고, 독려하여 기한 내에 철저히 이행하는 능력이 있다. 불확실한 미래의 가능성보다 흔들리지 않는 현재의 사실을 추구하기 때문에 현실중심적, 실용적인 면이 강하다. 하지만 타인과 자신의 감정을 고려하는 능력이 부족하여 속단속결하는 경향과 업무 위주로 딱딱하게 사람을 대하는 경향이 있으므로 인간 중심의 가치에 대해 고민하고 타인의 감정을 충분히 고려해야 한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "eee668e9-48b2-46ad-9477-ea89448f1c48"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "6f6041bb-d25d-4ef2-906a-e63bcbb3a25e"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "76157a3a-ea96-4362-8ef2-72e338d45926"
+                  },
+                  "Id": "af68fea6-132d-4baf-bea4-650e033c19d0"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "add5ebef-3ded-495a-8fdd-85c8819650be"
+                },
+                "Id": "32dfd0c2-330c-4f9d-a2b2-fd24d6512e38"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "70125c8c-98ec-49d8-9218-b763ca50b96e"
+              },
+              "Id": "72ebb78f-f3db-4478-b982-b1018af6d857"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "친선도모형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#D9185B"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "동정심이 많고 다른 사람에게 관심을 쏟으며 나눔과 베풂을 중시한다. "
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "현실적, 구체적, 사실적이며 어떠한 활동을 조직화하고 주도해 나가는 지도력이 있다. 실질적이고 현실 감각이 뛰어나며 일을 조직하고 계획하여 추진시키는 능력이 있다. 행정, 의료, 법조, 군대, 경찰, 재무, 특히나 모든 것을 망라한 한 단어로 '조직관리' 분야에 뛰어난 재능을 지녔으며, 체계적으로 사업체나 조직체를 이끌어 나간다. 타고난 지도자로서 프로젝트의 목표를 설정하고, 지시하고, 결정하고, 독려하여 기한 내에 철저히 이행하는 능력이 있다. 불확실한 미래의 가능성보다 흔들리지 않는 현재의 사실을 추구하기 때문에 현실중심적, 실용적인 면이 강하다. 하지만 타인과 자신의 감정을 고려하는 능력이 부족하여 속단속결하는 경향과 업무 위주로 딱딱하게 사람을 대하는 경향이 있으므로 인간 중심의 가치에 대해 고민하고 타인의 감정을 충분히 고려해야 한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "2dc43095-74ba-4787-9456-6bc3fdae0792"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "cc71e891-6688-4129-a54f-a99a33775033"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "75b91754-647a-40c1-a66b-a57907d4d310"
+                  },
+                  "Id": "ff311c1c-d47e-4f0b-bf0b-9372d38f62b1"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "8e03d9c9-75f7-46c8-bb8a-497a79f5d250"
+                },
+                "Id": "bbfea2da-f7e2-44f6-93b3-625900dcdbe1"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "bc37d2d5-fbeb-4ef6-a45b-0df0d1018b59"
+              },
+              "Id": "7fbcdd18-83a9-4169-a955-f107b390e551"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "언변능숙형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#7A87A2"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "타인의 성장을 도모하고 협동하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "온화하고 적극적이며 책임감이 강하고 사교성이 풍부하고 동정심이 많다. 상당히 이타적이고 민첩하고 인화를 중요시하며 참을성이 많다. 다른 사람들의 생각이나 의견에 진지한 관심을 가지고 공동선을 위하여 다른 사람의 의견에 대체로 동의한다. 미래의 가능성을 추구하며 편안하고 능란하게 계획을 제시하고 집단을 이끌어가는 능력이 있다. 성격 유형 검사(MBTI, 16 Personalities, TRUITY 등)에서 통용되는 16가지 유형 중 ENFJ 유형은 전 세계 인구의 2.5% 정도로 희귀한 유형이며, 대한민국에서도 0.9% 미만으로 보기 드문 유형이다."
+                  }
+                ]
+              }
+            ],
+            "ID": "31b5c703-c0ed-42d3-9ea1-7812e33ada94"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AP8"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "8f50269e-ac5f-4143-8db5-c7d759b0030e"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=결과화면!AS8"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "dd5f8d34-114e-423a-9015-352be6f376cf"
+                  },
+                  "Id": "06535928-a8b6-45f3-b9ef-0293efd94080"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=결과화면!AV8"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "a6b3b37f-3253-49b1-82bd-0cf82089b243"
+                },
+                "Id": "5e9c8665-f917-413a-ae9d-4268c74776cd"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=결과화면!AY8"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "0f20cf84-2b7c-4e98-bc3d-bcc5a366b555"
+              },
+              "Id": "e4d43563-af89-446b-9f5d-ebae6f2a0db9"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "Value": "지도자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#DC5524"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain"
+                    },
+                    "Value": "비전을 가지고 사람들을 활력적으로 이끌어가는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=결과화면!explain2"
+                    },
+                    "Value": "‘타고난 리더’라고 불리는 이 유형은 권위와 자신감으로 재능을 구현하고, 공통된 목표 뒤에서 사람들을 끌어모으는 통솔력을 행사한다. 실제로 문제 해결 과정을 조직하는 관리자 혹은 지도자가 소속 집단 내 자신의 역할이라고 생각한다. 주로 목표를 달성하기 위해 장기적인 계획 개발을 즐긴다."
+                  }
+                ]
+              }
+            ],
+            "ID": "bb7acf29-495c-452e-8164-72604b410370"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "ColumnStart": 22,
+    "ColumnEnd": 70,
+    "RowStart": 0,
+    "RowEnd": 57,
+    "Margin": {},
+    "FitPagesWide": 1,
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "result",
+      "Formula": "결과화면!$AP$13"
+    },
+    {
+      "Name": "explain",
+      "Formula": "결과화면!$AD$40"
+    },
+    {
+      "Name": "explain2",
+      "Formula": "결과화면!$AB$42"
+    },
+    {
+      "Name": "ID",
+      "Formula": "결과화면!$A$62"
+    }
+  ]
+}//8I5Ttju01IDOe3BBVSjvwJoLntuov6YLWKcjLSFuJ2qtlXicIRGIabRxd1UUL9sUZUg/A8tgg8/WdwVWay3e8nRMZ9RsXYyCBq1m8tXLz54X2RdZ1lr9e+ipveZUUOqxrqhGhVpmXA2aSXX121p1MM9hPUgUeTyOt1z2jiw18dmDpqsG+tq+oWg+YxS/qkUuBLMCer4tsJOK/N1gmxsG16BpvEqzXNaxBKZ6vAH1LUil3oGUWXo4KI9M73OP5EVODJ7L7RCJXmMh2lIQy7lyNO51e/ybd6UI7GYAFWGRSGVzUEqGPZ+lS/CBofxx8Q3XCX8oSMteQ2E22IzJkTCa9GGwsKzJ82tu/lOnAjCUbO4v3tgBDB0Z7nEuiLz+8cjF1bbxtOI1nS1Hwa0ALQo+xkqSmnJlBQ60kAfUVeFT9mu3uXsWa03MMgLLCt4BGQ7MSxjeVN29AM3WV3kQwE/2HjzXb5JA3JJZQWOZtdnawDcDdFcU06xGLN/ZgF3qCN1M2q7D2iyu5BVDzOeGr8w6aI/V9SGkdix3OYIzJqZF81UipD7yKlFuq+YZuv0Pt9dO2ko0U1QbaJcPJEJt8YPnk9ul87K8D354pVFnD7CJumZjAxPrcrDyJecmsrSrjrd21MetpfigmohNejZPzkHbS31717wmnYgX9l0TcN3M1IHhJGDn7c8JkNMI6c8nv7osf4ifN/t8djisf+JivKwRb0Ru6wQP9sPVgaoZNCg/mHCMmtBzFCUGEy92n2dQyJQ3m8POL0ibm9tzIRkmG8XEtRlWZRLcTVbpvT2UR1LPYzrHRsm8vANxBY+KvSQg+T64rY+mvSuBwZL4YQKPfu/+AuSxayRurluOT0a2dsKR7GNsIDVgHlupxmE/7mttpz7CvJegpQ1WJ7p1oxOX++DK4A==|920

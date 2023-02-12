@@ -1,0 +1,104 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      }
+    },
+    "Count": 35
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,1": "No Code 웹 빌더인 Forguncy를 이용하여 제작한 성격검사 페이지입니다.\nForguncy는 개발자부터 비개발자까지 Excel을 사용할 줄 아는 누구나 기업용 또는 사내 웹 솔루션을 개발할 수 있는 Excel기반의 노코드 웹 솔루션 개발 도구 입니다. ",
+    "9,5": "검사 진행"
+  },
+  "AttachInfos": {
+    "9,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "모바일_기본검사페이지_1",
+            "PassValues": []
+          }
+        ],
+        "Text": "검사 진행",
+        "TemplateKey": "스타일1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0,
+        "Foreground": 1,
+        "WordWrap": true
+      },
+      {
+        "FontWeight": 0,
+        "Foreground": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Background 1 0",
+        "#FF000000",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "9,5": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "2,1,6,16",
+    "9,5,2,7"
+  ],
+  "Pictures": [
+    {
+      "ForguncyPictureName": "2023-01-27 08 30 14.png",
+      "Stretch": 2,
+      "ForguncyPictureSourceType": 0,
+      "Name": "242a1c20-9d45-44b5-8e35-d2face59ad98.png",
+      "Location": "0,215",
+      "Size": "360,251"
+    }
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "DisplayName": "배경 이미지1",
+      "StyleInfo": {
+        "Fill": "#FF4298B4"
+      },
+      "IsAutomaticFill": false,
+      "Name": "3176992a-f011-4570-9060-04c8d10112a9.png",
+      "Size": "360,548"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "모바일성격유형테스트마스터페이지",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//4XjL7ujmm8BfdUVt0aU9vthkdwUQTxFAKkBIgjw5veZd1ApqV1Fcg8NZlkJgd/7kXeXZHnPOHXQ/O89uob2TIuIlkyP69kEoLm1oxArzuPeVgDchq/K6zNwGMGz4kITYLyjrniLxZi3q7WxmC/YEyoBmoT2tBb5JCrib3vKLbNM2J61vJInHgbIL9oSsZ8VHOAk1QmC64FNZNbIw1zAvNJkdJPCN2ZAxXGvbn0GDcfFrYrpqKxE4u+sK0BLFgBvkl3Djt3J7fTNKPvOElGwbypWUeQEA/2qpFHPL2yp7psuWh9WgNPG3uD/JH2MCPt+0vcAnPu/w5PX63FcDb54t58hSlbMRFHyrU/Sl7hT2MKIHXFYT1j68vbvJdrJmEHoUrb6KCYL0SQRJDEOLp+ffgJhKVybgiYhwm4jSrGOaVFTjPRxISyDD6DHDghsW/vbQtEyTqLIAPzhsNhhRUle8903duZO9LtETY8MbY8OuLRgjCQnFFhqXP09ALn+XljH5jdhD33Mw6sy5ApmNVKAbBGqHXo2Q6wyg6rzenzU3jmp2T/GBWNO/W00IeA375SQr83A78tX60q0rsN0V8QHcZwtI249emv3Vxp6Kesy9Vt9zrkwkoR9AZ7JZ35lq85rhnLAuFIuAfoswE0lFbWde9N8Tvyd7Wcj7ZnOndNP7W/WUE4rw9XnzdeK7KcGo3vWzINVMaEzNJESqOV8NnrZSCjYe0SYtZ7z2yZLuGckLcXNwRhd5+CZVnZf/iZFwjH6H4CQVizagczpELBX58WSxCUlQXuhfjt/oIbCe5XtuFLBaOT0rWb/BamPFB6TSOfGHol7TLo3usPO3OSSsRGyVFdfDjshxMi9jHm1X85ApNbq5xYZHkNbpanPWBDnnwdXrO5sZ2M+G+oRZU5JTKFf1Tw==|920

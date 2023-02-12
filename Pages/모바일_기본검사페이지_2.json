@@ -1,0 +1,2070 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 45.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0,
+          "IsHidden": true
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 60.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 45.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 45.0,
+          "IsHidden": true
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 45.0
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0,
+          "IsHidden": true
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 25.0
+        }
+      },
+      "51": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 45.0,
+          "IsHidden": true
+        }
+      },
+      "56": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 48.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      15,
+      16,
+      17,
+      18,
+      27,
+      28,
+      29,
+      30,
+      39,
+      40,
+      41,
+      42,
+      51,
+      52,
+      53,
+      54,
+      60,
+      61,
+      62
+    ],
+    "Count": 63
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,0": "성격유형검사",
+    "7,0": "친구가 차 사고가 났다고 한다. 나는 들어놓은 보험이 있는지 먼저 물어본다.",
+    "11,0": "슬픔을 나누면 반이 된다고  생각한다. ",
+    "15,0": "슬픔을 나누면 슬픈  사람이 두명이 된다고 생각한다.",
+    "19,0": "친구의 헤어스타일이 안어울려 보인다. 친구가 갑자기 헤어스타일 괜찮냐고 물어본다면 솔직히 안어울린다고 말한다.",
+    "23,0": "축구 경기 패배 후, 감독으로서 위로보다 피드백을 먼저 말한다.",
+    "27,0": "축구 경기 패배 후, 감독으로서 피드백보다 위로를 먼저 말한다.",
+    "31,0": "오늘은 월급날이다. 생활비를 먼저 빼두고, 사고싶었던 것을 산다.",
+    "35,0": "여행을 갈 때 계획을 세워서 가는 것을 좋아한다.",
+    "39,0": "여행을 갈 때 계획보다는 즉흥적으로 가는 것을 좋아한다.",
+    "43,0": "약속을 앞두고 시간이 다되서 준비를 한다.",
+    "47,0": "반복되는 일상/업무가 좋다.",
+    "51,0": "쳇바퀴같은 인생은 질색이다. 매일매일 변화가 있어야 한다.",
+    "56,4": "결과확인",
+    "60,1": "에너지방향",
+    "60,5": "인식기능",
+    "60,9": "판단기능",
+    "60,13": "생활양식"
+  },
+  "Formulas": {
+    "62,13": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq 1\")",
+    "62,9": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq 1\")",
+    "62,5": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq 1\")",
+    "62,1": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq 1\")",
+    "61,13": "N63+SUM(A34,A38,A42,A46,A50,A54)",
+    "61,9": "J63+SUM(A10,A14,A22,A18,A26,A30)",
+    "61,5": "F63",
+    "61,1": "B63"
+  },
+  "AttachInfos": {
+    "9,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A10"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "Id": "8ddca24b-b824-40e4-a95d-765a557b6cfc"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A14"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!12:15"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!16:19"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "0e21b21d-dcc3-4521-96ce-6b7c7e5be7ef"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A10"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1,
+                  "Id": "236a7736-d1f5-4cf3-a4b8-bc286d71b307"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A18"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!16:19"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!12:15"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "d1a5bf8c-d02f-4fd1-90b9-b1b3eba95a8a"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "13,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "25",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "0",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "17,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "21,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A22"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "Id": "8cf6c3e7-d8cc-4922-98f5-b8b2f280c061"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A26"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!24:27"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!28:31"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "d44b53a8-aaaf-45e7-94ba-d42c7967742e"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A22"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1,
+                  "Id": "314337c4-58b3-4264-a878-88b98d5c8992"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A30"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!28:31"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!24:27"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "b1ecb023-eae0-420a-934d-209ab201937e"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "25,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "29,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "25",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "0",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "33,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A34"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "Id": "287eaf07-2bcb-44af-9f35-d8e3c7a5f04a"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A42"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!40:43"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!36:39"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "f26f1aa2-8f0f-4cfe-b2ce-c79e86e78606"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A34"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1,
+                  "Id": "820256a8-16ef-4e42-b678-7d80e0a2589d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A38"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!36:39"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!40:43"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "afa03da6-97c4-42aa-9ac4-0bfec99adc30"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "37,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "41,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "25",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "0",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "45,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "25",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "0",
+            "DisplayValue": "그렇다"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A46"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "Id": "7671fc1c-260f-43fc-8a80-75bc5ff12d65"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A54"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!52:55"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!48:51"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "1d26a340-6b79-4723-b2f2-0eac69ce82d9"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_기본검사페이지_2!A46"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1,
+                  "Id": "f63eb615-09e6-430b-a84a-96c2b684db57"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!A50"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!48:51"
+                        },
+                        "Value": true
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "Location": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!52:55"
+                        },
+                        "Value": false
+                      }
+                    ]
+                  }
+                ],
+                "ID": "addcff46-6440-4c39-a9fe-60258c151d23"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "49,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "25",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "53,0": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<없음>",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "25",
+            "DisplayValue": "아니다"
+          },
+          {
+            "Value": "12.5",
+            "DisplayValue": "보통"
+          },
+          {
+            "Value": "0",
+            "DisplayValue": "그렇다"
+          }
+        ]
+      }
+    },
+    "56,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                    "Condition1": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                        "Condition1": {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "Condition1": {
+                            "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                            "Condition1": {
+                              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                              "Condition1": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=모바일_기본검사페이지_2!A10"
+                                    }
+                                  ]
+                                },
+                                "value": "%Null%",
+                                "compareType": 1,
+                                "Id": "b7e66aa1-241e-4a3a-a78b-bd6ec5ee4ed9"
+                              },
+                              "Condition2": {
+                                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                "param": {
+                                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                  "cellLocations": [
+                                    {
+                                      "SerializeProperty": "=모바일_기본검사페이지_2!A22"
+                                    }
+                                  ]
+                                },
+                                "value": "%Null%",
+                                "compareType": 1,
+                                "Id": "207d728a-9d2f-4455-9d8f-dc8a33938258"
+                              },
+                              "Id": "e90c9a1e-3bd7-4cec-abb6-8e10832879c3"
+                            },
+                            "Condition2": {
+                              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                              "param": {
+                                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                                "cellLocations": [
+                                  {
+                                    "SerializeProperty": "=모바일_기본검사페이지_2!A34"
+                                  }
+                                ]
+                              },
+                              "value": "%Null%",
+                              "compareType": 1,
+                              "Id": "9bf1c67d-c43f-42f6-a9e0-5244b4ab3d23"
+                            },
+                            "Id": "2cd8f678-fb35-4ce5-901c-1955ed4799ee"
+                          },
+                          "Condition2": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                              "cellLocations": [
+                                {
+                                  "SerializeProperty": "=모바일_기본검사페이지_2!A46"
+                                }
+                              ]
+                            },
+                            "value": "%Null%",
+                            "compareType": 1,
+                            "Id": "1491ff9c-e3ac-4c54-a56e-fa101c1b580f"
+                          },
+                          "Id": "1d59d215-32ab-41cc-9184-86f414aeeada"
+                        },
+                        "Condition2": {
+                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                          "Condition1": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                              "cellLocations": [
+                                {
+                                  "SerializeProperty": "=모바일_기본검사페이지_2!A14"
+                                }
+                              ]
+                            },
+                            "value": "%Null%",
+                            "compareType": 1,
+                            "LeftBracket": 1,
+                            "Id": "9d8b3c5e-5289-4cc5-a1d9-5464d1630e08"
+                          },
+                          "Condition2": {
+                            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                            "param": {
+                              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                              "cellLocations": [
+                                {
+                                  "SerializeProperty": "=모바일_기본검사페이지_2!A18"
+                                }
+                              ]
+                            },
+                            "value": "%Null%",
+                            "compareType": 1,
+                            "RightBracket": 1,
+                            "Id": "9999c7f6-550c-40c2-98d5-c5d06d0e6055"
+                          },
+                          "RelationType": 1,
+                          "Id": "6ac88804-85b9-4f54-9050-2610ae3ba98f"
+                        },
+                        "Id": "53da5e79-ae5d-4033-bd8b-fedeb83a053b"
+                      },
+                      "Condition2": {
+                        "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                        "Condition1": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=모바일_기본검사페이지_2!A26"
+                              }
+                            ]
+                          },
+                          "value": "%Null%",
+                          "compareType": 1,
+                          "LeftBracket": 1,
+                          "Id": "b3912067-0ed4-4c99-b37c-1c4fcabd2608"
+                        },
+                        "Condition2": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "=모바일_기본검사페이지_2!A30"
+                              }
+                            ]
+                          },
+                          "value": "%Null%",
+                          "compareType": 1,
+                          "RightBracket": 1,
+                          "Id": "4c3a10f7-9751-4bfa-a77b-88b3da349e61"
+                        },
+                        "RelationType": 1,
+                        "Id": "9033d279-e74a-480a-8fd5-cb19d0a33e74"
+                      },
+                      "Id": "468e2e22-51bb-477e-88bc-dd2e4dc1ff0d"
+                    },
+                    "Condition2": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "Condition1": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=모바일_기본검사페이지_2!A38"
+                            }
+                          ]
+                        },
+                        "value": "%Null%",
+                        "compareType": 1,
+                        "LeftBracket": 1,
+                        "Id": "f5f4a37d-24a5-4177-95dd-c3a5774bea35"
+                      },
+                      "Condition2": {
+                        "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                        "param": {
+                          "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                          "cellLocations": [
+                            {
+                              "SerializeProperty": "=모바일_기본검사페이지_2!A42"
+                            }
+                          ]
+                        },
+                        "value": "%Null%",
+                        "compareType": 1,
+                        "RightBracket": 1,
+                        "Id": "b73a0412-6222-4166-9749-9eae62222557"
+                      },
+                      "RelationType": 1,
+                      "Id": "2a3a992e-99fc-4e54-9747-4f41d10f84ed"
+                    },
+                    "Id": "acc2877b-1713-40f5-982b-f194ab000588"
+                  },
+                  "Condition2": {
+                    "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                    "Condition1": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=모바일_기본검사페이지_2!A50"
+                          }
+                        ]
+                      },
+                      "value": "%Null%",
+                      "compareType": 1,
+                      "LeftBracket": 1,
+                      "Id": "7ca02d32-97d9-49ed-a066-47ae3196fb08"
+                    },
+                    "Condition2": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=모바일_기본검사페이지_2!A54"
+                          }
+                        ]
+                      },
+                      "value": "%Null%",
+                      "compareType": 1,
+                      "RightBracket": 1,
+                      "Id": "efa543fa-8d6d-4391-a312-bca9834c4955"
+                    },
+                    "RelationType": 1,
+                    "Id": "ed2e6b80-b8a3-4718-8dae-482f284bfa5b"
+                  },
+                  "Id": "ad648dc0-12e3-47c7-9a83-fa78b88c82aa"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "검사결과",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "RowsToUpdate": 1,
+                    "RowsToUpdateCondition": {
+                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                      "ColumnBindingInfo": {
+                        "TableName": "검사결과",
+                        "ColumnName": "ID"
+                      },
+                      "Value": "1",
+                      "Id": "0cc37427-fc36-4b23-9b7b-4abb3dcfb306"
+                    },
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "에너지방향",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!B62"
+                        }
+                      },
+                      {
+                        "ColumnName": "인식기능",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!F62"
+                        }
+                      },
+                      {
+                        "ColumnName": "판단기능",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!J62"
+                        }
+                      },
+                      {
+                        "ColumnName": "생활양식",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=모바일_기본검사페이지_2!N62"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "결과화면",
+                    "PassValues": []
+                  }
+                ],
+                "ID": "2afd2d99-ca6f-4608-8cd6-141225f66781"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "성격검사 항목에 모두 답변해주세요."
+                  }
+                ],
+                "ID": "353a1c0d-0d08-439f-97e9-08ce697e8007"
+              }
+            ]
+          }
+        ],
+        "Text": "결과확인",
+        "TemplateKey": "_RS_RoundCorner_Style7"
+      }
+    },
+    "62,1": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "62,5": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "62,9": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "62,13": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 5
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "FontSize": 21.333333333333332,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 37.333333333333329,
+        "Foreground": 3,
+        "HorizontalAlignment": 5,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 7,
+        "FontWeight": 2,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 6
+      },
+      {
+        "FontFamily": 6,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 18.666666666666664,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 7,
+        "FontWeight": 2,
+        "Formatter": 4,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 18.666666666666664
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 18.666666666666664,
+        "FontWeight": 2,
+        "Foreground": 3
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 4
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 14.666666666666666
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF4298B4",
+        "나눔스퀘어 네오 OTF Heavy",
+        "Bold",
+        "Background 1 0",
+        "[AUTO]General",
+        "Center",
+        "Body",
+        "나눔스퀘어 네오 OTF Regular"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,4": 1,
+      "0,5": 1,
+      "0,6": 1,
+      "0,7": 1,
+      "0,8": 1,
+      "0,9": 1,
+      "0,10": 1,
+      "0,11": 1,
+      "0,12": 1,
+      "0,13": 1,
+      "0,14": 1,
+      "0,15": 1,
+      "0,16": 1,
+      "0,17": 1,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 1,
+      "1,4": 1,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,11": 1,
+      "1,12": 1,
+      "1,13": 1,
+      "1,14": 1,
+      "1,15": 1,
+      "1,16": 1,
+      "1,17": 1,
+      "2,0": 1,
+      "2,1": 1,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 1,
+      "2,6": 1,
+      "2,7": 1,
+      "2,8": 1,
+      "2,9": 1,
+      "2,10": 1,
+      "2,11": 1,
+      "2,12": 1,
+      "2,13": 1,
+      "2,14": 1,
+      "2,15": 1,
+      "2,16": 1,
+      "2,17": 1,
+      "3,0": 1,
+      "3,1": 1,
+      "3,2": 1,
+      "3,3": 1,
+      "3,4": 1,
+      "3,5": 1,
+      "3,6": 1,
+      "3,7": 1,
+      "3,8": 1,
+      "3,9": 1,
+      "3,10": 1,
+      "3,11": 1,
+      "3,12": 1,
+      "3,13": 1,
+      "3,14": 1,
+      "3,15": 1,
+      "3,16": 1,
+      "3,17": 1,
+      "4,0": 1,
+      "4,1": 1,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 1,
+      "4,6": 1,
+      "4,7": 1,
+      "4,8": 1,
+      "4,9": 1,
+      "4,10": 1,
+      "4,11": 1,
+      "4,12": 1,
+      "4,13": 1,
+      "4,14": 1,
+      "4,15": 1,
+      "4,16": 1,
+      "4,17": 1,
+      "5,0": 1,
+      "5,1": 1,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,16": 1,
+      "5,17": 1,
+      "6,0": 2,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "6,9": 2,
+      "6,10": 2,
+      "6,11": 2,
+      "6,12": 2,
+      "6,13": 2,
+      "6,14": 2,
+      "6,15": 2,
+      "6,16": 2,
+      "6,17": 2,
+      "7,0": 3,
+      "8,0": 4,
+      "8,1": 4,
+      "8,2": 4,
+      "8,3": 4,
+      "8,4": 4,
+      "8,5": 4,
+      "8,6": 4,
+      "8,7": 4,
+      "8,8": 4,
+      "8,9": 4,
+      "8,10": 4,
+      "8,11": 4,
+      "8,12": 4,
+      "8,13": 4,
+      "8,14": 4,
+      "8,15": 4,
+      "8,16": 4,
+      "8,17": 4,
+      "9,0": 5,
+      "10,0": 6,
+      "10,1": 6,
+      "10,2": 6,
+      "10,3": 6,
+      "10,4": 6,
+      "10,5": 6,
+      "10,6": 6,
+      "10,7": 6,
+      "10,8": 6,
+      "10,9": 6,
+      "10,10": 6,
+      "10,11": 6,
+      "10,12": 6,
+      "10,13": 6,
+      "10,14": 6,
+      "10,15": 6,
+      "10,16": 6,
+      "10,17": 6,
+      "11,0": 7,
+      "12,0": 6,
+      "12,1": 6,
+      "12,2": 6,
+      "12,3": 6,
+      "12,4": 6,
+      "12,5": 6,
+      "12,6": 6,
+      "12,7": 6,
+      "12,8": 6,
+      "12,9": 6,
+      "12,10": 6,
+      "12,11": 6,
+      "12,12": 6,
+      "12,13": 6,
+      "12,14": 6,
+      "12,15": 6,
+      "12,16": 6,
+      "12,17": 6,
+      "13,0": 5,
+      "14,0": 6,
+      "14,1": 6,
+      "14,2": 6,
+      "14,3": 6,
+      "14,4": 6,
+      "14,5": 6,
+      "14,6": 6,
+      "14,7": 6,
+      "14,8": 6,
+      "14,9": 6,
+      "14,10": 6,
+      "14,11": 6,
+      "14,12": 6,
+      "14,13": 6,
+      "14,14": 6,
+      "14,15": 6,
+      "14,16": 6,
+      "14,17": 6,
+      "15,0": 7,
+      "16,0": 6,
+      "16,1": 6,
+      "16,2": 6,
+      "16,3": 6,
+      "16,4": 6,
+      "16,5": 6,
+      "16,6": 6,
+      "16,7": 6,
+      "16,8": 6,
+      "16,9": 6,
+      "16,10": 6,
+      "16,11": 6,
+      "16,12": 6,
+      "16,13": 6,
+      "16,14": 6,
+      "16,15": 6,
+      "16,16": 6,
+      "16,17": 6,
+      "17,0": 5,
+      "18,0": 6,
+      "18,1": 6,
+      "18,2": 6,
+      "18,3": 6,
+      "18,4": 6,
+      "18,5": 6,
+      "18,6": 6,
+      "18,7": 6,
+      "18,8": 6,
+      "18,9": 6,
+      "18,10": 6,
+      "18,11": 6,
+      "18,12": 6,
+      "18,13": 6,
+      "18,14": 6,
+      "18,15": 6,
+      "18,16": 6,
+      "18,17": 6,
+      "19,0": 7,
+      "20,0": 4,
+      "20,1": 4,
+      "20,2": 4,
+      "20,3": 4,
+      "20,4": 4,
+      "20,5": 4,
+      "20,6": 4,
+      "20,7": 4,
+      "20,8": 4,
+      "20,9": 4,
+      "20,10": 4,
+      "20,11": 4,
+      "20,12": 4,
+      "20,13": 4,
+      "20,14": 4,
+      "20,15": 4,
+      "20,16": 4,
+      "20,17": 4,
+      "21,0": 5,
+      "22,0": 6,
+      "22,1": 6,
+      "22,2": 6,
+      "22,3": 6,
+      "22,4": 6,
+      "22,5": 6,
+      "22,6": 6,
+      "22,7": 6,
+      "22,8": 6,
+      "22,9": 6,
+      "22,10": 6,
+      "22,11": 6,
+      "22,12": 6,
+      "22,13": 6,
+      "22,14": 6,
+      "22,15": 6,
+      "22,16": 6,
+      "22,17": 6,
+      "23,0": 7,
+      "24,0": 6,
+      "24,1": 6,
+      "24,2": 6,
+      "24,3": 6,
+      "24,4": 6,
+      "24,5": 6,
+      "24,6": 6,
+      "24,7": 6,
+      "24,8": 6,
+      "24,9": 6,
+      "24,10": 6,
+      "24,11": 6,
+      "24,12": 6,
+      "24,13": 6,
+      "24,14": 6,
+      "24,15": 6,
+      "24,16": 6,
+      "24,17": 6,
+      "25,0": 5,
+      "26,0": 6,
+      "26,1": 6,
+      "26,2": 6,
+      "26,3": 6,
+      "26,4": 6,
+      "26,5": 6,
+      "26,6": 6,
+      "26,7": 6,
+      "26,8": 6,
+      "26,9": 6,
+      "26,10": 6,
+      "26,11": 6,
+      "26,12": 6,
+      "26,13": 6,
+      "26,14": 6,
+      "26,15": 6,
+      "26,16": 6,
+      "26,17": 6,
+      "27,0": 7,
+      "28,0": 6,
+      "28,1": 6,
+      "28,2": 6,
+      "28,3": 6,
+      "28,4": 6,
+      "28,5": 6,
+      "28,6": 6,
+      "28,7": 6,
+      "28,8": 6,
+      "28,9": 6,
+      "28,10": 6,
+      "28,11": 6,
+      "28,12": 6,
+      "28,13": 6,
+      "28,14": 6,
+      "28,15": 6,
+      "28,16": 6,
+      "28,17": 6,
+      "29,0": 5,
+      "30,0": 4,
+      "30,1": 4,
+      "30,2": 4,
+      "30,3": 4,
+      "30,4": 4,
+      "30,5": 4,
+      "30,6": 4,
+      "30,7": 4,
+      "30,8": 4,
+      "30,9": 4,
+      "30,10": 4,
+      "30,11": 4,
+      "30,12": 4,
+      "30,13": 4,
+      "30,14": 4,
+      "30,15": 4,
+      "30,16": 4,
+      "30,17": 4,
+      "31,0": 7,
+      "32,0": 4,
+      "32,1": 4,
+      "32,2": 4,
+      "32,3": 4,
+      "32,4": 4,
+      "32,5": 4,
+      "32,6": 4,
+      "32,7": 4,
+      "32,8": 4,
+      "32,9": 4,
+      "32,10": 4,
+      "32,11": 4,
+      "32,12": 4,
+      "32,13": 4,
+      "32,14": 4,
+      "32,15": 4,
+      "32,16": 4,
+      "32,17": 4,
+      "33,0": 5,
+      "34,0": 4,
+      "34,1": 4,
+      "34,2": 4,
+      "34,3": 4,
+      "34,4": 4,
+      "34,5": 4,
+      "34,6": 4,
+      "34,7": 4,
+      "34,8": 4,
+      "34,9": 4,
+      "34,10": 4,
+      "34,11": 4,
+      "34,12": 4,
+      "34,13": 4,
+      "34,14": 4,
+      "34,15": 4,
+      "34,16": 4,
+      "34,17": 4,
+      "35,0": 7,
+      "36,0": 4,
+      "36,1": 4,
+      "36,2": 4,
+      "36,3": 4,
+      "36,4": 4,
+      "36,5": 4,
+      "36,6": 4,
+      "36,7": 4,
+      "36,8": 4,
+      "36,9": 4,
+      "36,10": 4,
+      "36,11": 4,
+      "36,12": 4,
+      "36,13": 4,
+      "36,14": 4,
+      "36,15": 4,
+      "36,16": 4,
+      "36,17": 4,
+      "37,0": 5,
+      "38,0": 4,
+      "38,1": 4,
+      "38,2": 4,
+      "38,3": 4,
+      "38,4": 4,
+      "38,5": 4,
+      "38,6": 4,
+      "38,7": 4,
+      "38,8": 4,
+      "38,9": 4,
+      "38,10": 4,
+      "38,11": 4,
+      "38,12": 4,
+      "38,13": 4,
+      "38,14": 4,
+      "38,15": 4,
+      "38,16": 4,
+      "38,17": 4,
+      "39,0": 3,
+      "40,0": 4,
+      "40,1": 4,
+      "40,2": 4,
+      "40,3": 4,
+      "40,4": 4,
+      "40,5": 4,
+      "40,6": 4,
+      "40,7": 4,
+      "40,8": 4,
+      "40,9": 4,
+      "40,10": 4,
+      "40,11": 4,
+      "40,12": 4,
+      "40,13": 4,
+      "40,14": 4,
+      "40,15": 4,
+      "40,16": 4,
+      "40,17": 4,
+      "41,0": 5,
+      "42,0": 4,
+      "42,1": 4,
+      "42,2": 4,
+      "42,3": 4,
+      "42,4": 4,
+      "42,5": 4,
+      "42,6": 4,
+      "42,7": 4,
+      "42,8": 4,
+      "42,9": 4,
+      "42,10": 4,
+      "42,11": 4,
+      "42,12": 4,
+      "42,13": 4,
+      "42,14": 4,
+      "42,15": 4,
+      "42,16": 4,
+      "42,17": 4,
+      "43,0": 3,
+      "44,0": 4,
+      "44,1": 4,
+      "44,2": 4,
+      "44,3": 4,
+      "44,4": 4,
+      "44,5": 4,
+      "44,6": 4,
+      "44,7": 4,
+      "44,8": 4,
+      "44,9": 4,
+      "44,10": 4,
+      "44,11": 4,
+      "44,12": 4,
+      "44,13": 4,
+      "44,14": 4,
+      "44,15": 4,
+      "44,16": 4,
+      "44,17": 4,
+      "45,0": 5,
+      "46,0": 6,
+      "46,1": 6,
+      "46,2": 6,
+      "46,3": 6,
+      "46,4": 6,
+      "46,5": 6,
+      "46,6": 6,
+      "46,7": 6,
+      "46,8": 6,
+      "46,9": 6,
+      "46,10": 6,
+      "46,11": 6,
+      "46,12": 6,
+      "46,13": 6,
+      "46,14": 6,
+      "46,15": 6,
+      "46,16": 6,
+      "46,17": 6,
+      "47,0": 7,
+      "48,0": 8,
+      "48,1": 8,
+      "48,2": 8,
+      "48,3": 8,
+      "48,4": 8,
+      "48,5": 8,
+      "48,6": 8,
+      "48,7": 8,
+      "48,8": 8,
+      "48,9": 8,
+      "48,10": 8,
+      "48,11": 8,
+      "48,12": 8,
+      "48,13": 8,
+      "48,14": 8,
+      "48,15": 8,
+      "48,16": 8,
+      "48,17": 8,
+      "49,0": 5,
+      "50,0": 8,
+      "50,1": 8,
+      "50,2": 8,
+      "50,3": 8,
+      "50,4": 8,
+      "50,5": 8,
+      "50,6": 8,
+      "50,7": 8,
+      "50,8": 8,
+      "50,9": 8,
+      "50,10": 8,
+      "50,11": 8,
+      "50,12": 8,
+      "50,13": 8,
+      "50,14": 8,
+      "50,15": 8,
+      "50,16": 8,
+      "50,17": 8,
+      "51,0": 7,
+      "52,0": 8,
+      "52,1": 8,
+      "52,2": 8,
+      "52,3": 8,
+      "52,4": 8,
+      "52,5": 8,
+      "52,6": 8,
+      "52,7": 8,
+      "52,8": 8,
+      "52,9": 8,
+      "52,10": 8,
+      "52,11": 8,
+      "52,12": 8,
+      "52,13": 8,
+      "52,14": 8,
+      "52,15": 8,
+      "52,16": 8,
+      "52,17": 8,
+      "53,0": 5,
+      "54,0": 8,
+      "54,1": 8,
+      "54,2": 8,
+      "54,3": 8,
+      "54,4": 8,
+      "54,5": 8,
+      "54,6": 8,
+      "54,7": 8,
+      "54,8": 8,
+      "54,9": 8,
+      "54,10": 8,
+      "54,11": 8,
+      "54,12": 8,
+      "54,13": 8,
+      "54,14": 8,
+      "54,15": 8,
+      "54,16": 8,
+      "54,17": 8,
+      "55,0": 4,
+      "55,1": 4,
+      "55,2": 4,
+      "55,3": 4,
+      "55,4": 4,
+      "55,5": 4,
+      "55,6": 4,
+      "55,7": 4,
+      "55,8": 4,
+      "55,9": 4,
+      "55,10": 4,
+      "55,11": 4,
+      "55,12": 4,
+      "55,13": 4,
+      "55,14": 4,
+      "55,15": 4,
+      "55,16": 4,
+      "55,17": 4,
+      "56,0": 4,
+      "56,1": 4,
+      "56,2": 4,
+      "56,3": 4,
+      "56,4": 9,
+      "56,5": 4,
+      "56,6": 4,
+      "56,7": 4,
+      "56,8": 4,
+      "56,9": 4,
+      "56,10": 4,
+      "56,11": 4,
+      "56,12": 4,
+      "56,13": 4,
+      "56,14": 4,
+      "56,15": 4,
+      "56,16": 4,
+      "56,17": 4,
+      "57,0": 4,
+      "57,1": 4,
+      "57,2": 4,
+      "57,3": 4,
+      "57,4": 4,
+      "57,5": 4,
+      "57,6": 4,
+      "57,7": 4,
+      "57,8": 4,
+      "57,9": 4,
+      "57,10": 4,
+      "57,11": 4,
+      "57,12": 4,
+      "57,13": 4,
+      "57,14": 4,
+      "57,15": 4,
+      "57,16": 4,
+      "57,17": 4,
+      "58,0": 4,
+      "58,1": 4,
+      "58,2": 4,
+      "58,3": 4,
+      "58,4": 4,
+      "58,5": 4,
+      "58,6": 4,
+      "58,7": 4,
+      "58,8": 4,
+      "58,9": 4,
+      "58,10": 4,
+      "58,11": 4,
+      "58,12": 4,
+      "58,13": 4,
+      "58,14": 4,
+      "58,15": 4,
+      "58,16": 4,
+      "58,17": 4,
+      "59,0": 4,
+      "59,1": 4,
+      "59,2": 4,
+      "59,3": 4,
+      "59,4": 4,
+      "59,5": 4,
+      "59,6": 4,
+      "59,7": 4,
+      "59,8": 4,
+      "59,9": 4,
+      "59,10": 4,
+      "59,11": 4,
+      "59,12": 4,
+      "59,13": 4,
+      "59,14": 4,
+      "59,15": 4,
+      "59,16": 4,
+      "59,17": 4,
+      "60,0": 4,
+      "60,1": 10,
+      "60,2": 4,
+      "60,3": 4,
+      "60,4": 4,
+      "60,5": 10,
+      "60,6": 4,
+      "60,7": 4,
+      "60,8": 4,
+      "60,9": 10,
+      "60,10": 4,
+      "60,11": 4,
+      "60,12": 4,
+      "60,13": 10,
+      "60,14": 4,
+      "60,15": 4,
+      "60,16": 4,
+      "60,17": 4,
+      "61,0": 4,
+      "61,1": 4,
+      "61,2": 4,
+      "61,3": 4,
+      "61,4": 4,
+      "61,5": 4,
+      "61,6": 4,
+      "61,7": 4,
+      "61,8": 4,
+      "61,9": 4,
+      "61,10": 4,
+      "61,11": 4,
+      "61,12": 4,
+      "61,13": 4,
+      "61,14": 4,
+      "61,15": 4,
+      "61,16": 4,
+      "61,17": 4,
+      "62,0": 4,
+      "62,1": 4,
+      "62,2": 4,
+      "62,3": 4,
+      "62,4": 4,
+      "62,5": 4,
+      "62,6": 4,
+      "62,7": 4,
+      "62,8": 4,
+      "62,9": 4,
+      "62,10": 4,
+      "62,11": 4,
+      "62,12": 4,
+      "62,13": 4,
+      "62,14": 4,
+      "62,15": 4,
+      "62,16": 4,
+      "62,17": 4
+    },
+    "RowStyles": {
+      "7": 11,
+      "9": 12,
+      "11": 12,
+      "13": 12,
+      "15": 12,
+      "17": 12,
+      "19": 11,
+      "21": 12,
+      "23": 11,
+      "25": 12,
+      "27": 11,
+      "29": 12,
+      "31": 11,
+      "33": 12,
+      "35": 12,
+      "37": 12,
+      "39": 12,
+      "41": 12,
+      "43": 12,
+      "45": 12,
+      "47": 12,
+      "49": 12,
+      "51": 11,
+      "53": 12
+    },
+    "SheetStyle": {
+      "FontFamily": 6
+    }
+  },
+  "Spans": [
+    "0,0,6,18",
+    "7,0,1,18",
+    "9,0,1,18",
+    "11,0,1,18",
+    "13,0,1,18",
+    "15,0,1,18",
+    "17,0,1,18",
+    "19,0,1,18",
+    "21,0,1,18",
+    "23,0,1,18",
+    "25,0,1,18",
+    "27,0,1,18",
+    "29,0,1,18",
+    "31,0,1,18",
+    "33,0,1,18",
+    "35,0,1,18",
+    "37,0,1,18",
+    "39,0,1,18",
+    "41,0,1,18",
+    "43,0,1,18",
+    "45,0,1,18",
+    "47,0,1,18",
+    "49,0,1,18",
+    "51,0,1,18",
+    "53,0,1,18",
+    "56,4,1,11",
+    "62,9,1,4",
+    "62,13,1,4",
+    "60,9,1,4",
+    "60,13,1,4",
+    "61,9,1,4",
+    "61,13,1,4",
+    "60,1,1,4",
+    "60,5,1,4",
+    "61,1,1,4",
+    "61,5,1,4",
+    "62,1,1,4",
+    "62,5,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "모바일성격유형테스트마스터페이지",
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//JyqmqqBk6xcQgSac01XqO6aQTqMcCyuFQkVojfvl7C70AvYwFc2+a2ekova9aZPKETQucUA7dY6BnN8wo5W0qJBW69vJNZDENftTIEGcbZ9P3F741oWCh/xZprAptKu58eydFTTgKqPJ8Q8QE+hkPnVQU1tyC9uT4x1/YrnSi+WuxySgUak6Qv5VPFyF6HkFjxvGGip8vLtcuxAEv8zRB6yBaP6bKgC4Cw0Egx4Kkqhjejbjf3O4PB48KsepJfxHziKxsXBgiUnmiz0Pkdl0xtMZzF8ftEux58T87taRVp+us6szet/rVCmmdHEtGTHfIhGtchysjgH8hCK98AC5zryNXxx59pXTgUt2yApE3yUD6KnbHlYwQjhMNrut/SjCItQrkmAiC7t1fxeQBLRd4VC8G9gF8edqbm3rU6JGp0B/r75Il656BcB2HUDdxOcVILqOU1YPi7FVj1ipYp//Brg8PVPnQ+BS9AjJ+7EydMMQZ/fMTFAWyYkoKE1PnAklyyFxbewyt/908qXEwGc7xoWFRdBOdQq1Mi7gFFRG4z+oqxGJOBc4iYVDJRg3pj8hgLr/RMhEiOmeXS3UAEo9dlFXu7tl2DAurAhI9N2Z6AyidRqlkVrKQ1KMk5b0/NpJXmT0vEzC54UBLkCdBD3ow5gNMr2Mqzb4KsLUQYcGkk4HjlGTukBGLrHOJhemVQGNsNGeKuZx9h76WdX8MCuRID2xM1OqGdzNs9EgeTx2vKHFjInvgKvEw9dD7PzX46zucRLdsONkWPkYkpQX50UoHTIXC34AJ+v+cI2aUpS6QbyfV+qlXq3sTDHvxv4Wlyt1MO+QWQjzxhJ2m5MQJQxu+HV9E4P2jzoBGXbeBJnincItOWBcmsQx42FNb/f44gDstKHE4zUjeNQyanEmDyzC/A==|920

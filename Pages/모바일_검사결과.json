@@ -1,0 +1,3324 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 3.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 1.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 37.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      46,
+      47,
+      48
+    ],
+    "Count": 50
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "3,3": "당신의 성격유형은 :",
+    "15,8": "정신",
+    "16,1": "외향형",
+    "16,4": 100,
+    "16,5": 90,
+    "16,6": 80.0,
+    "16,7": 70.0,
+    "16,8": 60.0,
+    "16,9": 50,
+    "16,10": 40,
+    "16,11": 30.0,
+    "16,12": 20.0,
+    "16,13": 10.0,
+    "16,14": "내향형",
+    "18,8": "에너지",
+    "19,1": "직관형",
+    "19,4": 100,
+    "19,5": 90,
+    "19,6": 80.0,
+    "19,7": 70.0,
+    "19,8": 60.0,
+    "19,9": 50,
+    "19,10": 40,
+    "19,11": 30.0,
+    "19,12": 20.0,
+    "19,13": 10.0,
+    "19,14": "현실주의형",
+    "21,8": "본성",
+    "22,1": "사고형",
+    "22,4": 100,
+    "22,5": 90,
+    "22,6": 80.0,
+    "22,7": 70.0,
+    "22,8": 60.0,
+    "22,9": 50,
+    "22,10": 40,
+    "22,11": 30.0,
+    "22,12": 20.0,
+    "22,13": 10.0,
+    "22,14": "감정형",
+    "24,8": "전술",
+    "25,1": "계획형",
+    "25,4": 100,
+    "25,5": 90,
+    "25,6": 80.0,
+    "25,7": 70.0,
+    "25,8": 60.0,
+    "25,9": 50,
+    "25,10": 40,
+    "25,11": 30.0,
+    "25,12": 20.0,
+    "25,13": 10.0,
+    "25,14": "탐색형",
+    "46,2": "생활양식",
+    "46,6": "판단기능",
+    "46,10": "인식기능",
+    "46,14": "에너지방향"
+  },
+  "Formulas": {
+    "47,10": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq 1\")",
+    "47,2": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq 1\")",
+    "47,6": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq 1\")",
+    "48,10": "IF(K48>=50,\"S\",\"N\")",
+    "47,14": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq 1\")",
+    "48,2": "IF(C48>=50,\"J\",\"P\")",
+    "48,14": "IF(O48>=50,\"E\",\"I\")",
+    "48,6": "IF(G48>=50,\"T\",\"F\")",
+    "8,12": "IF(C48>=50,\"J\",\"P\")",
+    "8,9": "IF(G48>=50,\"T\",\"F\")",
+    "8,6": "IF(K48>=50,\"S\",\"N\")",
+    "8,3": "IF(O48>=50,\"E\",\"I\")"
+  },
+  "AttachInfos": {
+    "16,4": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,5": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,6": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,7": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,8": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFE13958",
+              "Foreground": "#FFE13958",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,9": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,10": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,11": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,12": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "16,13": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$O$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF009CFF",
+              "Foreground": "#FF009CFF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,4": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,5": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,6": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,7": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,8": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFBAC100",
+              "Foreground": "#FFBAC100",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,9": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF005BC1",
+              "Foreground": "#FF005BC1",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,10": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF005BC1",
+              "Foreground": "#FF005BC1",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,11": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF005BC1",
+              "Foreground": "#FF005BC1",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,12": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF005BC1",
+              "Foreground": "#FF005BC1",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "19,13": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$K$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF005BC1",
+              "Foreground": "#FF005BC1",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,4": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,5": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,6": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,7": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,8": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFFF7300",
+              "Foreground": "#FFFF7300",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,9": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B000",
+              "Foreground": "#FF19B000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,10": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B000",
+              "Foreground": "#FF19B000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,11": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B000",
+              "Foreground": "#FF19B000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,12": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B000",
+              "Foreground": "#FF19B000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "22,13": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$G$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF19B000",
+              "Foreground": "#FF19B000",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,4": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFD800DA",
+              "Foreground": "#FFD800DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,5": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFD800DA",
+              "Foreground": "#FFD800DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,6": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFD800DA",
+              "Foreground": "#FFD800DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,7": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFD800DA",
+              "Foreground": "#FFD800DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,8": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 8,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FFD800DA",
+              "Foreground": "#FFD800DA",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,9": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,10": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,11": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,12": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "25,13": {
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.CellValueRule, ServerDesignerCommon",
+            "Operator": 7,
+            "Value1": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=모바일_검사결과!$C$48"
+            },
+            "StyleInfo": {
+              "Background": "#FF9C00FF",
+              "Foreground": "#FF9C00FF",
+              "Underline": null,
+              "Strikethrough": null
+            }
+          }
+        ]
+      }
+    },
+    "47,2": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "47,6": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "47,10": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    },
+    "47,14": {
+      "BindingInfo": {
+        "TableName": "검사결과",
+        "ColumnName": "에너지방향"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Formatter": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 37.333333333333329,
+        "FontWeight": 1,
+        "Foreground": 4,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 21.333333333333332,
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 37.333333333333329,
+        "FontWeight": 1,
+        "Foreground": 4,
+        "HorizontalAlignment": 3,
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "FontSize": 10.666666666666666,
+        "HorizontalAlignment": 3
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Formatter": 2,
+        "HorizontalAlignment": 3
+      },
+      {
+        "Background": 6,
+        "FontFamily": 0,
+        "Foreground": 6
+      },
+      {
+        "Background": 6,
+        "FontFamily": 0,
+        "Foreground": 6,
+        "Formatter": 2
+      },
+      {
+        "Background": 6,
+        "Foreground": 6
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "HorizontalAlignment": 3
+      },
+      {
+        "FontSize": 10.666666666666666
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "WordWrap": true
+      },
+      {
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 8,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "[AUTO]General",
+        "Center",
+        "Text 1 25",
+        "Background 1 -25",
+        "Background 1 -15",
+        "Left",
+        "Top"
+      ],
+      "Borders": [
+        {
+          "Color": 5
+        }
+      ]
+    },
+    "CellStyles": {
+      "3,2": 0,
+      "3,3": 1,
+      "3,15": 2,
+      "4,2": 2,
+      "4,15": 2,
+      "5,2": 2,
+      "5,15": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 2,
+      "6,7": 2,
+      "6,8": 2,
+      "6,9": 2,
+      "6,10": 2,
+      "6,11": 2,
+      "6,12": 2,
+      "6,13": 2,
+      "6,14": 2,
+      "6,15": 2,
+      "8,3": 3,
+      "8,6": 3,
+      "8,9": 3,
+      "8,12": 3,
+      "12,3": 4,
+      "12,4": 2,
+      "12,5": 2,
+      "12,6": 2,
+      "12,7": 2,
+      "12,8": 2,
+      "12,9": 2,
+      "12,10": 2,
+      "12,11": 2,
+      "12,12": 2,
+      "12,13": 2,
+      "12,14": 2,
+      "14,0": 5,
+      "14,1": 6,
+      "14,2": 6,
+      "14,3": 7,
+      "14,4": 7,
+      "14,5": 7,
+      "14,6": 7,
+      "14,7": 7,
+      "14,8": 7,
+      "14,9": 7,
+      "14,10": 7,
+      "14,11": 7,
+      "14,12": 7,
+      "14,13": 7,
+      "14,14": 7,
+      "14,15": 6,
+      "14,16": 6,
+      "14,17": 8,
+      "15,0": 9,
+      "15,8": 10,
+      "15,17": 11,
+      "16,0": 9,
+      "16,1": 12,
+      "16,2": 2,
+      "16,3": 2,
+      "16,4": 13,
+      "16,5": 14,
+      "16,6": 14,
+      "16,7": 14,
+      "16,8": 14,
+      "16,9": 15,
+      "16,10": 14,
+      "16,11": 14,
+      "16,12": 14,
+      "16,13": 14,
+      "16,14": 16,
+      "16,15": 2,
+      "16,16": 2,
+      "16,17": 11,
+      "17,0": 9,
+      "17,17": 11,
+      "18,0": 9,
+      "18,8": 17,
+      "18,17": 11,
+      "19,0": 9,
+      "19,1": 16,
+      "19,2": 2,
+      "19,3": 2,
+      "19,4": 15,
+      "19,5": 13,
+      "19,6": 14,
+      "19,7": 14,
+      "19,8": 14,
+      "19,9": 15,
+      "19,10": 13,
+      "19,11": 13,
+      "19,12": 14,
+      "19,13": 13,
+      "19,14": 16,
+      "19,15": 2,
+      "19,16": 2,
+      "19,17": 11,
+      "20,0": 9,
+      "20,1": 2,
+      "20,2": 2,
+      "20,3": 2,
+      "20,14": 2,
+      "20,15": 2,
+      "20,16": 2,
+      "20,17": 11,
+      "21,0": 9,
+      "21,1": 2,
+      "21,2": 2,
+      "21,3": 2,
+      "21,8": 10,
+      "21,14": 2,
+      "21,15": 2,
+      "21,16": 2,
+      "21,17": 11,
+      "22,0": 9,
+      "22,1": 16,
+      "22,2": 2,
+      "22,3": 2,
+      "22,4": 14,
+      "22,5": 14,
+      "22,6": 14,
+      "22,7": 14,
+      "22,8": 14,
+      "22,9": 13,
+      "22,10": 13,
+      "22,11": 13,
+      "22,12": 14,
+      "22,13": 13,
+      "22,14": 16,
+      "22,15": 2,
+      "22,16": 2,
+      "22,17": 11,
+      "23,0": 9,
+      "23,1": 2,
+      "23,2": 2,
+      "23,3": 2,
+      "23,14": 2,
+      "23,15": 2,
+      "23,16": 2,
+      "23,17": 11,
+      "24,0": 9,
+      "24,1": 2,
+      "24,2": 2,
+      "24,3": 2,
+      "24,8": 10,
+      "24,14": 2,
+      "24,15": 2,
+      "24,16": 2,
+      "24,17": 11,
+      "25,0": 9,
+      "25,1": 16,
+      "25,2": 2,
+      "25,3": 2,
+      "25,4": 15,
+      "25,5": 13,
+      "25,6": 13,
+      "25,7": 14,
+      "25,8": 13,
+      "25,9": 13,
+      "25,10": 14,
+      "25,11": 14,
+      "25,12": 14,
+      "25,13": 14,
+      "25,14": 16,
+      "25,15": 2,
+      "25,16": 2,
+      "25,17": 11,
+      "26,0": 18,
+      "26,1": 19,
+      "26,2": 19,
+      "26,3": 19,
+      "26,4": 19,
+      "26,5": 19,
+      "26,6": 19,
+      "26,7": 19,
+      "26,8": 19,
+      "26,9": 19,
+      "26,10": 19,
+      "26,11": 19,
+      "26,12": 19,
+      "26,13": 19,
+      "26,14": 19,
+      "26,15": 19,
+      "26,16": 19,
+      "26,17": 20,
+      "28,1": 21,
+      "30,1": 22,
+      "46,2": 23,
+      "46,3": 2,
+      "46,4": 2,
+      "46,5": 2,
+      "46,6": 23,
+      "46,7": 2,
+      "46,8": 2,
+      "46,9": 2,
+      "46,10": 23,
+      "46,11": 2,
+      "46,12": 2,
+      "46,13": 2,
+      "46,14": 23,
+      "46,15": 2,
+      "46,16": 2,
+      "46,17": 2,
+      "47,2": 2,
+      "47,3": 2,
+      "47,4": 2,
+      "47,5": 2,
+      "47,6": 2,
+      "47,7": 2,
+      "47,8": 2,
+      "47,9": 2,
+      "47,10": 2,
+      "47,11": 2,
+      "47,12": 2,
+      "47,13": 2,
+      "47,14": 2,
+      "47,15": 2,
+      "47,16": 2,
+      "47,17": 2,
+      "48,2": 2,
+      "48,3": 2,
+      "48,4": 2,
+      "48,5": 2,
+      "48,6": 2,
+      "48,7": 2,
+      "48,8": 2,
+      "48,9": 2,
+      "48,10": 2,
+      "48,11": 2,
+      "48,12": 2,
+      "48,13": 2,
+      "48,14": 2,
+      "48,15": 2,
+      "48,16": 2,
+      "48,17": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "47,14,1,4",
+    "46,14,1,4",
+    "47,10,1,4",
+    "46,10,1,4",
+    "47,6,1,4",
+    "46,6,1,4",
+    "47,2,1,4",
+    "46,2,1,4",
+    "48,2,1,4",
+    "48,6,1,4",
+    "48,10,1,4",
+    "48,14,1,4",
+    "3,3,3,12",
+    "15,8,1,2",
+    "18,8,1,2",
+    "21,8,1,2",
+    "24,8,1,2",
+    "28,1,1,16",
+    "8,3,4,3",
+    "8,6,4,3",
+    "8,9,4,3",
+    "8,12,4,3",
+    "30,1,15,16",
+    "12,3,1,12",
+    "16,1,1,3",
+    "16,14,1,3",
+    "19,1,1,3",
+    "22,1,1,3",
+    "25,1,1,3",
+    "19,14,1,3",
+    "22,14,1,3",
+    "25,14,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "모바일성격유형테스트마스터페이지",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!D9"
+                  }
+                ]
+              },
+              "value": "E",
+              "Id": "10ca601e-ed45-4e9a-8dee-1ba0d74f8a5b"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!B17"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#E13958"
+                  }
+                ]
+              }
+            ],
+            "ID": "71a60858-64e1-467b-bb48-da3beb73270e"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!D9"
+                  }
+                ]
+              },
+              "value": "I",
+              "Id": "9802ae1a-419c-4b1f-924b-10db1c3a207f"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!O17"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#009CFF"
+                  }
+                ]
+              }
+            ],
+            "ID": "b9a1d4df-12a5-44e0-b073-4e1fb4bd02e6"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!G9"
+                  }
+                ]
+              },
+              "value": "S",
+              "Id": "b98abbeb-b8cd-42fe-9217-1c987e0de639"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!B20"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#BAC100"
+                  }
+                ]
+              }
+            ],
+            "ID": "321566cb-7349-4bf4-ae42-d907ef20e766"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!G9"
+                  }
+                ]
+              },
+              "value": "N",
+              "Id": "af3c7991-b2be-48c6-a7f5-f44276194f72"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!O20"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#005BC1"
+                  }
+                ]
+              }
+            ],
+            "ID": "90cb157c-b786-4b17-a800-6df25618af14"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!J9"
+                  }
+                ]
+              },
+              "value": "T",
+              "Id": "f8849287-12a8-4b1a-ab37-238aabe1831d"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!B23"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#FF7300"
+                  }
+                ]
+              }
+            ],
+            "ID": "aabbe101-d088-4bd1-b2b3-aac6dbdc78a7"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!J9"
+                  }
+                ]
+              },
+              "value": "F",
+              "Id": "d0e6e635-bf94-4579-ac1e-24f4e5461e34"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!O23"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#19B000"
+                  }
+                ]
+              }
+            ],
+            "ID": "7de93dc5-5b1f-407d-8dd3-10104e156519"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!M9"
+                  }
+                ]
+              },
+              "value": "J",
+              "Id": "3f72083d-a841-48e3-8a2b-1967f9dfc8cb"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!B26"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#D800DA"
+                  }
+                ]
+              }
+            ],
+            "ID": "e9508877-ae52-4c12-9649-ee7e68f15aaf"
+          },
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=모바일_검사결과!M9"
+                  }
+                ]
+              },
+              "value": "P",
+              "Id": "08861f4b-b89f-4d15-8f49-5f79c431f515"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!O26"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#9C00FF"
+                  }
+                ]
+              }
+            ],
+            "ID": "88415391-9498-4e65-b202-677f64fd4cdb"
+          }
+        ]
+      },
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "dbc8ef63-e47e-411e-a7f2-ad90234c1e4c"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "4e23457a-95a6-43b7-af35-f51df95204fa"
+                  },
+                  "Id": "00ac58b6-4609-4859-83f5-f762250e8b70"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "65de62d1-4227-46dc-a7d9-b557a11963bb"
+                },
+                "Id": "5db34c5e-dc99-4de9-a76f-5107d9ec9183"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "d6f57cf1-c17d-4b62-9ac2-b9de23dd25b5"
+              },
+              "Id": "3d0d5590-650e-4f0f-9be4-c35ee4f52b08"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "세상의 소금형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#FF737F4D"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "한번 시작한 일은 끝까지 해내는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "가장 다수의 사람이 속하는 성격 유형으로 인구의 대략 13%를 차지합니다. 청렴결백하면서도 실용적인 논리력과 헌신적으로 임무를 수행하는 성격으로 묘사되기도 하는 이들은, 가정 내에서뿐 아니라 법률 회사나 법 규제 기관 혹은 군대와 같이 전통이나 질서를 중시하는 조직에서 핵심 구성원 역할을 합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "7a5abb75-27ba-4110-bd7c-959e023a368d"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "92eeadc7-97a0-4d31-8553-23beef8d8559"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "fe62fd18-8e21-41bf-be49-358205c14492"
+                  },
+                  "Id": "f985def3-ef06-4d24-8eeb-92f2fe028057"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "1d2382b2-77d8-4d7a-b3f5-fe48cf2a0dc7"
+                },
+                "Id": "a2e06243-636b-481b-8ab2-2941d5e1d35d"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "3258e68c-9c9e-44f5-ae02-3ada206957e5"
+              },
+              "Id": "da786f29-52b5-4289-884e-10a456273fd3"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "임금 뒷편의 권력형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#209D89"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "성실하고 온화하며 협조를 잘하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "무엇을 받으면 몇 배로 베푸는 진정한 이타주의자로 열정과 자애로움으로 일단 믿는 이들이라면 타인과도 잘 어울려 일에 정진합니다. 약 13%로 꽤 높은 인구 비율을 차지하는데, 인구 대다수를 차지하는 데 있어 이들보다 더 나은 성격 유형은 아마 없을 것입니다. 이들은 종종 의료 부분이나 학문, 혹은 사회단체와 같이 오랜 역사나 전통과 관련된 분야에 종사합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "a79a3c20-4432-4a2d-9c4f-224ed0677533"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "b0686ff3-a47a-4e82-b35d-1da5f29b1336"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "61fa5cc6-4fb3-46cd-8a96-69621255bec2"
+                  },
+                  "Id": "af7d38af-2b0a-477c-994f-c6b479218856"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "4afe23e8-83c7-4406-a8a8-4dd6c27a8c56"
+                },
+                "Id": "9797abcd-6dca-4b6b-8774-f71b4494d4ca"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "bc55be82-50d6-4caf-84e6-bc0be68a9a02"
+              },
+              "Id": "46c9e650-606f-4d6e-bd54-0b4fd2815567"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "예언자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#FFF2634E"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "사람과 관련된 뛰어난 통찰력을 가지고 있는 사람"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "무엇을 받으면 몇 배로 베푸는 진정한 이타주의자로 열정과 자애로움으로 일단 믿는 이들이라면 타인과도 잘 어울려 일에 정진합니다. 약 13%로 꽤 높은 인구 비율을 차지하는데, 인구 대다수를 차지하는 데 있어 이들보다 더 나은 성격 유형은 아마 없을 것입니다. 이들은 종종 의료 부분이나 학문, 혹은 사회단체와 같이 오랜 역사나 전통과 관련된 분야매우 희귀한 성격임에도 불구하고 세상에 큰 영향력을 발휘하곤 합니다. 이들은 이상주의적이고 원칙주의적인 성격으로, 삶에 순응하는 대신 삶에 맞서 변화를 만들어 내고자 합니다. 이들에게 성공이란 돈이나 지위가 아니라 자아를 실현하고 다른 사람을 도우며 세상에서 선을 실천하는 일입니다.에 종사합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "b48dc08e-d62a-4355-b4cc-7c16a2ef2ad2"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "7d27a270-cebb-45ea-b79d-fe92da3af41f"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "0ee095cc-8fd6-4f03-a205-7920ae277c46"
+                  },
+                  "Id": "7555e1ec-c77b-4434-b14a-c7f8d16d3d65"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "868f16f4-8aec-444d-8483-d43cbda47bef"
+                },
+                "Id": "2a819014-c69c-4987-891e-6e579a9d47cb"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "dfb18fc1-f1a5-4632-8050-20386b5ab96e"
+              },
+              "Id": "96cc7494-b6c2-4644-8c0e-3535821a527c"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "과학자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#9BBA3A"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "전체적인 부분을 조합하여 비전을 제시하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "매우 희귀한 성격이면서도 뛰어난 능력을 지닌 전략가(INTJ)는 이러한 말의 의미를 잘 알고 있습니다. 전략가는 이성적이면서도 두뇌 회전이 빠른 성격으로, 자신의 뛰어난 사고 능력을 자랑스러워하며 거짓말과 위선을 꿰뚫어 보는 능력이 있습니다. 하지만 이로 인해 끊임없이 생각하고 주변의 모든 것을 분석하려는 자신의 성향을 이해할 수 있는 사람을 찾는 데 어려움을 겪기도 합니다."
+                  }
+                ]
+              }
+            ],
+            "ID": "c97fd606-b63f-43f7-9fa0-cdb4ff84acd9"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "630ed37e-a406-49e6-b8ac-a2d89a080090"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "e9f2798f-dd95-4897-87f8-fddb4b3737db"
+                  },
+                  "Id": "24b9e85e-47c1-45cd-8193-67f4e95be9ae"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "3a3c55df-e41d-45ee-ae7d-417a31edaba0"
+                },
+                "Id": "35f33a74-ffea-4668-8d8e-bab233baaeb8"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "701f3447-4844-4907-977a-8a1e45f8084a"
+              },
+              "Id": "73773214-9904-407c-a6c7-26717f221458"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "백과사전형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#724F9A"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "논리적이고 뛰어난 상황 적응력을 가지고 있는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "과묵하며 절제된 호기심으로 인생을 관찰하고, 상황을 파악하는 민감성과 도구를 다루는 뛰어난 능력이 있다. 말수가 적으며, 객관적이고 합리적으로 인생을 관찰하는 유형이다. 인식형(P) 중에서는 판단(J) 성향이 가장 강하거나 판단(J)형과 인식(P)형이 반반으로 나오는 경우가 다소 있다.[4] 필요 이상으로 자신을 발휘하지 않으며, 일과 관계되지 않는 이상 어떤 상황이나 인간관계에 직접 뛰어들지 않는다. 가능한 에너지 소비를 하지 않으려 하며, 사실적 자료를 정리, 조직하기를 좋아하는 경향이 있으며 인과관계나 객관적 원리에 관심이 많다. 3차 기능인 Ni(내향 직관)으로 눈치가 빠르며, 조용히 자기 일만 하고 있는 것처럼 보이지만 사실 주변 상황파악도 다 하고 있다. 4차기능은 Fe(외향 감정)로 타인에게 공감을 잘 못하는 경향이 있다"
+                  }
+                ]
+              }
+            ],
+            "ID": "d7013ce0-c82d-4cc1-9b92-0d1cae73fb48"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "bccd5be5-37dd-431b-960b-c5bf17a715c1"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "934983fb-c9ef-4331-b40a-b3fbcb02585e"
+                  },
+                  "Id": "30941302-afc1-4762-9397-97043a6eccb8"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "5c7b8262-975f-4ffa-9674-8f411d7b5ea2"
+                },
+                "Id": "0da0145b-d8f3-4974-946e-0b69c3fdaeaf"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "2a825509-9e79-42d4-b805-52a05936b003"
+              },
+              "Id": "4a57397f-b90f-46dd-963e-73dec1479901"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "성인군자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#C3141A"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "호기심 많은 예술가"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "말없이 다정하고 온화하며 사람들에게 친절하고 상대방을 잘 알게 될 때까지 내면의 모습이 잘 보이지 않는다. 의견 충돌을 피하고, 인화를 중시한다. 인간과 관계되는 일을 할 때 자신의 감정과 타인의 감정에 지나치게 세심하고 민감한 경향이 있다. 이들은 결정력과 추진력을 기를 필요가 있을 것이다. 3차 기능인 Ni(내향 직관)으로 눈치가 빠르며, 조용히 자기 일만 하고 있는 것처럼 보이지만 사실 주변 상황파악도 다 하고 있다. 경험을 통해서 부기능 Se(외향 감각)과 함께 주기능 Fi(내향 감정)인 자신의 내면을 보호하는 데에 잘 사용할 수 있다."
+                  }
+                ]
+              }
+            ],
+            "ID": "82b673f6-3188-4fac-a43a-6d00d0bc5093"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "f1ce0959-3680-414b-8775-933115337ff2"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "0339ffd1-77dc-4530-a7e5-b833f272c28c"
+                  },
+                  "Id": "12920ac1-d0bf-4348-bb8a-e5124162cc2a"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "4e6fd752-90e3-4202-b0cf-3ce1bb307dcb"
+                },
+                "Id": "b2d4e69d-1f51-4037-b540-7b8ab6f5f745"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "66e25215-a6c2-4192-8496-5a04443c1e2e"
+              },
+              "Id": "f05d9e5b-0358-4345-b2a5-5ef3671c3016"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "잔다르크형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#F4781E"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "이상적인 세상을 만들어 가는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "세계 인구의 4%가 이 유형에 속하며 차분하고 창의적이며 낭만적인 성향으로 보이지만 내면은 내적신념이 깊은 열정적인 중재자 유형이다."
+                  }
+                ]
+              }
+            ],
+            "ID": "dcc716d1-2815-4eb9-ac47-ead19ffcdc4b"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "I",
+                    "Id": "1fda3c3d-e45f-4de4-b9ea-437fff2b5c33"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "c9328fca-1fee-4504-a7bb-880373a2728b"
+                  },
+                  "Id": "b74137e3-f5d0-4df9-8daf-c5e7216de230"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "0b0724ca-2db8-44e5-a943-864511addb5f"
+                },
+                "Id": "79bced0f-39ac-4216-84e2-fea1f85f0545"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "ca15693c-2da0-48ec-a31b-e5f2615d26a9"
+              },
+              "Id": "b9997c68-94c6-4af0-82e5-7771a02533c4"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "아이디어 뱅크형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#77246C"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "비평적인 관점을 가지고 있는 뛰어난 전략가들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "논리와 분석으로 문제를 해결하기 좋아하며, 먼저 대화를 시작하지 않는 편이나 관심이 있는 분야에 대해서는 대화를 즐긴다. 이해가 빠르고 직관적으로 통찰하는 능력이 있으며 지적 호기심이 많아, 분석적이고 논리적이다. MBTI 16가지 성격 유형 중 창의적 지능과 논리 면에서 가장 뛰어나, 비과학적이거나 논리적이지 못한 사람에 대단히 거부반응을 보인다. 예컨대 맹목적인 종교인, 유사과학 예찬론자 등이 있다.아이디어와 원리, 인과관계에 관심이 많으며 실체보다는 실체가 품고 있는 가능성에 관심이 많다. 다시 말해 원리를 파악하는 것에 지대한 흥미를 보이지만, 반복 작업으로 어떠한 상황을 마무리 짓는 것에는 관심이 적은 편이다."
+                  }
+                ]
+              }
+            ],
+            "ID": "39c74a2b-7601-446c-aba4-8cfb44a4c49b"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "69c83e86-80bc-4c11-8b8f-d61daae74436"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "cf77a18c-498c-4f6d-bf99-224e3bf745ac"
+                  },
+                  "Id": "f43724bf-a6b6-4d4a-b577-30e90b92cb28"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "cddc6d91-3a4f-4f5b-a53a-f310dec277b2"
+                },
+                "Id": "838bd37c-452b-41d6-895c-ffe7af7bb3a4"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "2ed6e4fb-df1e-4c9d-a07c-169cb8d72a17"
+              },
+              "Id": "adefa65d-b1fb-411d-a6ca-f6c5c59c31c9"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "수완좋은 활동가형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#00ADEF"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "친구, 운동, 음식 등 다양한 활동을 선호하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "사실적이고 관대하며 개방적이고 사람이나 사물에 대한 선입견이 별로 없다. 강한 현실 감각으로 타협책을 모색하고 문제를 해결하는 능력이 뛰어나다. 센스 있고 유머러스하다. 어디서든 적응을 잘 하고 친구와 어울리기를 좋아한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "8573c264-353a-41dc-be72-301a7e59677d"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "7dacaeee-f821-42bd-8f62-d8267fa09f22"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "9bb88e72-9f32-4dcb-8108-a0feaa8fb30c"
+                  },
+                  "Id": "68eb5c3b-ad86-4fd9-b9be-6af3dcc86452"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "078fb00b-1694-4625-9286-dad9f4ea40c7"
+                },
+                "Id": "210abf8c-85c4-464b-8691-4656c7dfcc0c"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "34332b24-83d6-4c27-9525-dfc227137caf"
+              },
+              "Id": "588406e8-5dc3-4b86-b5e4-385228982b6e"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "사교적인 유형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#1A9149"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "분위기를 고조시키는 우호적 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "사교적이고 활동적이며 수용력이 강하고 친절하며 낙천적이다. 어떤 상황이든 잘 적응하며 현실적이고 실제적이다. 주위의 사람이나 일어나는 일에 대하여 관심이 많으며 사람이나 사물을 다루는 사실적인 상식이 풍부하다. 때로는 수다스럽고, 진지함이 결여되거나 마무리를 등한시하는 경향이 있으나, 어떤 조직체나 공동체에서 밝고 재미있는 분위기 조성 역할을 잘한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "5d17c7b2-46d3-4e6d-bea8-34275f1bd6e5"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "92fcd9b2-63b8-41c9-8af0-92cb08415f7f"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "1fecaf86-d32e-4b29-b5e9-946411bb3767"
+                  },
+                  "Id": "b9cdd96a-8829-40bd-b456-eedd44f4627a"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "011b6c93-65a7-4866-b8ea-c9ef668dd237"
+                },
+                "Id": "b98d2134-b3de-4836-9904-c622c1b6a41b"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "22276c1b-4da9-4d78-afe1-95a4a2fa56f8"
+              },
+              "Id": "e8755e22-4502-45ed-8fb5-a6e8cddc0261"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "스파크형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#E4A71F"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "열정적으로 새로운 관계를 만드는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "정열적이고 활기가 넘치며 상상력이 풍부하다. 온정적이고 창의적이며 항상 새로운 가능성을 찾고 시도하는 유형이다. 문제 해결에 재빠르고 관심이 있는 일은 수행해내는 능력과 열성이 있다. 반복되는 일상적인 일을 참지 못하고 열성이 나지 않는다. 또한 한 가지 일을 끝내기도 전에 몇 가지 다른 일을 또 벌이는 경향을 가지고 있다. 통찰력과 창의력이 요구되지 않는 일에는 흥미를 느끼지 못하고 열성을 불러일으키지 못한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "a508b249-6282-4788-bbd6-718af46ab111"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "2a0ccd6a-3a7a-48b0-afa8-b9b7e5f8ce83"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "07ef8fb0-0764-4b9c-83aa-43905f5b974b"
+                  },
+                  "Id": "163c96da-88a5-44a9-b9f9-ba71bed2e54f"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "5dbdef9d-95eb-4251-8e66-5f4eda888881"
+                },
+                "Id": "5c5e97b1-fea9-419b-b537-02afa07b8b1f"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "P",
+                "Id": "e9e1ccc0-cbfa-4ca8-bac5-060a35743d26"
+              },
+              "Id": "f6b23ff5-ee3f-4b0b-badd-82a0a7f9fc65"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "발명가형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#337985"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "풍부한 상상력을 가지고 새로운 것에 도전하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "특유의 능글거리면서 경쾌한 성격과 문제의 본질을 파악하고 논리적으로 판단하려는 기질이 있고, 어느곳에서나 적응력이 빠른 성격이다. 본인이 구상하는 바를 실현시키고 싶어하는 기질이 강하며, 여기에 특유의 아웃사이더적인 성격까지 겹쳐 그야말로 혁명가의 기질을 띠고 있다. 모든 분야에 있어서, 기존의 체제 자체를 뒤집어 버리거나 분야 전체의 도약을 이루어내는 인물들이 많다."
+                  }
+                ]
+              }
+            ],
+            "ID": "c148d51d-35c8-4cb0-89bc-5d1782194510"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "3799c11c-c710-4a5a-b5e0-45d3a7e86165"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "a2c5fe66-ea64-4355-b407-b8667e9f5fe0"
+                  },
+                  "Id": "deb2c3c1-5f3b-4680-80ce-3f61d5161f92"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "d6fe8fda-566c-4082-aa64-883d7f7816f1"
+                },
+                "Id": "2509f6a6-110c-4fe9-841a-4966a5d4e061"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "fe2d6010-b9bd-42c2-a70a-e3aca7d3d9dc"
+              },
+              "Id": "eaa0507a-1a69-493f-a24c-dcf97a6d694e"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "사업가형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#A4C535"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "사무적, 실용적, 현실적으로 일을 많이하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "현실적, 구체적, 사실적이며 어떠한 활동을 조직화하고 주도해 나가는 지도력이 있다. 실질적이고 현실 감각이 뛰어나며 일을 조직하고 계획하여 추진시키는 능력이 있다. 행정, 의료, 법조, 군대, 경찰, 재무, 특히나 모든 것을 망라한 한 단어로 '조직관리' 분야에 뛰어난 재능을 지녔으며, 체계적으로 사업체나 조직체를 이끌어 나간다. 타고난 지도자로서 프로젝트의 목표를 설정하고, 지시하고, 결정하고, 독려하여 기한 내에 철저히 이행하는 능력이 있다. 불확실한 미래의 가능성보다 흔들리지 않는 현재의 사실을 추구하기 때문에 현실중심적, 실용적인 면이 강하다. 하지만 타인과 자신의 감정을 고려하는 능력이 부족하여 속단속결하는 경향과 업무 위주로 딱딱하게 사람을 대하는 경향이 있으므로 인간 중심의 가치에 대해 고민하고 타인의 감정을 충분히 고려해야 한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "1bb18b57-8d25-47e9-a1d2-3f6dc8fbf2f4"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "1b0db7f5-8ccf-4254-bfe6-27b35bc0f3bb"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "S",
+                    "Id": "af440e52-5d42-4af0-af4c-e25a0cd81610"
+                  },
+                  "Id": "71ce3edc-6669-4a43-8edf-b9ce6e8db891"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "b8054206-2892-4b25-8d2f-c6a2620e1f64"
+                },
+                "Id": "072d04bc-9876-48cd-9ff8-b1951f54b5d9"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "c0ca4ddd-6b5b-4ee8-8edb-b83f1611a4e1"
+              },
+              "Id": "6ae9b1b2-9173-4fac-854e-34604dd99119"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "친선도모형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#D9185B"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "동정심이 많고 다른 사람에게 관심을 쏟으며 나눔과 베풂을 중시한다. 타고난 협력자로서 동료애가 많고 친절하며 능동적인 구성원이다. 이야기 하기를 즐기며 정리정돈을 잘하고, 참을성이 많고 다른 사람들을 잘 도와준다. 사람을 다루고 행동을 요구하는 분야, 예를 들면 교직, 성직, 판매 특히 동정심을 필요로 하는 간호나 의료 분야에 적합하다. 일이나 사람 관련 문제에 대하여 냉철한 입장을 취하기 어려워한다. 반대 의견에 부딪혔을 때나, 자신의 요구가 거절 당했을 때 마음의 상처를 받는다."
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "현실적, 구체적, 사실적이며 어떠한 활동을 조직화하고 주도해 나가는 지도력이 있다. 실질적이고 현실 감각이 뛰어나며 일을 조직하고 계획하여 추진시키는 능력이 있다. 행정, 의료, 법조, 군대, 경찰, 재무, 특히나 모든 것을 망라한 한 단어로 '조직관리' 분야에 뛰어난 재능을 지녔으며, 체계적으로 사업체나 조직체를 이끌어 나간다. 타고난 지도자로서 프로젝트의 목표를 설정하고, 지시하고, 결정하고, 독려하여 기한 내에 철저히 이행하는 능력이 있다. 불확실한 미래의 가능성보다 흔들리지 않는 현재의 사실을 추구하기 때문에 현실중심적, 실용적인 면이 강하다. 하지만 타인과 자신의 감정을 고려하는 능력이 부족하여 속단속결하는 경향과 업무 위주로 딱딱하게 사람을 대하는 경향이 있으므로 인간 중심의 가치에 대해 고민하고 타인의 감정을 충분히 고려해야 한다."
+                  }
+                ]
+              }
+            ],
+            "ID": "2e58ae93-3b80-43b5-abef-020c898aa25c"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "84585088-60f7-471b-92a7-2b1b10680f1a"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "2a9f4128-f848-455e-b376-f029a9340adc"
+                  },
+                  "Id": "3301be79-8988-431c-b0b7-9d8b993257ec"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "F",
+                  "Id": "dfb2fa90-a93b-44f2-adc9-0f970364cc9f"
+                },
+                "Id": "1c4ea7b8-b9fd-466d-80fb-1364c8e0b0a7"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "6e4f21d0-303a-40e9-9a13-2cfe9e0750cf"
+              },
+              "Id": "353a2b93-3cf0-460c-af8d-332e3ce6a6e4"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "언변능숙형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#7A87A2"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "타인의 성장을 도모하고 협동하는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "온화하고 적극적이며 책임감이 강하고 사교성이 풍부하고 동정심이 많다. 상당히 이타적이고 민첩하고 인화를 중요시하며 참을성이 많다. 다른 사람들의 생각이나 의견에 진지한 관심을 가지고 공동선을 위하여 다른 사람의 의견에 대체로 동의한다. 미래의 가능성을 추구하며 편안하고 능란하게 계획을 제시하고 집단을 이끌어가는 능력이 있다. 성격 유형 검사(MBTI, 16 Personalities, TRUITY 등)에서 통용되는 16가지 유형 중 ENFJ 유형은 전 세계 인구의 2.5% 정도로 희귀한 유형이며, 대한민국에서도 0.9% 미만으로 보기 드문 유형이다."
+                  }
+                ]
+              }
+            ],
+            "ID": "cbb3d127-bf25-47b3-9c7a-3b7fce1884d5"
+          },
+          {
+            "Condition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!D9"
+                        }
+                      ]
+                    },
+                    "value": "E",
+                    "Id": "ca0f43cf-23fd-4a2e-a688-8f99654687b4"
+                  },
+                  "Condition2": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                      "cellLocations": [
+                        {
+                          "SerializeProperty": "=모바일_검사결과!G9"
+                        }
+                      ]
+                    },
+                    "value": "N",
+                    "Id": "b3221652-a1e6-49d4-9637-fd9f899014c0"
+                  },
+                  "Id": "d92aec84-dd55-46a4-a5d8-d2fea89c65cd"
+                },
+                "Condition2": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=모바일_검사결과!J9"
+                      }
+                    ]
+                  },
+                  "value": "T",
+                  "Id": "33728ec1-aa9a-4247-9a41-b2e0765429fa"
+                },
+                "Id": "c18ac960-5a39-49a3-b46f-16406ff62dd6"
+              },
+              "Condition2": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                  "cellLocations": [
+                    {
+                      "SerializeProperty": "=모바일_검사결과!M9"
+                    }
+                  ]
+                },
+                "value": "J",
+                "Id": "c0d2dfe1-64d8-482f-8bc0-b11d1b7cc4c1"
+              },
+              "Id": "a110a05c-d6f4-4221-9e00-205e1353985f"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "Value": "지도자형"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!result"
+                    },
+                    "PropertyType": 3,
+                    "Value": "#DC5524"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain"
+                    },
+                    "Value": "비전을 가지고 사람들을 활력적으로 이끌어가는 사람들"
+                  },
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=모바일_검사결과!explain2"
+                    },
+                    "Value": "‘타고난 리더’라고 불리는 이 유형은 권위와 자신감으로 재능을 구현하고, 공통된 목표 뒤에서 사람들을 끌어모으는 통솔력을 행사한다. 실제로 문제 해결 과정을 조직하는 관리자 혹은 지도자가 소속 집단 내 자신의 역할이라고 생각한다. 주로 목표를 달성하기 위해 장기적인 계획 개발을 즐긴다."
+                  }
+                ]
+              }
+            ],
+            "ID": "b1bc96c2-9001-48cb-aca4-1a6255ab7320"
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 3
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "explain",
+      "Formula": "모바일_검사결과!$B$29"
+    },
+    {
+      "Name": "result",
+      "Formula": "모바일_검사결과!$D$13"
+    },
+    {
+      "Name": "explain2",
+      "Formula": "모바일_검사결과!$B$31"
+    }
+  ]
+}//bJZP3V+aOe5wwX/3cBR3Z/CtP83kFyWIK/YOrr14XWEzlUsXkm2LAMYT5OvoeaIpcswOnT8P5nAdTmBFI0otvBUgfyx3AF41m3wVTJJtlBFLuoMQu0OSOw9F8ereWDDnEkgnp1eA0U6CW9soSxX0n6B9j44HP007rNAJrJFDlpjekOrCR2RDjRZnb0Bmm/TQt6R+ZIEMbDwrob+QnC16OYufmFEZIu/pBj7Dlxy9Muvraa8dl9jQA/4giBaGYh58En3wAvZWed6kUcbw+vCWoS4pRJvBzZEYbPttJBigd2aAD+j7t/Aph251QAB9AAjHJDwql8FX7i3wdVMXRsE3YbmeZLbWrcisRW6DLC2vvtBNcv/Ot+ttkpwhhappV84GmpLny/MkR3peeMYm08BHmO9LiDgSyA0sEJpcNUMzUw6VaSFIdL1rI8w7OjYHruRvh2EwrbC8Fp+lFIRdnUam2Ji/Pp/hbToyPrsseIcZ+7f7yMpeMZo2Zkt4MSlIhz1jyAtaaDfDM7MpHTXLSf8zVZAZHW3XyMhU0E842nAr0TkcPq36pIIVfSC0WXfg/mDs6s8NnUtu6tssD6ZmiHPfmrRDjHkz3qb3pnrIy3bKjlxRCoT18GSLj+zY02nUUXCJ9kQpu+r3pP1LWUxa5oFg196ZM5PBiIoV5PtkSj8CCNibdUNwsiBqCvsraeuLy8TYXFYFNXGiTe4YDTSNgedm0O+BGrlIBBsJXX5vjUqLuviNNGArOOjevDM4/UeNnW3uk0T0Yrk3ymwswQFQFMBsMVLzqGx/Sh+OUn0dn4yTBIwudf2+bCm5QwLJ1CIw2toWw8N2UuQSjr4r0jkUBEiW0ij4VD+BYCGuczu42HQdfZm+b2i7FWRR2AMyVOy6ZzfEWIuzIn9dAu9tn60xc5QJbA==|920

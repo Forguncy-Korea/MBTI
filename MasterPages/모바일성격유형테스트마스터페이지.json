@@ -1,0 +1,175 @@
+{
+  "Rows": {
+    "Count": 40
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "0,0": "GrapeCity "
+  },
+  "AttachInfos": {
+    "0,0": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "시작화면",
+            "PassValues": []
+          }
+        ],
+        "Text": "GrapeCity ",
+        "ClickMode": 1
+      }
+    },
+    "0,5": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "스타일1",
+        "Items": [
+          {
+            "Text": "성격 유형 검사",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "기본검사페이지_1",
+                "PassValues": [],
+                "DeleteCachedQuery": true
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "성격 유형",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "성격 유형",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 13.333333333333332,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "3,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "FontSize": 13.333333333333332,
+        "Foreground": 2,
+        "Underline": false
+      },
+      {
+        "FontFamily": 3
+      },
+      {
+        "Background": 0,
+        "FontFamily": 3,
+        "FontSize": 10.666666666666666
+      },
+      {
+        "Background": 0,
+        "FontFamily": 3
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "Background": 0,
+        "FontFamily": 3,
+        "BorderBottom": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1 0",
+        "나눔스퀘어 네오 OTF Heavy",
+        "Text 1 25",
+        "Body",
+        "Background 1 -25"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        }
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 1,
+      "0,2": 1,
+      "0,3": 1,
+      "0,5": 2,
+      "0,17": 3,
+      "1,0": 1,
+      "1,1": 1,
+      "1,2": 1,
+      "1,3": 1,
+      "1,17": 3,
+      "2,0": 3,
+      "2,1": 3,
+      "2,2": 3,
+      "2,3": 3,
+      "2,4": 3,
+      "2,5": 4,
+      "2,6": 4,
+      "2,7": 4,
+      "2,8": 4,
+      "2,9": 4,
+      "2,10": 4,
+      "2,11": 4,
+      "2,12": 4,
+      "2,13": 4,
+      "2,14": 4,
+      "2,15": 4,
+      "2,16": 4,
+      "2,17": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "0,5,3,12",
+    "0,0,2,4",
+    "3,0,37,18"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//7X3uu9bYbTsgUemRl6AF4xv9nS/P/BpL2ABSMw5BFRCt91QPr+myIZYQBIk0n+giRidJViDgmiv39iG/ugtNaOLB/h3xJp7Gm6/MaxoCi0NtdIQyT8O8BVe1AYHHrUeC+wWV65u31uNla0bgtSR9D6bJPDKsi/Q16CfH3cYn0vty2Ic8Xh/D3ltCAVQUYY3sv6J7l5TTsqw6yXE2WoDZXDCDJFa8RatbNf9NEvzwue4shb0dobZqm+YMz22DqlZjCEgfJkgM4CNQ+iDkghEbyFwIrSw4cBbgB0cYI3JBThyrSUdCXOngDrOLGhPVn8ekSK9Kb5lleluSnozWYBn188+C+LN0hScydu2PjLOBz+THcrbhbNsutJ6oivR9GtA4K0Cieb7dF74+ubWLMET1/7sByg9ZZF8tkBBfwZLjnueEqijIF8pKEeVyMoy0XjnJmHAQpd9QbZVKqbqjtyg7T2c1YIOFgHeR5TpUEZ+noU3XdwSIxLmk/5JwxSOLoXGpE5LN0hzsuzc+IEFmkRy2fbzRR9PW3ddnB4b8jm2DPIxDrKhOWumqJYvd6XbUyyq6DdKwkYm8VH+tqHKT4IP0FBd7sVGw+EJmv9vHuR+M0l7HZM6Htr3Lo/z5iVOKp6T1nevTqsqXzbJ1mS7b3lMA6Fnnc9ejRXyBBLOaGDvIhT05Njii3iZCS7BDv88CPittZbFIMWP3e9fUtjsUsKgSEIYEjONZKIVSDmXUHHXmGcC8N0D2x7G53wXX3aryC2Oh0gMQSEh0qIu8jTUbo934IYo8MjpaMSx4w/NIDhvTo+TFuISZY9Io+uNeNOcOe8unJpgR1NNUUQDHkfwdRCOh5Ud+mP9VR/d85OTOMJILknX4nKgcMt3M1r8hsp7teCL6R7HJWxCLZKv0rWfdPjBoDQ==|920
