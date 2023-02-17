@@ -130,7 +130,7 @@
       "UserName": "DESKTOP-LV3CTK1\\hdg89",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2023-02-17T11:16:03.6389944+09:00",
+    "LockDateTime": "2023-02-17T15:30:50.727768+09:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\기본검사페이지_2.json"
@@ -190,7 +190,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-17T15:30:50.7267701+09:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "C:\\Users\\hdg89\\OneDrive\\문서\\ForguncyCollaboration\\MBTI-master\\Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "ImageSelector",
