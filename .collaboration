@@ -177,7 +177,16 @@
   },
   {
     "ModuleName": "MobilePage/모바일_기본검사페이지_1",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-20T17:03:21.0602522+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\모바일_기본검사페이지_1.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/모바일_기본검사페이지_2",
