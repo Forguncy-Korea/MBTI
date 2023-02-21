@@ -3,21 +3,31 @@
     "RowColumnAttachedInfos": {
       "8": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 8.0
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
         }
       }
     },
-    "Count": 35
+    "Count": 33
   },
   "Cols": {
-    "Count": 18
+    "Count": 39
   },
   "Values": {
-    "2,1": "No Code 웹 빌더인 Forguncy를 이용하여 제작한 성격검사 페이지입니다.\nForguncy는 개발자부터 비개발자까지 Excel을 사용할 줄 아는 누구나 기업용 또는 사내 웹 솔루션을 개발할 수 있는 Excel기반의 노코드 웹 솔루션 개발 도구 입니다. ",
-    "9,5": "검사 진행"
+    "2,1": "No Code 웹 빌더인 Forguncy를 이용하여 제작한 성격검사(MBTI) 샘플입니다.\r\n\r\nForguncy를 이용하여,\r\n다이나믹 서베이 폼(Dyanmic Survey Form)을 \r\n코딩 없이 만들 수 있습니다.",
+    "11,5": "검사 진행"
   },
   "AttachInfos": {
-    "9,5": {
+    "11,5": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -28,68 +38,152 @@
           }
         ],
         "Text": "검사 진행",
-        "TemplateKey": "스타일1"
+        "TemplateKey": "MY버튼_스타일"
       }
     }
   },
   "StyleDatas": {
     "Styles": [
       {
-        "FontWeight": 0,
+        "Background": 0,
+        "Foreground": 1
+      },
+      {
+        "Background": 0,
+        "FontFamily": 2,
+        "FontWeight": 3,
         "Foreground": 1,
+        "HorizontalAlignment": 4,
         "WordWrap": true
       },
       {
-        "FontWeight": 0,
-        "Foreground": 2
+        "Background": 0
+      },
+      {
+        "FontFamily": 5,
+        "FontWeight": 3
       }
     ],
     "Types": {
       "Strs": [
-        "Bold",
+        "#FF33A474",
         "Background 1 0",
-        "#FF000000",
+        "나눔스퀘어 네오 OTF ExtraBold",
+        "Bold",
+        "Center",
         "Body"
       ]
     },
     "CellStyles": {
-      "2,1": 0,
-      "9,5": 1
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "2,0": 0,
+      "2,1": 1,
+      "2,17": 0,
+      "3,0": 0,
+      "3,17": 0,
+      "4,0": 0,
+      "4,17": 0,
+      "5,0": 0,
+      "5,17": 0,
+      "6,0": 0,
+      "6,17": 0,
+      "7,0": 0,
+      "7,17": 0,
+      "8,0": 0,
+      "8,1": 0,
+      "8,2": 0,
+      "8,3": 0,
+      "8,4": 0,
+      "8,5": 0,
+      "8,6": 0,
+      "8,7": 0,
+      "8,8": 0,
+      "8,9": 0,
+      "8,10": 0,
+      "8,11": 0,
+      "8,12": 0,
+      "8,13": 0,
+      "8,14": 0,
+      "8,15": 0,
+      "8,16": 0,
+      "8,17": 0,
+      "9,0": 2,
+      "9,1": 2,
+      "9,2": 2,
+      "9,3": 2,
+      "9,4": 2,
+      "9,5": 2,
+      "9,6": 2,
+      "9,7": 2,
+      "9,8": 2,
+      "9,9": 2,
+      "9,10": 2,
+      "9,11": 2,
+      "9,12": 2,
+      "9,13": 2,
+      "9,14": 2,
+      "9,15": 2,
+      "9,16": 2,
+      "9,17": 2,
+      "11,5": 3
     },
     "SheetStyle": {
-      "FontFamily": 3
+      "FontFamily": 5
     }
   },
   "Spans": [
     "2,1,6,16",
-    "9,5,2,7"
+    "11,5,3,8"
   ],
   "Pictures": [
     {
-      "ForguncyPictureName": "2023-01-27 08 30 14.png",
+      "ForguncyPictureName": "118863-reasearch.gif",
       "Stretch": 2,
       "ForguncyPictureSourceType": 0,
-      "Name": "242a1c20-9d45-44b5-8e35-d2face59ad98.png",
-      "Location": "0,215",
-      "Size": "360,251"
-    }
-  ],
-  "BackgroundPictures": [
-    {
-      "FitToBrowserWidth": true,
-      "FitToBrowserHeight": true,
-      "DisplayName": "배경 이미지1",
-      "StyleInfo": {
-        "Fill": "#FF4298B4"
-      },
-      "IsAutomaticFill": false,
-      "Name": "3176992a-f011-4570-9060-04c8d10112a9.png",
-      "Size": "360,548"
+      "Name": "83010560-c3bc-476d-928a-fd3b8223bdf1.gif",
+      "Location": "6,271",
+      "Size": "348,364"
     }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "모바일성격유형테스트마스터페이지",
+    "AllowZoomScreen": true,
     "AuthorizeInfo": {
       "VisitMode": 3
     },
@@ -101,4 +195,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//4XjL7ujmm8BfdUVt0aU9vthkdwUQTxFAKkBIgjw5veZd1ApqV1Fcg8NZlkJgd/7kXeXZHnPOHXQ/O89uob2TIuIlkyP69kEoLm1oxArzuPeVgDchq/K6zNwGMGz4kITYLyjrniLxZi3q7WxmC/YEyoBmoT2tBb5JCrib3vKLbNM2J61vJInHgbIL9oSsZ8VHOAk1QmC64FNZNbIw1zAvNJkdJPCN2ZAxXGvbn0GDcfFrYrpqKxE4u+sK0BLFgBvkl3Djt3J7fTNKPvOElGwbypWUeQEA/2qpFHPL2yp7psuWh9WgNPG3uD/JH2MCPt+0vcAnPu/w5PX63FcDb54t58hSlbMRFHyrU/Sl7hT2MKIHXFYT1j68vbvJdrJmEHoUrb6KCYL0SQRJDEOLp+ffgJhKVybgiYhwm4jSrGOaVFTjPRxISyDD6DHDghsW/vbQtEyTqLIAPzhsNhhRUle8903duZO9LtETY8MbY8OuLRgjCQnFFhqXP09ALn+XljH5jdhD33Mw6sy5ApmNVKAbBGqHXo2Q6wyg6rzenzU3jmp2T/GBWNO/W00IeA375SQr83A78tX60q0rsN0V8QHcZwtI249emv3Vxp6Kesy9Vt9zrkwkoR9AZ7JZ35lq85rhnLAuFIuAfoswE0lFbWde9N8Tvyd7Wcj7ZnOndNP7W/WUE4rw9XnzdeK7KcGo3vWzINVMaEzNJESqOV8NnrZSCjYe0SYtZ7z2yZLuGckLcXNwRhd5+CZVnZf/iZFwjH6H4CQVizagczpELBX58WSxCUlQXuhfjt/oIbCe5XtuFLBaOT0rWb/BamPFB6TSOfGHol7TLo3usPO3OSSsRGyVFdfDjshxMi9jHm1X85ApNbq5xYZHkNbpanPWBDnnwdXrO5sZ2M+G+oRZU5JTKFf1Tw==|920
+}//VUOkdskSJHFYbqEelMQGAvRsWs5kH9kVweZXu7/UT6Wrb+uqYPp+W/13co+GOk0A7ZZcvEI+Pf5DIe2OCKCq88RF5B4Gdj2jlskYMdM27qRW+dBjtvYfMekKXBaO7nwKwUpKtI/Uds+3Srz/t7qdP/VGiRzZvIm1rWTc+JvMxQ/zwMHGo6JFIRq17RhibLqLYyKIb8WpoxKqves2waU16AIlQTejMmq/G+7OSFExvpvAch3eHGNepYspyh2U/7Sr0s12mdXcZjKZf0TwjuRPkr2AVg2eR1OjVWoe/4C5Qh/ER0LdMeYmH2B5V7PX4s0yVlHoTnVy80z6XDvrZVAVGBzcQG/dkK2U1OEFbyNHcfoDp68YzaUMRJJn9hktfV7BRddyYOKerYBgeh0H5FUKni4QIMp94CADina2iWyDJ6J0PoQc86LlSq7sH0bCpUUQNE0k4i9lx6bZcEWuJQ28Koyz0xRr0cwX+Hq8qokIKJYtHqi4SJm47X3fpX6GRbu4qJpnoLudKpp4qDAF3BrMSKjHouje3O9ZzsHkKjglLXIOQf27FqV4vrA+CuPPhwYmUtm52zooHGqUIwU/gMUUhbUNhFWAoTx3cVMNsKyXDsNR/rHrRm0Qke7zRuPddKpFRHIjFcA7tJ1/64BXprkqtQ9lJuvBbLzUbdFCNu49m6GBwqFzgR/cnxs1o3aRUXO/jNVTFupMFNzrRIebvud8+q2R6xgGsmy9E4GkRAMAq6YZiH7qgwBFJUQI8eGZrJgl101r4BnqEnaC7UiiLE7Gj52U1MC5vX/Dv0XUOh1pq11pi7KNo/T8baiecUjTuemnz6jX6HOKBJoSVB0qHVJE674D4b3viptpVfck66XXJT0LpGe7k+UGinfHZ4RmGd37PkV3emJW0hjI8Z3ZxoIB+g==|920

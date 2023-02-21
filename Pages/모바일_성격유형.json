@@ -93,7 +93,8 @@
     "Count": 18
   },
   "Values": {
-    "0,0": "성격유형",
+    "1,0": "성격 유형",
+    "4,1": "포건시 모바일 페이지 로 만들 다이나믹 서페이 폼 입니다.",
     "8,1": "ISTJ",
     "10,1": "세상의 소금형",
     "11,1": "\r\n한번 시작한 일은 \r\n끝까지 해내는 사람들\r\n",
@@ -249,16 +250,15 @@
         "FontSize": 21.333333333333332,
         "FontWeight": 2,
         "Foreground": 3,
-        "Formatter": 4,
-        "HorizontalAlignment": 5
+        "HorizontalAlignment": 4
       },
       {
         "Background": 0,
-        "FontFamily": 1,
-        "FontSize": 21.333333333333332,
+        "FontFamily": 5,
+        "FontSize": 12.0,
         "FontWeight": 2,
         "Foreground": 3,
-        "HorizontalAlignment": 5
+        "HorizontalAlignment": 4
       },
       {
         "FontFamily": 6
@@ -268,7 +268,7 @@
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
         "Foreground": 7,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 4,
         "BorderTop": 0,
         "BorderLeft": 0
       },
@@ -290,13 +290,13 @@
         "FontSize": 16.0,
         "FontWeight": 2,
         "Foreground": 7,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 4,
         "BorderLeft": 0
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 0
@@ -319,23 +319,23 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 0,
-        "BorderTop": 1
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
-        "BorderBottom": 0,
-        "BorderTop": 1
-      },
-      {
+        "HorizontalAlignment": 4,
         "BorderBottom": 0,
         "BorderTop": 1
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 0,
+        "BorderTop": 1
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 1
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 0,
         "BorderTop": 1
       },
@@ -348,9 +348,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 12,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 13,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 2,
         "BorderLeft": 2
       },
@@ -371,16 +371,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 12,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 13,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 2
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 2
@@ -404,19 +404,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 2,
-        "BorderTop": 3
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 2,
         "BorderTop": 3
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 2,
+        "BorderTop": 3
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 2,
         "BorderTop": 3
       },
@@ -429,8 +429,8 @@
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true
       },
@@ -438,9 +438,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 14,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 15,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 4,
         "BorderLeft": 4
       },
@@ -465,16 +465,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 14,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 15,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 4
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 4
@@ -504,19 +504,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 4,
-        "BorderTop": 5
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 4,
         "BorderTop": 5
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 4,
+        "BorderTop": 5
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 4,
         "BorderTop": 5
       },
@@ -530,9 +530,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 15,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 16,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 6,
         "BorderLeft": 6
       },
@@ -557,16 +557,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 15,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 16,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 6
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 6
@@ -596,19 +596,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 6,
-        "BorderTop": 7
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 6,
         "BorderTop": 7
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 6,
+        "BorderTop": 7
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 6,
         "BorderTop": 7
       },
@@ -622,9 +622,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 16,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 17,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 8,
         "BorderLeft": 8
       },
@@ -649,16 +649,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 16,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 17,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 8
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 8
@@ -688,19 +688,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 8,
-        "BorderTop": 9
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 8,
         "BorderTop": 9
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 8,
+        "BorderTop": 9
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 8,
         "BorderTop": 9
       },
@@ -714,9 +714,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 17,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 18,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 10,
         "BorderLeft": 10
       },
@@ -741,16 +741,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 17,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 18,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 10
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 10
@@ -780,19 +780,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 10,
-        "BorderTop": 11
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 10,
         "BorderTop": 11
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 10,
+        "BorderTop": 11
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 10,
         "BorderTop": 11
       },
@@ -806,9 +806,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 18,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 19,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 12,
         "BorderLeft": 12
       },
@@ -833,16 +833,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 18,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 19,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 12
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 12
@@ -872,19 +872,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 12,
-        "BorderTop": 13
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 12,
         "BorderTop": 13
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 12,
+        "BorderTop": 13
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 12,
         "BorderTop": 13
       },
@@ -898,9 +898,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 19,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 20,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 14,
         "BorderLeft": 14
       },
@@ -925,16 +925,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 19,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 20,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 14
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 14
@@ -964,19 +964,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 14,
-        "BorderTop": 15
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 14,
         "BorderTop": 15
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 14,
+        "BorderTop": 15
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 14,
         "BorderTop": 15
       },
@@ -990,9 +990,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 20,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 21,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 16,
         "BorderLeft": 16
       },
@@ -1017,16 +1017,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 20,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 21,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 16
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 16
@@ -1056,19 +1056,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 16,
-        "BorderTop": 17
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 16,
         "BorderTop": 17
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 16,
+        "BorderTop": 17
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 16,
         "BorderTop": 17
       },
@@ -1082,9 +1082,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 21,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 22,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 18,
         "BorderLeft": 18
       },
@@ -1109,16 +1109,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 21,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 22,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 18
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 18
@@ -1148,19 +1148,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 18,
-        "BorderTop": 19
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 18,
         "BorderTop": 19
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 18,
+        "BorderTop": 19
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 18,
         "BorderTop": 19
       },
@@ -1174,9 +1174,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 22,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 23,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 20,
         "BorderLeft": 20
       },
@@ -1201,16 +1201,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 22,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 23,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 20
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 20
@@ -1240,19 +1240,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 20,
-        "BorderTop": 21
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 20,
         "BorderTop": 21
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 20,
+        "BorderTop": 21
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 20,
         "BorderTop": 21
       },
@@ -1266,9 +1266,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 23,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 24,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 22,
         "BorderLeft": 22
       },
@@ -1293,16 +1293,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 23,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 24,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 22
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 22
@@ -1332,19 +1332,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 22,
-        "BorderTop": 23
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 22,
         "BorderTop": 23
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 22,
+        "BorderTop": 23
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 22,
         "BorderTop": 23
       },
@@ -1358,9 +1358,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 24,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 25,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 24,
         "BorderLeft": 24
       },
@@ -1385,16 +1385,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 24,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 25,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 24
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 24
@@ -1424,19 +1424,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 24,
-        "BorderTop": 25
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 24,
         "BorderTop": 25
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 24,
+        "BorderTop": 25
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 24,
         "BorderTop": 25
       },
@@ -1450,9 +1450,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 25,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 26,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 26,
         "BorderLeft": 26
       },
@@ -1477,16 +1477,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 25,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 26,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 26
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 26
@@ -1516,19 +1516,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 26,
-        "BorderTop": 27
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 26,
         "BorderTop": 27
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 26,
+        "BorderTop": 27
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 26,
         "BorderTop": 27
       },
@@ -1542,9 +1542,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 26,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 27,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 28,
         "BorderLeft": 28
       },
@@ -1569,16 +1569,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 26,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 27,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 28
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 28
@@ -1608,19 +1608,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 28,
-        "BorderTop": 29
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 28,
         "BorderTop": 29
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 28,
+        "BorderTop": 29
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 28,
         "BorderTop": 29
       },
@@ -1634,9 +1634,9 @@
         "FontFamily": 6,
         "FontSize": 18.666666666666664,
         "FontWeight": 2,
-        "Foreground": 27,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 28,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderTop": 30,
         "BorderLeft": 30
       },
@@ -1661,16 +1661,16 @@
         "FontFamily": 6,
         "FontSize": 16.0,
         "FontWeight": 2,
-        "Foreground": 27,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Foreground": 28,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "BorderLeft": 30
       },
       {
         "FontFamily": 6,
         "FontSize": 14.666666666666666,
-        "Formatter": 13,
-        "HorizontalAlignment": 5,
+        "Formatter": 14,
+        "HorizontalAlignment": 4,
         "VerticalAlignment": 9,
         "WordWrap": true,
         "BorderLeft": 30
@@ -1700,19 +1700,19 @@
       },
       {
         "FontFamily": 6,
-        "HorizontalAlignment": 5,
-        "BorderBottom": 30,
-        "BorderTop": 31
-      },
-      {
-        "FontFamily": 6,
-        "Formatter": 4,
+        "HorizontalAlignment": 4,
         "BorderBottom": 30,
         "BorderTop": 31
       },
       {
         "FontFamily": 6,
         "Formatter": 11,
+        "BorderBottom": 30,
+        "BorderTop": 31
+      },
+      {
+        "FontFamily": 6,
+        "Formatter": 12,
         "BorderBottom": 30,
         "BorderTop": 31
       },
@@ -1725,17 +1725,18 @@
     ],
     "Types": {
       "Strs": [
-        "#FF4298B4",
+        "#FF33A474",
         "나눔스퀘어 네오 OTF Heavy",
         "Bold",
         "Background 1 0",
-        "[AUTO]General",
         "Center",
+        "나눔스퀘어 네오 OTF Regular",
         "Body",
         "#FF73804E",
         "#FF77804E",
         "Top",
         "Right",
+        "[AUTO]General",
         "0%",
         "#FF249D89",
         "General",
@@ -1765,19 +1766,11 @@
         },
         {
           "Style": 5,
-          "Color": 12
+          "Color": 13
         },
         {
           "Style": 3,
-          "Color": 12
-        },
-        {
-          "Style": 5,
-          "Color": 14
-        },
-        {
-          "Style": 3,
-          "Color": 14
+          "Color": 13
         },
         {
           "Style": 5,
@@ -1882,118 +1875,126 @@
         {
           "Style": 3,
           "Color": 27
+        },
+        {
+          "Style": 5,
+          "Color": 28
+        },
+        {
+          "Style": 3,
+          "Color": 28
         }
       ]
     },
     "CellStyles": {
       "0,0": 0,
-      "0,1": 1,
-      "0,2": 1,
-      "0,3": 1,
-      "0,4": 1,
-      "0,5": 1,
-      "0,6": 1,
-      "0,7": 1,
-      "0,8": 1,
-      "0,9": 1,
-      "0,10": 1,
-      "0,11": 1,
-      "0,12": 1,
-      "0,13": 1,
-      "0,14": 1,
-      "0,15": 1,
-      "0,16": 1,
-      "0,17": 1,
-      "1,0": 1,
-      "1,1": 1,
-      "1,2": 1,
-      "1,3": 1,
-      "1,4": 1,
-      "1,5": 1,
-      "1,6": 1,
-      "1,7": 1,
-      "1,8": 1,
-      "1,9": 1,
-      "1,10": 1,
-      "1,11": 1,
-      "1,12": 1,
-      "1,13": 1,
-      "1,14": 1,
-      "1,15": 1,
-      "1,16": 1,
-      "1,17": 1,
-      "2,0": 1,
-      "2,1": 1,
-      "2,2": 1,
-      "2,3": 1,
-      "2,4": 1,
-      "2,5": 1,
-      "2,6": 1,
-      "2,7": 1,
-      "2,8": 1,
-      "2,9": 1,
-      "2,10": 1,
-      "2,11": 1,
-      "2,12": 1,
-      "2,13": 1,
-      "2,14": 1,
-      "2,15": 1,
-      "2,16": 1,
-      "2,17": 1,
-      "3,0": 1,
-      "3,1": 1,
-      "3,2": 1,
-      "3,3": 1,
-      "3,4": 1,
-      "3,5": 1,
-      "3,6": 1,
-      "3,7": 1,
-      "3,8": 1,
-      "3,9": 1,
-      "3,10": 1,
-      "3,11": 1,
-      "3,12": 1,
-      "3,13": 1,
-      "3,14": 1,
-      "3,15": 1,
-      "3,16": 1,
-      "3,17": 1,
-      "4,0": 1,
+      "0,1": 0,
+      "0,2": 0,
+      "0,3": 0,
+      "0,4": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,7": 0,
+      "0,8": 0,
+      "0,9": 0,
+      "0,10": 0,
+      "0,11": 0,
+      "0,12": 0,
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "1,0": 0,
+      "1,1": 0,
+      "1,2": 0,
+      "1,3": 0,
+      "1,4": 0,
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,3": 0,
+      "2,4": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,7": 0,
+      "2,8": 0,
+      "2,9": 0,
+      "2,10": 0,
+      "2,11": 0,
+      "2,12": 0,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "3,0": 0,
+      "3,1": 0,
+      "3,2": 0,
+      "3,3": 0,
+      "3,4": 0,
+      "3,5": 0,
+      "3,6": 0,
+      "3,7": 0,
+      "3,8": 0,
+      "3,9": 0,
+      "3,10": 0,
+      "3,11": 0,
+      "3,12": 0,
+      "3,13": 0,
+      "3,14": 0,
+      "3,15": 0,
+      "3,16": 0,
+      "3,17": 0,
+      "4,0": 0,
       "4,1": 1,
-      "4,2": 1,
-      "4,3": 1,
-      "4,4": 1,
-      "4,5": 1,
-      "4,6": 1,
-      "4,7": 1,
-      "4,8": 1,
-      "4,9": 1,
-      "4,10": 1,
-      "4,11": 1,
-      "4,12": 1,
-      "4,13": 1,
-      "4,14": 1,
-      "4,15": 1,
-      "4,16": 1,
-      "4,17": 1,
-      "5,0": 1,
-      "5,1": 1,
-      "5,2": 1,
-      "5,3": 1,
-      "5,4": 1,
-      "5,5": 1,
-      "5,6": 1,
-      "5,7": 1,
-      "5,8": 1,
-      "5,9": 1,
-      "5,10": 1,
-      "5,11": 1,
-      "5,12": 1,
-      "5,13": 1,
-      "5,14": 1,
-      "5,15": 1,
-      "5,16": 1,
-      "5,17": 1,
+      "4,2": 0,
+      "4,3": 0,
+      "4,4": 0,
+      "4,5": 0,
+      "4,6": 0,
+      "4,7": 0,
+      "4,8": 0,
+      "4,9": 0,
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 0,
+      "4,17": 0,
+      "5,0": 0,
+      "5,1": 0,
+      "5,2": 0,
+      "5,3": 0,
+      "5,4": 0,
+      "5,5": 0,
+      "5,6": 0,
+      "5,7": 0,
+      "5,8": 0,
+      "5,9": 0,
+      "5,10": 0,
+      "5,11": 0,
+      "5,12": 0,
+      "5,13": 0,
+      "5,14": 0,
+      "5,15": 0,
+      "5,16": 0,
+      "5,17": 0,
       "7,0": 2,
       "7,1": 2,
       "7,2": 2,
@@ -3485,12 +3486,19 @@
       "149,15": 32,
       "149,16": 32
     },
+    "RowStyles": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
     "SheetStyle": {
       "FontFamily": 6
     }
   },
   "Spans": [
-    "0,0,6,18",
     "8,1,2,16",
     "10,1,1,16",
     "17,1,2,16",
@@ -3586,7 +3594,9 @@
     "145,1,3,16",
     "148,12,1,2",
     "148,5,1,2",
-    "148,2,1,3"
+    "148,2,1,3",
+    "1,0,3,18",
+    "4,1,1,16"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3602,4 +3612,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//dix5f8tFsZE9Pe7s4L+Os3gRKbjbkWFXu6m/HmOYsKn/rJeXuLaUDmUAZ06K6f3VOYPwSH8k1LguqhCON8cFMvOanYIFAzy0scGeHs9zGK+bHHeAwFLgNcm3ij1PdJLaSJa0tlO5j5JmQom7XH6mlgCo6QoEgn0kyJcmpNf+1WQKtaBEarGH8bqEAkDiuynnR/6Xc32KR5S1soBuDXjjdOlQ8JQ2dy2rhHJ4Jrv/YT13k1tjUECljWM/eGINU5VF6CmLz+6yCUPRdCvyN2v+DfuM/ggkZ2htV/3TEBYNtOiUebXvrGx4DZkomQ4qlG6SWUvO8lkvXssgOYwH8bm+NOV0W1I+IgTam3T14dH6sDVPAxwIZBQd+hlv/myik6C6BbXzPxqwJoJfwixJNP4YZhLq5l0NddBb6pOVvKUTjsj90e4blVDjZkbiPer7wqaDtLQx165hBxyYSqpO/QwofyOv7BEx8+JQB1MfNDPylSdDzGMwftBWpB5x7khRMsve9gvjtkJIxXeR9mdscR/aztNTlZf/w42A4uFvX2j3kO7ERws2ZNfuZKU2WxJWnRttuUsGhkJn/lSC8ZA1oWzRD+UpIgGfb7rhvGlECQeb3Np7GhMQKo03IPQQXRLtcD1WDI9ovys0uAeKE8xvgUyFkkTIB4DfLzcyU0+8R1i+vWOggHCIuyyiXcSTsdf6AnWsyJE84R23ETn+qxO/kn1jyoG1a1lQ1MN1qOeDa7l2BYrSNiyDH8obRvzcKNIxwfzc0Dc/bA73wzpGT0n3PqGRSCAcID16MEYdK3w+9rSxGtaxBxjxnhBq80P/Q1ZnQx3o/Mc3UpY0H40EdmY2SeG7QGqFd0nIxOSud0wnWVkkR0QDrwSP2/FqUKejLS/ec5pJUJDcKk4mYOc4SKobq7yNIg==|920
+}//c3Swcl/CmYrWJ8B1fUEHmHpP7h6Vsp76gIH8spiI0xdeUN1ehP3OtjdKWaXuG/w3fI/PpKFMP1YAudp5qyasM+Vkau2aCrMTOb7bo8bFMz7thqALrc6TL2oXkJWG/zmCu4qVtgd4Ds9C2mDWk1w9MnZOf9vGXFCjHsn5npe4sAK+8PBMI3hS71Oq3EEaP2ruKdlJu2i9zqP6DhG9ym54q+s4rbpXImTpQI5SK4Om7ha5J7cXnRGF+7m1753bSDcKpy7KkPIlJiEwVnSuTf73TGqkeJDeNUg/HRmaB8ogpCeR8jTf3YCj11oxm32wdWWNCOHic+bYvBGV5bjHFo4bte7EiFRL6yIgcFm9TLCLvSgye4LKnZYaSwyLxB6k0wEyu7YlAsponHzk2formGW/zwcX57scCNKYyQenvpnHwrbRYhw/9V92uj0y84aotJO48Gf8/pzrSaLEvYoqvpkseHxuxniSvXuqnIMUaJGdQoPUehzCAlyet7OrYFzQn+Tjrs65n8NDGQghXWhahDWPpDrGf+KUruGK4WEbc+MBUL1x465Mo0r7gWs8QwsdqUxwTrfwZ1hCAY3ttqNYF28YmeB+GVJH+qDI9UI+ZgRT1KSlZ9N6sl39Qon3ppX13SypzAS3Ckv3kixCn7K8IJeKLjnA7DAE5UNh1ckrzNIaBGUv2oVZeyR4T1rwrKxUQZj8W58oYf3nMOZ+mIH9Qh5f9VoyOAPvDkmYQgsfxq+5B4WwY/k83hbkh8Hjf7tblohvtqiD4ekHdUhaYTpg6ohkwO0x/SOFhgyth7GEXrC4ZylLvNZfjFZasLmEQnRfRvChNpV33SQ9rBqd8lhD+H2/8PiCq8PhSCYAW5LUYJY0247qfofcLodDF0E5qof0R4S0w5wl49lAR5Hv3lXB+Ye3JQ==|920

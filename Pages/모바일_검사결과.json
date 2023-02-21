@@ -3,45 +3,40 @@
     "RowColumnAttachedInfos": {
       "6": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 3.0
+          "DesignLengthInPixel": 20.0
         }
       },
-      "7": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 1.0
-        }
-      },
-      "12": {
+      "11": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 30.0
         }
       },
-      "13": {
+      "12": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 16.0
         }
       },
-      "14": {
+      "13": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 15.0
         }
       },
-      "17": {
+      "16": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
         }
       },
-      "20": {
+      "19": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
         }
       },
-      "23": {
+      "22": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 10.0
         }
       },
-      "26": {
+      "25": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 15.0
         }
@@ -49,6 +44,11 @@
       "28": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 37.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 15.0
         }
       }
     },
@@ -64,79 +64,79 @@
   },
   "Values": {
     "3,3": "당신의 성격유형은 :",
-    "15,8": "정신",
-    "16,1": "외향형",
-    "16,4": 100,
-    "16,5": 90,
-    "16,6": 80.0,
-    "16,7": 70.0,
-    "16,8": 60.0,
-    "16,9": 50,
-    "16,10": 40,
-    "16,11": 30.0,
-    "16,12": 20.0,
-    "16,13": 10.0,
-    "16,14": "내향형",
-    "18,8": "에너지",
-    "19,1": "직관형",
-    "19,4": 100,
-    "19,5": 90,
-    "19,6": 80.0,
-    "19,7": 70.0,
-    "19,8": 60.0,
-    "19,9": 50,
-    "19,10": 40,
-    "19,11": 30.0,
-    "19,12": 20.0,
-    "19,13": 10.0,
-    "19,14": "현실주의형",
-    "21,8": "본성",
-    "22,1": "사고형",
-    "22,4": 100,
-    "22,5": 90,
-    "22,6": 80.0,
-    "22,7": 70.0,
-    "22,8": 60.0,
-    "22,9": 50,
-    "22,10": 40,
-    "22,11": 30.0,
-    "22,12": 20.0,
-    "22,13": 10.0,
-    "22,14": "감정형",
-    "24,8": "전술",
-    "25,1": "계획형",
-    "25,4": 100,
-    "25,5": 90,
-    "25,6": 80.0,
-    "25,7": 70.0,
-    "25,8": 60.0,
-    "25,9": 50,
-    "25,10": 40,
-    "25,11": 30.0,
-    "25,12": 20.0,
-    "25,13": 10.0,
-    "25,14": "탐색형",
-    "46,2": "생활양식",
-    "46,6": "판단기능",
-    "46,10": "인식기능",
-    "46,14": "에너지방향"
+    "14,8": "정신",
+    "15,1": "외향형",
+    "15,4": 100,
+    "15,5": 90,
+    "15,6": 80.0,
+    "15,7": 70.0,
+    "15,8": 60.0,
+    "15,9": 50,
+    "15,10": 40,
+    "15,11": 30.0,
+    "15,12": 20.0,
+    "15,13": 10.0,
+    "15,14": "내향형",
+    "17,8": "에너지",
+    "18,1": "직관형",
+    "18,4": 100,
+    "18,5": 90,
+    "18,6": 80.0,
+    "18,7": 70.0,
+    "18,8": 60.0,
+    "18,9": 50,
+    "18,10": 40,
+    "18,11": 30.0,
+    "18,12": 20.0,
+    "18,13": 10.0,
+    "18,14": "현실주의형",
+    "20,8": "본성",
+    "21,1": "사고형",
+    "21,4": 100,
+    "21,5": 90,
+    "21,6": 80.0,
+    "21,7": 70.0,
+    "21,8": 60.0,
+    "21,9": 50,
+    "21,10": 40,
+    "21,11": 30.0,
+    "21,12": 20.0,
+    "21,13": 10.0,
+    "21,14": "감정형",
+    "23,8": "전술",
+    "24,1": "계획형",
+    "24,4": 100,
+    "24,5": 90,
+    "24,6": 80.0,
+    "24,7": 70.0,
+    "24,8": 60.0,
+    "24,9": 50,
+    "24,10": 40,
+    "24,11": 30.0,
+    "24,12": 20.0,
+    "24,13": 10.0,
+    "24,14": "탐색형",
+    "46,1": "생활양식",
+    "46,5": "판단기능",
+    "46,9": "인식기능",
+    "46,13": "에너지방향"
   },
   "Formulas": {
-    "47,10": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq 1\")",
-    "47,2": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq 1\")",
-    "47,6": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq 1\")",
-    "48,10": "IF(K48>=50,\"S\",\"N\")",
-    "47,14": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq 1\")",
-    "48,2": "IF(C48>=50,\"J\",\"P\")",
-    "48,14": "IF(O48>=50,\"E\",\"I\")",
-    "48,6": "IF(G48>=50,\"T\",\"F\")",
-    "8,12": "IF(C48>=50,\"J\",\"P\")",
-    "8,9": "IF(G48>=50,\"T\",\"F\")",
-    "8,6": "IF(K48>=50,\"S\",\"N\")",
-    "8,3": "IF(O48>=50,\"E\",\"I\")"
+    "7,3": "IF(N48>=50,\"E\",\"I\")",
+    "7,6": "IF(J48>=50,\"S\",\"N\")",
+    "7,9": "IF(F48>=50,\"T\",\"F\")",
+    "7,12": "IF(B48>=50,\"J\",\"P\")",
+    "47,5": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq 1\")",
+    "47,9": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq 1\")",
+    "48,13": "IF(N48>=50,\"E\",\"I\")",
+    "47,13": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq 1\")",
+    "48,5": "IF(F48>=50,\"T\",\"F\")",
+    "47,1": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq 1\")",
+    "48,9": "IF(J48>=50,\"S\",\"N\")",
+    "48,1": "IF(B48>=50,\"J\",\"P\")"
   },
   "AttachInfos": {
-    "16,4": {
+    "15,4": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -144,7 +144,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -156,7 +156,7 @@
         ]
       }
     },
-    "16,5": {
+    "15,5": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -164,7 +164,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -176,7 +176,7 @@
         ]
       }
     },
-    "16,6": {
+    "15,6": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -184,7 +184,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -196,7 +196,7 @@
         ]
       }
     },
-    "16,7": {
+    "15,7": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -204,7 +204,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -216,7 +216,7 @@
         ]
       }
     },
-    "16,8": {
+    "15,8": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -224,7 +224,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -236,7 +236,7 @@
         ]
       }
     },
-    "16,9": {
+    "15,9": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -244,7 +244,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -256,7 +256,7 @@
         ]
       }
     },
-    "16,10": {
+    "15,10": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -264,7 +264,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -276,7 +276,7 @@
         ]
       }
     },
-    "16,11": {
+    "15,11": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -284,7 +284,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -296,7 +296,7 @@
         ]
       }
     },
-    "16,12": {
+    "15,12": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -304,7 +304,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -316,7 +316,7 @@
         ]
       }
     },
-    "16,13": {
+    "15,13": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -324,7 +324,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$O$48"
+              "SerializeProperty": "=모바일_검사결과!$N$48"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -336,7 +336,7 @@
         ]
       }
     },
-    "19,4": {
+    "18,4": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -344,7 +344,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -356,7 +356,7 @@
         ]
       }
     },
-    "19,5": {
+    "18,5": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -364,7 +364,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -376,7 +376,7 @@
         ]
       }
     },
-    "19,6": {
+    "18,6": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -384,7 +384,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -396,7 +396,7 @@
         ]
       }
     },
-    "19,7": {
+    "18,7": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -404,7 +404,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -416,7 +416,7 @@
         ]
       }
     },
-    "19,8": {
+    "18,8": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -424,7 +424,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -436,7 +436,7 @@
         ]
       }
     },
-    "19,9": {
+    "18,9": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -444,7 +444,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FF005BC1",
@@ -456,7 +456,7 @@
         ]
       }
     },
-    "19,10": {
+    "18,10": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -464,7 +464,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FF005BC1",
@@ -476,7 +476,7 @@
         ]
       }
     },
-    "19,11": {
+    "18,11": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -484,7 +484,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FF005BC1",
@@ -496,7 +496,7 @@
         ]
       }
     },
-    "19,12": {
+    "18,12": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -504,7 +504,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FF005BC1",
@@ -516,7 +516,7 @@
         ]
       }
     },
-    "19,13": {
+    "18,13": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -524,7 +524,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$K$48"
+              "SerializeProperty": "=모바일_검사결과!$J$48"
             },
             "StyleInfo": {
               "Background": "#FF005BC1",
@@ -536,7 +536,7 @@
         ]
       }
     },
-    "22,4": {
+    "21,4": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -544,7 +544,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -556,7 +556,7 @@
         ]
       }
     },
-    "22,5": {
+    "21,5": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -564,7 +564,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -576,7 +576,7 @@
         ]
       }
     },
-    "22,6": {
+    "21,6": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -584,7 +584,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -596,7 +596,7 @@
         ]
       }
     },
-    "22,7": {
+    "21,7": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -604,7 +604,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -616,7 +616,7 @@
         ]
       }
     },
-    "22,8": {
+    "21,8": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -624,7 +624,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -636,7 +636,7 @@
         ]
       }
     },
-    "22,9": {
+    "21,9": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -644,7 +644,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FF19B000",
@@ -656,7 +656,7 @@
         ]
       }
     },
-    "22,10": {
+    "21,10": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -664,7 +664,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FF19B000",
@@ -676,7 +676,7 @@
         ]
       }
     },
-    "22,11": {
+    "21,11": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -684,7 +684,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FF19B000",
@@ -696,7 +696,7 @@
         ]
       }
     },
-    "22,12": {
+    "21,12": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -704,7 +704,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FF19B000",
@@ -716,7 +716,7 @@
         ]
       }
     },
-    "22,13": {
+    "21,13": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -724,7 +724,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$G$48"
+              "SerializeProperty": "=모바일_검사결과!$F$48"
             },
             "StyleInfo": {
               "Background": "#FF19B000",
@@ -736,7 +736,7 @@
         ]
       }
     },
-    "25,4": {
+    "24,4": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -744,7 +744,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FFD800DA",
@@ -756,7 +756,7 @@
         ]
       }
     },
-    "25,5": {
+    "24,5": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -764,7 +764,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FFD800DA",
@@ -776,7 +776,7 @@
         ]
       }
     },
-    "25,6": {
+    "24,6": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -784,7 +784,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FFD800DA",
@@ -796,7 +796,7 @@
         ]
       }
     },
-    "25,7": {
+    "24,7": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -804,7 +804,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FFD800DA",
@@ -816,7 +816,7 @@
         ]
       }
     },
-    "25,8": {
+    "24,8": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -824,7 +824,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FFD800DA",
@@ -836,7 +836,7 @@
         ]
       }
     },
-    "25,9": {
+    "24,9": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -844,7 +844,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -856,7 +856,7 @@
         ]
       }
     },
-    "25,10": {
+    "24,10": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -864,7 +864,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -876,7 +876,7 @@
         ]
       }
     },
-    "25,11": {
+    "24,11": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -884,7 +884,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -896,7 +896,7 @@
         ]
       }
     },
-    "25,12": {
+    "24,12": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -904,7 +904,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -916,7 +916,7 @@
         ]
       }
     },
-    "25,13": {
+    "24,13": {
       "ConditionFormatRulesCollection": {
         "Rules": [
           {
@@ -924,7 +924,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=모바일_검사결과!$C$48"
+              "SerializeProperty": "=모바일_검사결과!$B$48"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -936,25 +936,25 @@
         ]
       }
     },
-    "47,2": {
+    "47,1": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
       }
     },
-    "47,6": {
+    "47,5": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
       }
     },
-    "47,10": {
+    "47,9": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
       }
     },
-    "47,14": {
+    "47,13": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
@@ -1014,40 +1014,38 @@
         "BorderLeft": 0
       },
       {
-        "FontSize": 10.666666666666666,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
         "HorizontalAlignment": 3
       },
       {
         "BorderRight": 0
       },
       {
-        "FontFamily": 0,
-        "FontSize": 12.0,
+        "FontFamily": 7,
+        "FontSize": 13.333333333333332,
         "Formatter": 2,
         "HorizontalAlignment": 3
       },
       {
-        "Background": 6,
+        "Background": 8,
         "FontFamily": 0,
-        "Foreground": 6
+        "Foreground": 8
       },
       {
-        "Background": 6,
+        "Background": 8,
         "FontFamily": 0,
-        "Foreground": 6,
+        "Foreground": 8,
         "Formatter": 2
       },
       {
-        "Background": 6,
-        "Foreground": 6
+        "Background": 8,
+        "Foreground": 8
       },
       {
-        "FontFamily": 0,
-        "FontSize": 12.0,
+        "FontFamily": 7,
+        "FontSize": 13.333333333333332,
         "HorizontalAlignment": 3
-      },
-      {
-        "FontSize": 10.666666666666666
       },
       {
         "BorderBottom": 0,
@@ -1061,13 +1059,18 @@
         "BorderRight": 0
       },
       {
-        "FontSize": 13.333333333333332,
+        "FontFamily": 7,
+        "FontSize": 16.0,
+        "HorizontalAlignment": 9,
         "WordWrap": true
       },
       {
-        "FontSize": 13.333333333333332,
-        "HorizontalAlignment": 7,
-        "VerticalAlignment": 8,
+        "HorizontalAlignment": 9
+      },
+      {
+        "FontSize": 16.0,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
         "WordWrap": true
       },
       {
@@ -1083,6 +1086,8 @@
         "Center",
         "Text 1 25",
         "Background 1 -25",
+        "#FF576071",
+        "나눔스퀘어 네오 OTF Bold",
         "Background 1 -15",
         "Left",
         "Top"
@@ -1101,95 +1106,89 @@
       "4,15": 2,
       "5,2": 2,
       "5,15": 2,
-      "6,2": 2,
-      "6,3": 2,
-      "6,4": 2,
-      "6,5": 2,
-      "6,6": 2,
-      "6,7": 2,
-      "6,8": 2,
-      "6,9": 2,
-      "6,10": 2,
-      "6,11": 2,
-      "6,12": 2,
-      "6,13": 2,
-      "6,14": 2,
-      "6,15": 2,
-      "8,3": 3,
-      "8,6": 3,
-      "8,9": 3,
-      "8,12": 3,
-      "12,3": 4,
-      "12,4": 2,
-      "12,5": 2,
-      "12,6": 2,
-      "12,7": 2,
-      "12,8": 2,
-      "12,9": 2,
-      "12,10": 2,
-      "12,11": 2,
-      "12,12": 2,
-      "12,13": 2,
-      "12,14": 2,
-      "14,0": 5,
-      "14,1": 6,
-      "14,2": 6,
-      "14,3": 7,
-      "14,4": 7,
-      "14,5": 7,
-      "14,6": 7,
-      "14,7": 7,
-      "14,8": 7,
-      "14,9": 7,
-      "14,10": 7,
-      "14,11": 7,
-      "14,12": 7,
-      "14,13": 7,
-      "14,14": 7,
-      "14,15": 6,
-      "14,16": 6,
-      "14,17": 8,
+      "7,3": 3,
+      "7,6": 3,
+      "7,9": 3,
+      "7,12": 3,
+      "11,3": 4,
+      "11,4": 2,
+      "11,5": 2,
+      "11,6": 2,
+      "11,7": 2,
+      "11,8": 2,
+      "11,9": 2,
+      "11,10": 2,
+      "11,11": 2,
+      "11,12": 2,
+      "11,13": 2,
+      "11,14": 2,
+      "13,0": 5,
+      "13,1": 6,
+      "13,2": 6,
+      "13,3": 7,
+      "13,4": 7,
+      "13,5": 7,
+      "13,6": 7,
+      "13,7": 7,
+      "13,8": 7,
+      "13,9": 7,
+      "13,10": 7,
+      "13,11": 7,
+      "13,12": 7,
+      "13,13": 7,
+      "13,14": 7,
+      "13,15": 6,
+      "13,16": 6,
+      "13,17": 8,
+      "14,0": 9,
+      "14,8": 10,
+      "14,17": 11,
       "15,0": 9,
-      "15,8": 10,
+      "15,1": 12,
+      "15,2": 2,
+      "15,3": 2,
+      "15,4": 13,
+      "15,5": 14,
+      "15,6": 14,
+      "15,7": 14,
+      "15,8": 14,
+      "15,9": 15,
+      "15,10": 14,
+      "15,11": 14,
+      "15,12": 14,
+      "15,13": 14,
+      "15,14": 16,
+      "15,15": 2,
+      "15,16": 2,
       "15,17": 11,
       "16,0": 9,
-      "16,1": 12,
-      "16,2": 2,
-      "16,3": 2,
-      "16,4": 13,
-      "16,5": 14,
-      "16,6": 14,
-      "16,7": 14,
-      "16,8": 14,
-      "16,9": 15,
-      "16,10": 14,
-      "16,11": 14,
-      "16,12": 14,
-      "16,13": 14,
-      "16,14": 16,
-      "16,15": 2,
-      "16,16": 2,
       "16,17": 11,
       "17,0": 9,
+      "17,8": 10,
       "17,17": 11,
       "18,0": 9,
-      "18,8": 17,
+      "18,1": 16,
+      "18,2": 2,
+      "18,3": 2,
+      "18,4": 15,
+      "18,5": 13,
+      "18,6": 14,
+      "18,7": 14,
+      "18,8": 14,
+      "18,9": 15,
+      "18,10": 13,
+      "18,11": 13,
+      "18,12": 14,
+      "18,13": 13,
+      "18,14": 16,
+      "18,15": 2,
+      "18,16": 2,
       "18,17": 11,
       "19,0": 9,
-      "19,1": 16,
+      "19,1": 2,
       "19,2": 2,
       "19,3": 2,
-      "19,4": 15,
-      "19,5": 13,
-      "19,6": 14,
-      "19,7": 14,
-      "19,8": 14,
-      "19,9": 15,
-      "19,10": 13,
-      "19,11": 13,
-      "19,12": 14,
-      "19,13": 13,
-      "19,14": 16,
+      "19,14": 2,
       "19,15": 2,
       "19,16": 2,
       "19,17": 11,
@@ -1197,34 +1196,34 @@
       "20,1": 2,
       "20,2": 2,
       "20,3": 2,
+      "20,8": 10,
       "20,14": 2,
       "20,15": 2,
       "20,16": 2,
       "20,17": 11,
       "21,0": 9,
-      "21,1": 2,
+      "21,1": 16,
       "21,2": 2,
       "21,3": 2,
-      "21,8": 10,
-      "21,14": 2,
+      "21,4": 14,
+      "21,5": 14,
+      "21,6": 14,
+      "21,7": 14,
+      "21,8": 14,
+      "21,9": 13,
+      "21,10": 13,
+      "21,11": 13,
+      "21,12": 14,
+      "21,13": 13,
+      "21,14": 16,
       "21,15": 2,
       "21,16": 2,
       "21,17": 11,
       "22,0": 9,
-      "22,1": 16,
+      "22,1": 2,
       "22,2": 2,
       "22,3": 2,
-      "22,4": 14,
-      "22,5": 14,
-      "22,6": 14,
-      "22,7": 14,
-      "22,8": 14,
-      "22,9": 13,
-      "22,10": 13,
-      "22,11": 13,
-      "22,12": 14,
-      "22,13": 13,
-      "22,14": 16,
+      "22,14": 2,
       "22,15": 2,
       "22,16": 2,
       "22,17": 11,
@@ -1232,73 +1231,82 @@
       "23,1": 2,
       "23,2": 2,
       "23,3": 2,
+      "23,8": 10,
       "23,14": 2,
       "23,15": 2,
       "23,16": 2,
       "23,17": 11,
       "24,0": 9,
-      "24,1": 2,
+      "24,1": 16,
       "24,2": 2,
       "24,3": 2,
-      "24,8": 10,
-      "24,14": 2,
+      "24,4": 15,
+      "24,5": 13,
+      "24,6": 13,
+      "24,7": 14,
+      "24,8": 13,
+      "24,9": 13,
+      "24,10": 14,
+      "24,11": 14,
+      "24,12": 14,
+      "24,13": 14,
+      "24,14": 16,
       "24,15": 2,
       "24,16": 2,
       "24,17": 11,
-      "25,0": 9,
-      "25,1": 16,
-      "25,2": 2,
-      "25,3": 2,
-      "25,4": 15,
-      "25,5": 13,
-      "25,6": 13,
-      "25,7": 14,
-      "25,8": 13,
-      "25,9": 13,
-      "25,10": 14,
-      "25,11": 14,
-      "25,12": 14,
-      "25,13": 14,
-      "25,14": 16,
-      "25,15": 2,
-      "25,16": 2,
-      "25,17": 11,
-      "26,0": 18,
-      "26,1": 19,
-      "26,2": 19,
-      "26,3": 19,
-      "26,4": 19,
-      "26,5": 19,
-      "26,6": 19,
-      "26,7": 19,
-      "26,8": 19,
-      "26,9": 19,
-      "26,10": 19,
-      "26,11": 19,
-      "26,12": 19,
-      "26,13": 19,
-      "26,14": 19,
-      "26,15": 19,
-      "26,16": 19,
-      "26,17": 20,
-      "28,1": 21,
+      "25,0": 17,
+      "25,1": 18,
+      "25,2": 18,
+      "25,3": 18,
+      "25,4": 18,
+      "25,5": 18,
+      "25,6": 18,
+      "25,7": 18,
+      "25,8": 18,
+      "25,9": 18,
+      "25,10": 18,
+      "25,11": 18,
+      "25,12": 18,
+      "25,13": 18,
+      "25,14": 18,
+      "25,15": 18,
+      "25,16": 18,
+      "25,17": 19,
+      "28,1": 20,
+      "29,1": 21,
+      "29,2": 21,
+      "29,3": 21,
+      "29,4": 21,
+      "29,5": 21,
+      "29,6": 21,
+      "29,7": 21,
+      "29,8": 21,
+      "29,9": 21,
+      "29,10": 21,
+      "29,11": 21,
+      "29,12": 21,
+      "29,13": 21,
+      "29,14": 21,
+      "29,15": 21,
+      "29,16": 21,
       "30,1": 22,
-      "46,2": 23,
+      "46,1": 23,
+      "46,2": 2,
       "46,3": 2,
       "46,4": 2,
-      "46,5": 2,
-      "46,6": 23,
+      "46,5": 23,
+      "46,6": 2,
       "46,7": 2,
       "46,8": 2,
-      "46,9": 2,
-      "46,10": 23,
+      "46,9": 23,
+      "46,10": 2,
       "46,11": 2,
       "46,12": 2,
-      "46,13": 2,
-      "46,14": 23,
+      "46,13": 23,
+      "46,14": 2,
       "46,15": 2,
       "46,16": 2,
-      "46,17": 2,
+      "47,1": 2,
       "47,2": 2,
       "47,3": 2,
       "47,4": 2,
@@ -1314,7 +1322,7 @@
       "47,14": 2,
       "47,15": 2,
       "47,16": 2,
-      "47,17": 2,
+      "48,1": 2,
       "48,2": 2,
       "48,3": 2,
       "48,4": 2,
@@ -1329,46 +1337,45 @@
       "48,13": 2,
       "48,14": 2,
       "48,15": 2,
-      "48,16": 2,
-      "48,17": 2
+      "48,16": 2
     },
     "SheetStyle": {
       "FontFamily": 0
     }
   },
   "Spans": [
-    "47,14,1,4",
-    "46,14,1,4",
-    "47,10,1,4",
-    "46,10,1,4",
-    "47,6,1,4",
-    "46,6,1,4",
-    "47,2,1,4",
-    "46,2,1,4",
-    "48,2,1,4",
-    "48,6,1,4",
-    "48,10,1,4",
-    "48,14,1,4",
     "3,3,3,12",
-    "15,8,1,2",
-    "18,8,1,2",
-    "21,8,1,2",
-    "24,8,1,2",
+    "14,8,1,2",
+    "17,8,1,2",
+    "20,8,1,2",
+    "23,8,1,2",
     "28,1,1,16",
-    "8,3,4,3",
-    "8,6,4,3",
-    "8,9,4,3",
-    "8,12,4,3",
+    "7,3,4,3",
+    "7,6,4,3",
+    "7,9,4,3",
+    "7,12,4,3",
     "30,1,15,16",
-    "12,3,1,12",
-    "16,1,1,3",
-    "16,14,1,3",
-    "19,1,1,3",
-    "22,1,1,3",
-    "25,1,1,3",
-    "19,14,1,3",
-    "22,14,1,3",
-    "25,14,1,3"
+    "11,3,1,12",
+    "15,1,1,3",
+    "15,14,1,3",
+    "18,1,1,3",
+    "21,1,1,3",
+    "24,1,1,3",
+    "18,14,1,3",
+    "21,14,1,3",
+    "24,14,1,3",
+    "47,13,1,4",
+    "46,13,1,4",
+    "47,9,1,4",
+    "46,9,1,4",
+    "47,5,1,4",
+    "46,5,1,4",
+    "47,1,1,4",
+    "46,1,1,4",
+    "48,1,1,4",
+    "48,5,1,4",
+    "48,9,1,4",
+    "48,13,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1384,12 +1391,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!D9"
+                    "SerializeProperty": "=모바일_검사결과!D8"
                   }
                 ]
               },
               "value": "E",
-              "Id": "10ca601e-ed45-4e9a-8dee-1ba0d74f8a5b"
+              "Id": "c8cf6012-dab8-48f9-86ac-77dde167c881"
             },
             "CommandList": [
               {
@@ -1398,7 +1405,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!B17"
+                      "SerializeProperty": "=모바일_검사결과!B16"
                     },
                     "PropertyType": 3,
                     "Value": "#E13958"
@@ -1406,7 +1413,7 @@
                 ]
               }
             ],
-            "ID": "71a60858-64e1-467b-bb48-da3beb73270e"
+            "ID": "2de4f213-f2f7-418c-a7af-ff9eadb6b524"
           },
           {
             "Condition": {
@@ -1415,12 +1422,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!D9"
+                    "SerializeProperty": "=모바일_검사결과!D8"
                   }
                 ]
               },
               "value": "I",
-              "Id": "9802ae1a-419c-4b1f-924b-10db1c3a207f"
+              "Id": "f787ba22-85e2-4089-94f7-e4dea00678b1"
             },
             "CommandList": [
               {
@@ -1429,7 +1436,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!O17"
+                      "SerializeProperty": "=모바일_검사결과!O16"
                     },
                     "PropertyType": 3,
                     "Value": "#009CFF"
@@ -1437,7 +1444,7 @@
                 ]
               }
             ],
-            "ID": "b9a1d4df-12a5-44e0-b073-4e1fb4bd02e6"
+            "ID": "8ccf835b-bf4e-4232-a1fc-3d2655a48848"
           }
         ]
       },
@@ -1451,12 +1458,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!G9"
+                    "SerializeProperty": "=모바일_검사결과!G8"
                   }
                 ]
               },
               "value": "S",
-              "Id": "b98abbeb-b8cd-42fe-9217-1c987e0de639"
+              "Id": "9b1c2579-ee41-421d-b7da-f5a4ea4a0826"
             },
             "CommandList": [
               {
@@ -1465,7 +1472,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!B20"
+                      "SerializeProperty": "=모바일_검사결과!B19"
                     },
                     "PropertyType": 3,
                     "Value": "#BAC100"
@@ -1473,7 +1480,7 @@
                 ]
               }
             ],
-            "ID": "321566cb-7349-4bf4-ae42-d907ef20e766"
+            "ID": "21eb1ba2-929b-4a5d-b214-e39dad8ab40b"
           },
           {
             "Condition": {
@@ -1482,12 +1489,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!G9"
+                    "SerializeProperty": "=모바일_검사결과!G8"
                   }
                 ]
               },
               "value": "N",
-              "Id": "af3c7991-b2be-48c6-a7f5-f44276194f72"
+              "Id": "e2986415-fe97-4fe8-9089-32cc7a077bdc"
             },
             "CommandList": [
               {
@@ -1496,7 +1503,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!O20"
+                      "SerializeProperty": "=모바일_검사결과!O19"
                     },
                     "PropertyType": 3,
                     "Value": "#005BC1"
@@ -1504,7 +1511,7 @@
                 ]
               }
             ],
-            "ID": "90cb157c-b786-4b17-a800-6df25618af14"
+            "ID": "f12a0857-8d0e-4426-99bc-d6bc6923a475"
           }
         ]
       },
@@ -1518,12 +1525,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!J9"
+                    "SerializeProperty": "=모바일_검사결과!J8"
                   }
                 ]
               },
               "value": "T",
-              "Id": "f8849287-12a8-4b1a-ab37-238aabe1831d"
+              "Id": "fb6018b4-264d-41e9-901b-1cb18931dcab"
             },
             "CommandList": [
               {
@@ -1532,7 +1539,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!B23"
+                      "SerializeProperty": "=모바일_검사결과!B22"
                     },
                     "PropertyType": 3,
                     "Value": "#FF7300"
@@ -1540,7 +1547,7 @@
                 ]
               }
             ],
-            "ID": "aabbe101-d088-4bd1-b2b3-aac6dbdc78a7"
+            "ID": "da60745e-92e7-48c1-952a-f7fca542e6c9"
           },
           {
             "Condition": {
@@ -1549,12 +1556,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!J9"
+                    "SerializeProperty": "=모바일_검사결과!J8"
                   }
                 ]
               },
               "value": "F",
-              "Id": "d0e6e635-bf94-4579-ac1e-24f4e5461e34"
+              "Id": "50124941-61df-44c6-b73a-cc1ec6f40590"
             },
             "CommandList": [
               {
@@ -1563,7 +1570,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!O23"
+                      "SerializeProperty": "=모바일_검사결과!O22"
                     },
                     "PropertyType": 3,
                     "Value": "#19B000"
@@ -1571,7 +1578,7 @@
                 ]
               }
             ],
-            "ID": "7de93dc5-5b1f-407d-8dd3-10104e156519"
+            "ID": "309b1335-849b-41fb-8522-75f71909a765"
           }
         ]
       },
@@ -1585,12 +1592,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!M9"
+                    "SerializeProperty": "=모바일_검사결과!M8"
                   }
                 ]
               },
               "value": "J",
-              "Id": "3f72083d-a841-48e3-8a2b-1967f9dfc8cb"
+              "Id": "198396e2-a1b2-4ccd-b644-d4b8f9c513da"
             },
             "CommandList": [
               {
@@ -1599,7 +1606,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!B26"
+                      "SerializeProperty": "=모바일_검사결과!B25"
                     },
                     "PropertyType": 3,
                     "Value": "#D800DA"
@@ -1607,7 +1614,7 @@
                 ]
               }
             ],
-            "ID": "e9508877-ae52-4c12-9649-ee7e68f15aaf"
+            "ID": "f716271e-6873-432c-8e60-fa7a5925a5e7"
           },
           {
             "Condition": {
@@ -1616,12 +1623,12 @@
                 "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                 "cellLocations": [
                   {
-                    "SerializeProperty": "=모바일_검사결과!M9"
+                    "SerializeProperty": "=모바일_검사결과!M8"
                   }
                 ]
               },
               "value": "P",
-              "Id": "08861f4b-b89f-4d15-8f49-5f79c431f515"
+              "Id": "d9c671d9-630d-42a6-8958-8002163f0259"
             },
             "CommandList": [
               {
@@ -1630,7 +1637,7 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=모바일_검사결과!O26"
+                      "SerializeProperty": "=모바일_검사결과!O25"
                     },
                     "PropertyType": 3,
                     "Value": "#9C00FF"
@@ -1638,7 +1645,7 @@
                 ]
               }
             ],
-            "ID": "88415391-9498-4e65-b202-677f64fd4cdb"
+            "ID": "9b7970c8-cfa2-451e-b883-1d168308bf81"
           }
         ]
       },
@@ -1658,12 +1665,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "dbc8ef63-e47e-411e-a7f2-ad90234c1e4c"
+                    "Id": "caba736e-563a-4bd9-b22c-92a9d9cb9cc2"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1671,14 +1678,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "4e23457a-95a6-43b7-af35-f51df95204fa"
+                    "Id": "ff6d22ea-52bd-466d-aedc-35b8277e0e28"
                   },
-                  "Id": "00ac58b6-4609-4859-83f5-f762250e8b70"
+                  "Id": "30919f82-4aaa-49bb-9b77-bbb29e6d5b16"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1686,14 +1693,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "65de62d1-4227-46dc-a7d9-b557a11963bb"
+                  "Id": "e898e919-92b5-4e74-b4d1-5716d3828a44"
                 },
-                "Id": "5db34c5e-dc99-4de9-a76f-5107d9ec9183"
+                "Id": "cf8ca5a5-6607-4f9f-bc20-2058e5ce6451"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1701,14 +1708,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "d6f57cf1-c17d-4b62-9ac2-b9de23dd25b5"
+                "Id": "e9188be6-16a5-48b1-8f6f-10624a965c56"
               },
-              "Id": "3d0d5590-650e-4f0f-9be4-c35ee4f52b08"
+              "Id": "f214ae97-7616-4df1-8f5f-f98d831f8228"
             },
             "CommandList": [
               {
@@ -1746,7 +1753,7 @@
                 ]
               }
             ],
-            "ID": "7a5abb75-27ba-4110-bd7c-959e023a368d"
+            "ID": "882ba29c-bb61-4e28-ac96-adf41a730548"
           },
           {
             "Condition": {
@@ -1761,12 +1768,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "92eeadc7-97a0-4d31-8553-23beef8d8559"
+                    "Id": "1cc874d5-6c83-495b-b27b-680a48d2d7ad"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1774,14 +1781,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "fe62fd18-8e21-41bf-be49-358205c14492"
+                    "Id": "82591d75-b928-431a-bbaf-99f365dc134e"
                   },
-                  "Id": "f985def3-ef06-4d24-8eeb-92f2fe028057"
+                  "Id": "7f77e583-a98f-4a44-ad26-9a656d19c0e9"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1789,14 +1796,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "1d2382b2-77d8-4d7a-b3f5-fe48cf2a0dc7"
+                  "Id": "2db8405d-81f7-490e-afd9-e1693f7c6fcd"
                 },
-                "Id": "a2e06243-636b-481b-8ab2-2941d5e1d35d"
+                "Id": "af479c85-75bb-465c-b363-5fddb8f17627"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1804,14 +1811,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "3258e68c-9c9e-44f5-ae02-3ada206957e5"
+                "Id": "41174264-e1e4-495f-861e-6654b6b358d8"
               },
-              "Id": "da786f29-52b5-4289-884e-10a456273fd3"
+              "Id": "82419ed3-b552-4c96-8907-feb6baea9233"
             },
             "CommandList": [
               {
@@ -1849,7 +1856,7 @@
                 ]
               }
             ],
-            "ID": "a79a3c20-4432-4a2d-9c4f-224ed0677533"
+            "ID": "1cca930e-dda9-495c-b820-8079e51f7604"
           },
           {
             "Condition": {
@@ -1864,12 +1871,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "b0686ff3-a47a-4e82-b35d-1da5f29b1336"
+                    "Id": "457d6889-25a0-45dc-8ebb-8ec6775aad91"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1877,14 +1884,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "61fa5cc6-4fb3-46cd-8a96-69621255bec2"
+                    "Id": "493347eb-4d44-4180-9b50-d9ffd72f2d23"
                   },
-                  "Id": "af7d38af-2b0a-477c-994f-c6b479218856"
+                  "Id": "5d6392e9-9f29-42b1-9907-381acad02cf1"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1892,14 +1899,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "4afe23e8-83c7-4406-a8a8-4dd6c27a8c56"
+                  "Id": "e62d31f3-ba6f-4b8d-8512-30b8b7d3bd2e"
                 },
-                "Id": "9797abcd-6dca-4b6b-8774-f71b4494d4ca"
+                "Id": "3cf73820-de1f-4520-9fdc-7061c2316710"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1907,14 +1914,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "bc55be82-50d6-4caf-84e6-bc0be68a9a02"
+                "Id": "74389968-95af-4b74-9b4b-6217a9675c67"
               },
-              "Id": "46c9e650-606f-4d6e-bd54-0b4fd2815567"
+              "Id": "c60c1fcd-8a20-4b79-b2fd-80a94a929b4c"
             },
             "CommandList": [
               {
@@ -1952,7 +1959,7 @@
                 ]
               }
             ],
-            "ID": "b48dc08e-d62a-4355-b4cc-7c16a2ef2ad2"
+            "ID": "8ff6b86e-ca10-4b4f-bae6-5c710016a02b"
           },
           {
             "Condition": {
@@ -1967,12 +1974,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "7d27a270-cebb-45ea-b79d-fe92da3af41f"
+                    "Id": "0d295392-4f89-4fbd-97fc-59d094561047"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1980,14 +1987,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "0ee095cc-8fd6-4f03-a205-7920ae277c46"
+                    "Id": "e010d8f1-d817-4443-bdf4-d822f5e18267"
                   },
-                  "Id": "7555e1ec-c77b-4434-b14a-c7f8d16d3d65"
+                  "Id": "eab04506-d439-41b5-bdd1-d3a684793da3"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -1995,14 +2002,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "868f16f4-8aec-444d-8483-d43cbda47bef"
+                  "Id": "0f85897f-db60-4fc9-bf64-d81f39f6ea9f"
                 },
-                "Id": "2a819014-c69c-4987-891e-6e579a9d47cb"
+                "Id": "9c1da7df-7cb7-4cd9-ac37-a1eb37665be6"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2010,14 +2017,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "dfb18fc1-f1a5-4632-8050-20386b5ab96e"
+                "Id": "b0fcb6bd-8cf8-4fa6-b88e-5b0643b61cdf"
               },
-              "Id": "96cc7494-b6c2-4644-8c0e-3535821a527c"
+              "Id": "fd051c89-ab18-47b5-9339-29906745955a"
             },
             "CommandList": [
               {
@@ -2055,7 +2062,7 @@
                 ]
               }
             ],
-            "ID": "c97fd606-b63f-43f7-9fa0-cdb4ff84acd9"
+            "ID": "b1e278a6-8c10-4112-b08f-9843f2c6ce75"
           },
           {
             "Condition": {
@@ -2070,12 +2077,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "630ed37e-a406-49e6-b8ac-a2d89a080090"
+                    "Id": "efa2afe4-00e8-4066-90b0-5de011e4acdb"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2083,14 +2090,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "e9f2798f-dd95-4897-87f8-fddb4b3737db"
+                    "Id": "b9d746fe-4039-4de6-b9ab-3f1258abaea8"
                   },
-                  "Id": "24b9e85e-47c1-45cd-8193-67f4e95be9ae"
+                  "Id": "5498426e-7586-4118-9f52-08dfa3368e7a"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2098,14 +2105,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "3a3c55df-e41d-45ee-ae7d-417a31edaba0"
+                  "Id": "7443adc1-01e3-426f-a43f-c40f9f5c9678"
                 },
-                "Id": "35f33a74-ffea-4668-8d8e-bab233baaeb8"
+                "Id": "83c48f8a-f938-44b0-9611-4263e02a0d55"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2113,14 +2120,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "701f3447-4844-4907-977a-8a1e45f8084a"
+                "Id": "d312a756-6c5f-45dd-9e4d-b732e4dbe798"
               },
-              "Id": "73773214-9904-407c-a6c7-26717f221458"
+              "Id": "4f05bcd4-527c-46d0-9847-818968ffc67a"
             },
             "CommandList": [
               {
@@ -2158,7 +2165,7 @@
                 ]
               }
             ],
-            "ID": "d7013ce0-c82d-4cc1-9b92-0d1cae73fb48"
+            "ID": "e604a2b4-43ec-48a5-acb7-637a4f2f54cc"
           },
           {
             "Condition": {
@@ -2173,12 +2180,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "bccd5be5-37dd-431b-960b-c5bf17a715c1"
+                    "Id": "bd765ee2-60d9-49b8-9957-4296b0abe5a5"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2186,14 +2193,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "934983fb-c9ef-4331-b40a-b3fbcb02585e"
+                    "Id": "e6771f9b-5f6f-40a0-974d-2f73f82d7afb"
                   },
-                  "Id": "30941302-afc1-4762-9397-97043a6eccb8"
+                  "Id": "53524691-1c49-4533-95fb-8b1af5b42f85"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2201,14 +2208,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "5c7b8262-975f-4ffa-9674-8f411d7b5ea2"
+                  "Id": "d9aadf04-7cee-42a1-be2a-3fb7eba4af78"
                 },
-                "Id": "0da0145b-d8f3-4974-946e-0b69c3fdaeaf"
+                "Id": "221400bc-e4d2-41e4-ab73-ff9b14750600"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2216,14 +2223,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "2a825509-9e79-42d4-b805-52a05936b003"
+                "Id": "890553fc-decd-4cdb-844a-7707430b4adb"
               },
-              "Id": "4a57397f-b90f-46dd-963e-73dec1479901"
+              "Id": "3996557d-98d4-489c-b04f-3078f6d5829b"
             },
             "CommandList": [
               {
@@ -2261,7 +2268,7 @@
                 ]
               }
             ],
-            "ID": "82b673f6-3188-4fac-a43a-6d00d0bc5093"
+            "ID": "d8645b85-3abd-4272-b835-9eb5972f08a0"
           },
           {
             "Condition": {
@@ -2276,12 +2283,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "f1ce0959-3680-414b-8775-933115337ff2"
+                    "Id": "2e0f79b9-fa6b-4eaa-8651-a29b1807f048"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2289,14 +2296,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "0339ffd1-77dc-4530-a7e5-b833f272c28c"
+                    "Id": "4bad2f0a-c73b-4a00-9c5e-41c266ea0ec3"
                   },
-                  "Id": "12920ac1-d0bf-4348-bb8a-e5124162cc2a"
+                  "Id": "d8c2c110-f978-4ded-9bf5-7c89ca6f0f81"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2304,14 +2311,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "4e6fd752-90e3-4202-b0cf-3ce1bb307dcb"
+                  "Id": "57994049-28c5-4372-9b57-662252448894"
                 },
-                "Id": "b2d4e69d-1f51-4037-b540-7b8ab6f5f745"
+                "Id": "d2af6853-03a9-499f-a1b1-509a3e3c479c"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2319,14 +2326,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "66e25215-a6c2-4192-8496-5a04443c1e2e"
+                "Id": "fb16567d-1d7e-4962-bd91-80530033f94b"
               },
-              "Id": "f05d9e5b-0358-4345-b2a5-5ef3671c3016"
+              "Id": "911af81d-6210-4d0b-8202-15db4600789d"
             },
             "CommandList": [
               {
@@ -2364,7 +2371,7 @@
                 ]
               }
             ],
-            "ID": "dcc716d1-2815-4eb9-ac47-ead19ffcdc4b"
+            "ID": "41f80b2d-a039-4b0f-8716-97a94f3317d5"
           },
           {
             "Condition": {
@@ -2379,12 +2386,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "I",
-                    "Id": "1fda3c3d-e45f-4de4-b9ea-437fff2b5c33"
+                    "Id": "56e7f7b8-7e40-4e9f-8402-54e81c1d4be3"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2392,14 +2399,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "c9328fca-1fee-4504-a7bb-880373a2728b"
+                    "Id": "7ce47200-4466-4717-b175-b3a068fb471d"
                   },
-                  "Id": "b74137e3-f5d0-4df9-8daf-c5e7216de230"
+                  "Id": "71b0614f-a315-49ff-bac9-89b098161320"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2407,14 +2414,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "0b0724ca-2db8-44e5-a943-864511addb5f"
+                  "Id": "421f566a-96fd-4868-b6b3-860147a64125"
                 },
-                "Id": "79bced0f-39ac-4216-84e2-fea1f85f0545"
+                "Id": "c47e6c81-8f1b-4f53-bb49-d35eda8e0569"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2422,14 +2429,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "ca15693c-2da0-48ec-a31b-e5f2615d26a9"
+                "Id": "06dde178-79d6-49d8-a7c5-729507cc6369"
               },
-              "Id": "b9997c68-94c6-4af0-82e5-7771a02533c4"
+              "Id": "ead4d554-2647-49b5-bbb9-537062de5137"
             },
             "CommandList": [
               {
@@ -2467,7 +2474,7 @@
                 ]
               }
             ],
-            "ID": "39c74a2b-7601-446c-aba4-8cfb44a4c49b"
+            "ID": "76c7680b-014d-4f48-b897-5715df54842e"
           },
           {
             "Condition": {
@@ -2482,12 +2489,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "69c83e86-80bc-4c11-8b8f-d61daae74436"
+                    "Id": "7b186963-4f7d-4aa3-80a5-32c1cb7e7800"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2495,14 +2502,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "cf77a18c-498c-4f6d-bf99-224e3bf745ac"
+                    "Id": "deece767-bdc1-4858-b844-f1a30b957490"
                   },
-                  "Id": "f43724bf-a6b6-4d4a-b577-30e90b92cb28"
+                  "Id": "b332eea0-929e-494f-bdcc-a23320878a9b"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2510,14 +2517,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "cddc6d91-3a4f-4f5b-a53a-f310dec277b2"
+                  "Id": "2f3df38c-9404-4504-87b8-4d25e2456337"
                 },
-                "Id": "838bd37c-452b-41d6-895c-ffe7af7bb3a4"
+                "Id": "cbd56213-ccbb-49ff-9471-5083b1bef853"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2525,14 +2532,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "2ed6e4fb-df1e-4c9d-a07c-169cb8d72a17"
+                "Id": "f0e93627-1f1b-4de9-9aab-97453a0ef9ef"
               },
-              "Id": "adefa65d-b1fb-411d-a6ca-f6c5c59c31c9"
+              "Id": "899951ff-15df-40d6-ba48-af13dc585dfb"
             },
             "CommandList": [
               {
@@ -2570,7 +2577,7 @@
                 ]
               }
             ],
-            "ID": "8573c264-353a-41dc-be72-301a7e59677d"
+            "ID": "75376cd4-2f6c-4822-a70e-6180526ca889"
           },
           {
             "Condition": {
@@ -2585,12 +2592,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "7dacaeee-f821-42bd-8f62-d8267fa09f22"
+                    "Id": "bf61c116-dd4e-4747-8a54-e14f5a59a136"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2598,14 +2605,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "9bb88e72-9f32-4dcb-8108-a0feaa8fb30c"
+                    "Id": "6ec1375d-c4be-4ab6-8f38-975b51ff3f30"
                   },
-                  "Id": "68eb5c3b-ad86-4fd9-b9be-6af3dcc86452"
+                  "Id": "b322104b-2d8a-4f3e-bba9-630ed55ad923"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2613,14 +2620,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "078fb00b-1694-4625-9286-dad9f4ea40c7"
+                  "Id": "a5cf89b8-4298-4fb2-932c-670619c8b6f7"
                 },
-                "Id": "210abf8c-85c4-464b-8691-4656c7dfcc0c"
+                "Id": "f3db87e1-4eb7-41f4-a8a5-77703b8c18f8"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2628,14 +2635,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "34332b24-83d6-4c27-9525-dfc227137caf"
+                "Id": "0a93416a-c4a1-42b2-9737-5455920576ad"
               },
-              "Id": "588406e8-5dc3-4b86-b5e4-385228982b6e"
+              "Id": "73150957-a505-4277-93d2-a1b2766cd02f"
             },
             "CommandList": [
               {
@@ -2673,7 +2680,7 @@
                 ]
               }
             ],
-            "ID": "5d17c7b2-46d3-4e6d-bea8-34275f1bd6e5"
+            "ID": "f832d23e-fbf1-4ae5-889f-a3a2ada9eb13"
           },
           {
             "Condition": {
@@ -2688,12 +2695,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "92fcd9b2-63b8-41c9-8af0-92cb08415f7f"
+                    "Id": "9d24ac14-b209-476a-aa4c-4ea9fb386417"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2701,14 +2708,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "1fecaf86-d32e-4b29-b5e9-946411bb3767"
+                    "Id": "10816d0d-cfbb-43e7-a9e5-a28e719d6b7b"
                   },
-                  "Id": "b9cdd96a-8829-40bd-b456-eedd44f4627a"
+                  "Id": "dc4690f3-d5e9-46bf-9609-4e65e3e61845"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2716,14 +2723,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "011b6c93-65a7-4866-b8ea-c9ef668dd237"
+                  "Id": "b1afbd1d-dfc3-4527-9ede-65c385da238d"
                 },
-                "Id": "b98d2134-b3de-4836-9904-c622c1b6a41b"
+                "Id": "dabb3f96-bac1-4f92-8619-f73302796977"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2731,14 +2738,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "22276c1b-4da9-4d78-afe1-95a4a2fa56f8"
+                "Id": "86f01171-4cdf-496d-8486-b94b33dfe66e"
               },
-              "Id": "e8755e22-4502-45ed-8fb5-a6e8cddc0261"
+              "Id": "2711747d-04d8-4dba-b3b4-1fc6578a407d"
             },
             "CommandList": [
               {
@@ -2776,7 +2783,7 @@
                 ]
               }
             ],
-            "ID": "a508b249-6282-4788-bbd6-718af46ab111"
+            "ID": "626959f5-fca7-4456-9236-49d1151010f4"
           },
           {
             "Condition": {
@@ -2791,12 +2798,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "2a0ccd6a-3a7a-48b0-afa8-b9b7e5f8ce83"
+                    "Id": "fdc7de85-1241-4d3e-a3db-874310bdd175"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2804,14 +2811,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "07ef8fb0-0764-4b9c-83aa-43905f5b974b"
+                    "Id": "a4d64ed7-aa6c-4751-9228-f58ccd63c9de"
                   },
-                  "Id": "163c96da-88a5-44a9-b9f9-ba71bed2e54f"
+                  "Id": "43c3b576-919e-4df8-b7ac-ecbdf8cb5703"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2819,14 +2826,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "5dbdef9d-95eb-4251-8e66-5f4eda888881"
+                  "Id": "2a792c83-95a0-4337-91da-4e2a4822f461"
                 },
-                "Id": "5c5e97b1-fea9-419b-b537-02afa07b8b1f"
+                "Id": "457f6ee1-3798-48ae-8aaf-a7604368eea5"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2834,14 +2841,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "P",
-                "Id": "e9e1ccc0-cbfa-4ca8-bac5-060a35743d26"
+                "Id": "77e44b24-5e6a-4793-8bed-6a9c9924f2da"
               },
-              "Id": "f6b23ff5-ee3f-4b0b-badd-82a0a7f9fc65"
+              "Id": "12891700-59cd-4ed9-8e75-d85ca39c6e44"
             },
             "CommandList": [
               {
@@ -2879,7 +2886,7 @@
                 ]
               }
             ],
-            "ID": "c148d51d-35c8-4cb0-89bc-5d1782194510"
+            "ID": "303962c3-ee9f-4898-a7a9-0e7f81fbe4df"
           },
           {
             "Condition": {
@@ -2894,12 +2901,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "3799c11c-c710-4a5a-b5e0-45d3a7e86165"
+                    "Id": "dabd489b-6be8-4869-bc7b-9ea8ee281688"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2907,14 +2914,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "a2c5fe66-ea64-4355-b407-b8667e9f5fe0"
+                    "Id": "ef698dac-0138-42d4-b151-3c64610813c8"
                   },
-                  "Id": "deb2c3c1-5f3b-4680-80ce-3f61d5161f92"
+                  "Id": "ca6d32a6-3263-4698-bdb7-6f63c616029c"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2922,14 +2929,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "d6fe8fda-566c-4082-aa64-883d7f7816f1"
+                  "Id": "cb65663a-a2b5-4d86-bec8-83f18aea507e"
                 },
-                "Id": "2509f6a6-110c-4fe9-841a-4966a5d4e061"
+                "Id": "a0d40750-4f1e-48e7-9229-5dbc2ad96fcc"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -2937,14 +2944,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "fe2d6010-b9bd-42c2-a70a-e3aca7d3d9dc"
+                "Id": "db8a4a68-ebf8-4124-803a-c152855c2258"
               },
-              "Id": "eaa0507a-1a69-493f-a24c-dcf97a6d694e"
+              "Id": "466c3cd2-357e-45aa-85ed-35d56dcf1d87"
             },
             "CommandList": [
               {
@@ -2982,7 +2989,7 @@
                 ]
               }
             ],
-            "ID": "1bb18b57-8d25-47e9-a1d2-3f6dc8fbf2f4"
+            "ID": "263c5d8f-bda2-4f1d-87a7-a4f39f3f02ae"
           },
           {
             "Condition": {
@@ -2997,12 +3004,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "1b0db7f5-8ccf-4254-bfe6-27b35bc0f3bb"
+                    "Id": "19487494-472b-41a2-99c1-871ecee6445e"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3010,14 +3017,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "S",
-                    "Id": "af440e52-5d42-4af0-af4c-e25a0cd81610"
+                    "Id": "68719e98-3750-4577-bfe1-d8fda221772f"
                   },
-                  "Id": "71ce3edc-6669-4a43-8edf-b9ce6e8db891"
+                  "Id": "0cb5977f-9d5e-40d8-a270-5e99dfb4d581"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3025,14 +3032,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "b8054206-2892-4b25-8d2f-c6a2620e1f64"
+                  "Id": "04701b30-96c8-4e10-bab4-7f58bf70dd55"
                 },
-                "Id": "072d04bc-9876-48cd-9ff8-b1951f54b5d9"
+                "Id": "9bf1701f-f774-4353-97b3-8e19fda47dae"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3040,14 +3047,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "c0ca4ddd-6b5b-4ee8-8edb-b83f1611a4e1"
+                "Id": "e8594aa2-e42d-44b2-a8fc-22b91a62e2d9"
               },
-              "Id": "6ae9b1b2-9173-4fac-854e-34604dd99119"
+              "Id": "b46f6bde-e928-4b49-aa20-d52a4bb229a2"
             },
             "CommandList": [
               {
@@ -3085,7 +3092,7 @@
                 ]
               }
             ],
-            "ID": "2e58ae93-3b80-43b5-abef-020c898aa25c"
+            "ID": "d5d28cf1-f654-4614-9cb9-cd18ec116839"
           },
           {
             "Condition": {
@@ -3100,12 +3107,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "84585088-60f7-471b-92a7-2b1b10680f1a"
+                    "Id": "ca7acf50-a17e-4251-9680-43b0fe44e6bd"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3113,14 +3120,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "2a9f4128-f848-455e-b376-f029a9340adc"
+                    "Id": "70fa9630-8ecf-47a6-9ca3-b8fd46239737"
                   },
-                  "Id": "3301be79-8988-431c-b0b7-9d8b993257ec"
+                  "Id": "9e4b406c-f94c-48f0-bb01-85c16e168df9"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3128,14 +3135,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "F",
-                  "Id": "dfb2fa90-a93b-44f2-adc9-0f970364cc9f"
+                  "Id": "82574f8c-f464-4d89-9b69-8ed0b1051a23"
                 },
-                "Id": "1c4ea7b8-b9fd-466d-80fb-1364c8e0b0a7"
+                "Id": "dbef67ae-170d-4e38-82ab-3c3044227bf9"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3143,14 +3150,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "6e4f21d0-303a-40e9-9a13-2cfe9e0750cf"
+                "Id": "745bd357-a105-4653-8732-18da99e17e00"
               },
-              "Id": "353a2b93-3cf0-460c-af8d-332e3ce6a6e4"
+              "Id": "fc8d3172-e634-4e73-881f-c7543cc2c5a8"
             },
             "CommandList": [
               {
@@ -3188,7 +3195,7 @@
                 ]
               }
             ],
-            "ID": "cbb3d127-bf25-47b3-9c7a-3b7fce1884d5"
+            "ID": "13f7894b-6ef0-4c7a-8463-e89e8e60512f"
           },
           {
             "Condition": {
@@ -3203,12 +3210,12 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!D9"
+                          "SerializeProperty": "=모바일_검사결과!D8"
                         }
                       ]
                     },
                     "value": "E",
-                    "Id": "ca0f43cf-23fd-4a2e-a688-8f99654687b4"
+                    "Id": "1cf9cdae-cb17-4f56-bcc3-983a38b63e89"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3216,14 +3223,14 @@
                       "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                       "cellLocations": [
                         {
-                          "SerializeProperty": "=모바일_검사결과!G9"
+                          "SerializeProperty": "=모바일_검사결과!G8"
                         }
                       ]
                     },
                     "value": "N",
-                    "Id": "b3221652-a1e6-49d4-9637-fd9f899014c0"
+                    "Id": "6fb20f57-fbef-425c-b3ef-a4e1499d58bb"
                   },
-                  "Id": "d92aec84-dd55-46a4-a5d8-d2fea89c65cd"
+                  "Id": "fb564a10-d45f-41c1-be44-544fdfe97fb8"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3231,14 +3238,14 @@
                     "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                     "cellLocations": [
                       {
-                        "SerializeProperty": "=모바일_검사결과!J9"
+                        "SerializeProperty": "=모바일_검사결과!J8"
                       }
                     ]
                   },
                   "value": "T",
-                  "Id": "33728ec1-aa9a-4247-9a41-b2e0765429fa"
+                  "Id": "12334a38-69f7-4de6-af90-f133e2f5ef62"
                 },
-                "Id": "c18ac960-5a39-49a3-b46f-16406ff62dd6"
+                "Id": "300b6338-e61b-4533-9f02-47c30794b3c1"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -3246,14 +3253,14 @@
                   "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
                   "cellLocations": [
                     {
-                      "SerializeProperty": "=모바일_검사결과!M9"
+                      "SerializeProperty": "=모바일_검사결과!M8"
                     }
                   ]
                 },
                 "value": "J",
-                "Id": "c0d2dfe1-64d8-482f-8bc0-b11d1b7cc4c1"
+                "Id": "f3fc345e-ce95-4e7b-8674-26c4ddd10a72"
               },
-              "Id": "a110a05c-d6f4-4221-9e00-205e1353985f"
+              "Id": "762c8e3b-17c2-4e69-8699-efdf6bacbfd9"
             },
             "CommandList": [
               {
@@ -3291,7 +3298,7 @@
                 ]
               }
             ],
-            "ID": "b1bc96c2-9001-48cb-aca4-1a6255ab7320"
+            "ID": "cea76a4e-69e6-4954-9aec-06f0cca34295"
           }
         ]
       }
@@ -3314,11 +3321,11 @@
     },
     {
       "Name": "result",
-      "Formula": "모바일_검사결과!$D$13"
+      "Formula": "모바일_검사결과!$D$12"
     },
     {
       "Name": "explain2",
       "Formula": "모바일_검사결과!$B$31"
     }
   ]
-}//bJZP3V+aOe5wwX/3cBR3Z/CtP83kFyWIK/YOrr14XWEzlUsXkm2LAMYT5OvoeaIpcswOnT8P5nAdTmBFI0otvBUgfyx3AF41m3wVTJJtlBFLuoMQu0OSOw9F8ereWDDnEkgnp1eA0U6CW9soSxX0n6B9j44HP007rNAJrJFDlpjekOrCR2RDjRZnb0Bmm/TQt6R+ZIEMbDwrob+QnC16OYufmFEZIu/pBj7Dlxy9Muvraa8dl9jQA/4giBaGYh58En3wAvZWed6kUcbw+vCWoS4pRJvBzZEYbPttJBigd2aAD+j7t/Aph251QAB9AAjHJDwql8FX7i3wdVMXRsE3YbmeZLbWrcisRW6DLC2vvtBNcv/Ot+ttkpwhhappV84GmpLny/MkR3peeMYm08BHmO9LiDgSyA0sEJpcNUMzUw6VaSFIdL1rI8w7OjYHruRvh2EwrbC8Fp+lFIRdnUam2Ji/Pp/hbToyPrsseIcZ+7f7yMpeMZo2Zkt4MSlIhz1jyAtaaDfDM7MpHTXLSf8zVZAZHW3XyMhU0E842nAr0TkcPq36pIIVfSC0WXfg/mDs6s8NnUtu6tssD6ZmiHPfmrRDjHkz3qb3pnrIy3bKjlxRCoT18GSLj+zY02nUUXCJ9kQpu+r3pP1LWUxa5oFg196ZM5PBiIoV5PtkSj8CCNibdUNwsiBqCvsraeuLy8TYXFYFNXGiTe4YDTSNgedm0O+BGrlIBBsJXX5vjUqLuviNNGArOOjevDM4/UeNnW3uk0T0Yrk3ymwswQFQFMBsMVLzqGx/Sh+OUn0dn4yTBIwudf2+bCm5QwLJ1CIw2toWw8N2UuQSjr4r0jkUBEiW0ij4VD+BYCGuczu42HQdfZm+b2i7FWRR2AMyVOy6ZzfEWIuzIn9dAu9tn60xc5QJbA==|920
+}//DN8zLOk0JoEVnKz8AzsreSTlzBgJH66fULrgIPcWVWl/j1cZ4p5ubQz1G0GRfUxMG7PyZYLQxbRz0TqhRkZ5qR1znMAc+5h0kTz+FviiAWm4CaOTyv8jkABDl9d+xhQAyhvJcS9BamlsUPjAf4i1GTBpQTu9DSpi+L4MCw6ieCQMjcuS3xjrQbkTMx0213JbVlq4RiBzlo6lsSQRMve4MmSxmOJjfSnZFe32EbgxyWN8cpoR8uN3MutNTx8VniB5YCWnYug0ULtaffB0IPWcaSzOOMtqkDwuLPlfwKsi4BkSCVtVFTgBzmo4X6W22XAHpyhqn4Q9rpDYatVAPh2JDfH9S7bqwTHRur3x6+O8uy+tzc3jiT4POxvHwZ/V3INjMRKse2XxI5zN3bujmMFMkWAZH++XakrvaMIWu8ukpefCgwA+OIphh6r0n0tLsHi7Mzc19XChxsRzz/2BIfvX5h7B641b10CATtCAb5tHvD3lmYZpFssTyuAJq0Ho632a1bRfUbrKDSSZOsm35/80szR6TnpvnAbk8jurJH8Eh/9XMoRw2vPe2sxLPG/EIlDpK2TaP/LZhfuR6H/wclER/F920++Gtk9vxqullqxO4W1CUVhCOvc/M4fCj3aVp4D/0PJ4TyZEajvSBxWdAqCPIQXWhafmSeYE6HTtu4GcvX9ilLVnb4Ax7lNVS5EHTjOqOjZ7GSQqzoB7aZkOZ1K/qjNOfqZSkGAalNkiPq0Sd+El63MRmNYzlS5dBlb26PN52QtnMGx9ZCgSOZHQIyavX6swz8g9/8Yd6fVvSzxx4CgqxxELMMJhk/wmOPq+3qbMV0ATZQxA69vDWH+QNo88w2ge8c4rNEjOfcEijrG0mIudgEC5ZEBih1vvPshoP3vVcdnnowqYMSrIcADotKIdUw==|920

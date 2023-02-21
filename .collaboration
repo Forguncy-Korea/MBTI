@@ -1,17 +1,7 @@
 [
   {
     "ModuleName": "Table/검사결과",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-17T11:12:21.9924138+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\검사결과.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -112,133 +102,43 @@
   },
   {
     "ModuleName": "PCPage/기본검사페이지_1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-17T11:16:36.3762318+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\기본검사페이지_1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/기본검사페이지_2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-17T15:30:50.727768+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\기본검사페이지_2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/결과화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-17T16:14:01.7420995+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\결과화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/시작화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T16:05:33.6485126+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\시작화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/성격 유형",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T14:08:14.4281782+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\성격 유형.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "MobilePage/모바일_기본검사페이지_1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T17:03:21.0602522+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일_기본검사페이지_1.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/모바일_기본검사페이지_2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T16:59:47.4903098+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일_기본검사페이지_2.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/모바일_검사결과",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T14:53:19.4118583+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일_검사결과.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/모바일_시작화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T16:56:18.7337965+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일_시작화면.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MobilePage/모바일_성격유형",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T16:59:34.810472+09:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\모바일_성격유형.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MasterPCPage/FGC_유저마스터페이지",
@@ -246,42 +146,11 @@
   },
   {
     "ModuleName": "MasterPCPage/성격유형테스트마스터페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T16:49:35.2319715+09:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "MasterPages\\성격유형테스트마스터페이지.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterMobilePage/모바일성격유형테스트마스터페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T15:02:41.2940393+09:00",
-    "ModuleType": 4,
-    "ToRemoveFiles": [
-      "MasterPages\\모바일성격유형테스트마스터페이지.json"
-    ]
-  },
-  {
-    "ModuleName": "ServerCommand/메일보내기",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T16:27:41.611465+09:00",
-    "ModuleType": 15,
-    "ToRemoveFiles": [
-      "ServerCommands\\메일보내기.json"
-    ]
+    "ModuleType": 4
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -289,35 +158,11 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-17T15:30:50.7267701+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "C:\\Users\\hdg89\\OneDrive\\문서\\ForguncyCollaboration\\MBTI-master\\Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "ImageSelector",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-LV3CTK1\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-20T16:07:37.2326268+09:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\2023-01-27 08 30 14.png",
-      "image\\fgc_logo_dark.png",
-      "image\\fgc_logo_light.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "UserService",

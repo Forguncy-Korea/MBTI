@@ -16,30 +16,32 @@
           "DesignLengthInPixel": 32.0
         }
       },
-      "39": {
+      "43": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 50.0
         }
       },
-      "40": {
+      "44": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 11.0
+          "DesignLengthInPixel": 20.0
         }
       }
     },
     "InLogicalVisibleIndexes": [
-      61,
-      62,
-      63,
-      64
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
     ],
-    "Count": 67
+    "Count": 70
   },
   "Cols": {
     "RowColumnAttachedInfos": {
       "25": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 11.0
+          "DesignLengthInPixel": 20.0
         }
       }
     },
@@ -48,7 +50,7 @@
   "Values": {
     "3,40": "당신의 성격유형은 :",
     "18,45": "정신",
-    "19,34": "외향형",
+    "19,33": "외향형",
     "19,58": "내향형",
     "20,37": 100,
     "20,38": 95,
@@ -70,9 +72,9 @@
     "20,54": 15.0,
     "20,55": 10.0,
     "20,56": 5.0,
-    "23,46": "에너지",
-    "24,34": "직관형",
-    "24,57": "현실주의형",
+    "23,45": "에너지",
+    "24,33": "직관형",
+    "24,58": "현실주의형",
     "25,37": 100,
     "25,38": 95,
     "25,39": 90.0,
@@ -94,7 +96,7 @@
     "25,55": 10.0,
     "25,56": 5.0,
     "28,45": "본성",
-    "29,34": "사고형",
+    "29,33": "사고형",
     "29,58": "감정형",
     "30,37": 100,
     "30,38": 95,
@@ -117,7 +119,7 @@
     "30,55": 10.0,
     "30,56": 5.0,
     "33,45": "전술",
-    "34,34": "계획형",
+    "34,33": "계획형",
     "34,58": "탐색형",
     "35,37": 100,
     "35,38": 95,
@@ -139,27 +141,26 @@
     "35,54": 15.0,
     "35,55": 10.0,
     "35,56": 5.0,
-    "58,28": "PDF",
-    "58,34": "Excel",
-    "58,40": "Mail",
-    "62,71": "생활양식",
-    "62,75": "판단기능",
-    "62,79": "인식기능",
-    "62,83": "에너지방향"
+    "61,29": "PDF",
+    "61,35": "Excel",
+    "65,71": "생활양식",
+    "65,75": "판단기능",
+    "65,79": "인식기능",
+    "65,83": "에너지방향"
   },
   "Formulas": {
-    "63,79": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
-    "7,44": "IF(CB64>50,\"S\",\"N\")",
-    "64,79": "IF(CB64>50,\"S\",\"N\")",
-    "64,83": "IF(CF64>50,\"E\",\"I\")",
-    "7,47": "IF(BX64>50,\"T\",\"F\")",
-    "63,83": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
-    "63,71": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
-    "7,50": "IF(BT64>50,\"J\",\"P\")",
-    "64,75": "IF(BX64>50,\"T\",\"F\")",
-    "64,71": "IF(BT64>50,\"J\",\"P\")",
-    "7,41": "IF(CF64>50,\"E\",\"I\")",
-    "63,75": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))"
+    "7,50": "IF(BT67>50,\"J\",\"P\")",
+    "7,41": "IF(CF67>50,\"E\",\"I\")",
+    "7,44": "IF(CB67>50,\"S\",\"N\")",
+    "7,47": "IF(BX67>50,\"T\",\"F\")",
+    "66,75": "ODATA(\"검사결과?$select=판단기능&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "66,79": "ODATA(\"검사결과?$select=인식기능&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "67,75": "IF(BX67>50,\"T\",\"F\")",
+    "67,79": "IF(CB67>50,\"S\",\"N\")",
+    "67,71": "IF(BT67>50,\"J\",\"P\")",
+    "66,83": "ODATA(\"검사결과?$select=에너지방향&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "66,71": "ODATA(\"검사결과?$select=생활양식&$filter=ID eq \"&IF(ISBLANK(ID),\"null\",ID))",
+    "67,83": "IF(CF67>50,\"E\",\"I\")"
   },
   "AttachInfos": {
     "20,37": {
@@ -170,7 +171,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -190,7 +191,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -210,7 +211,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -230,7 +231,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -250,7 +251,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -270,7 +271,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -290,7 +291,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -310,7 +311,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -330,7 +331,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -350,7 +351,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FFE13958",
@@ -370,7 +371,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -390,7 +391,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -410,7 +411,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -430,7 +431,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -450,7 +451,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -470,7 +471,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -490,7 +491,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -510,7 +511,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -530,7 +531,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -550,7 +551,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CF$64"
+              "SerializeProperty": "=결과화면!$CF$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -570,7 +571,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -590,7 +591,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -610,7 +611,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -630,7 +631,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -650,7 +651,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -670,7 +671,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -690,7 +691,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -710,7 +711,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -730,7 +731,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -750,7 +751,7 @@
             "Operator": 6,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FFBAC100",
@@ -770,7 +771,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -790,7 +791,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -810,7 +811,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -830,7 +831,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -850,7 +851,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -870,7 +871,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -890,7 +891,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -910,7 +911,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -930,7 +931,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -950,7 +951,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$CB$64"
+              "SerializeProperty": "=결과화면!$CB$67"
             },
             "StyleInfo": {
               "Background": "#FF009CFF",
@@ -970,7 +971,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -990,7 +991,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1010,7 +1011,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1030,7 +1031,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1050,7 +1051,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1070,7 +1071,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1090,7 +1091,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1110,7 +1111,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1130,7 +1131,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1150,7 +1151,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FFFF7300",
@@ -1170,7 +1171,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1190,7 +1191,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1210,7 +1211,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1230,7 +1231,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1250,7 +1251,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1270,7 +1271,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1290,7 +1291,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1310,7 +1311,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1330,7 +1331,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1350,7 +1351,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BX$64"
+              "SerializeProperty": "=결과화면!$BX$67"
             },
             "StyleInfo": {
               "Background": "#FF19B029",
@@ -1370,7 +1371,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1390,7 +1391,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1410,7 +1411,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1430,7 +1431,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1450,7 +1451,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1470,7 +1471,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1490,7 +1491,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1510,7 +1511,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1530,7 +1531,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1550,7 +1551,7 @@
             "Operator": 8,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FFDA18DA",
@@ -1570,7 +1571,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1590,7 +1591,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1610,7 +1611,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1630,7 +1631,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1650,7 +1651,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1670,7 +1671,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1690,7 +1691,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1710,7 +1711,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1730,7 +1731,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1750,7 +1751,7 @@
             "Operator": 7,
             "Value1": {
               "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-              "SerializeProperty": "=결과화면!$BT$64"
+              "SerializeProperty": "=결과화면!$BT$67"
             },
             "StyleInfo": {
               "Background": "#FF9C00FF",
@@ -1762,7 +1763,7 @@
         ]
       }
     },
-    "58,28": {
+    "61,29": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1773,10 +1774,10 @@
           }
         ],
         "Text": "PDF",
-        "TemplateKey": "스타일2"
+        "TemplateKey": "My버튼_스타일"
       }
     },
-    "58,34": {
+    "61,35": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
@@ -1786,64 +1787,28 @@
           }
         ],
         "Text": "Excel",
-        "TemplateKey": "스타일2"
+        "TemplateKey": "My버튼_스타일"
       }
     },
-    "58,40": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
-            "ServerCommandName": "메일보내기",
-            "ResultErrorCodeTo": {
-              "SerializeProperty": "=결과화면!AW62"
-            },
-            "ResultMessageTo": {
-              "SerializeProperty": "=결과화면!BK59"
-            },
-            "RefreshAfterFinish": true,
-            "CheckDataValidation": true,
-            "Disabled": true
-          },
-          {
-            "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
-            "From": "knh3110@gmail.net",
-            "Subject": "test",
-            "Content": "[%CurrentRow=(검사결과,MBTI)%]\r\n",
-            "EnhancedRecipient": {
-              "CommonValue": "nancy.kim@grapecity.com"
-            },
-            "ID": "633091fa88434dc4aefa724321a75740"
-          },
-          {
-            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
-            "MessageFormula": "메일이 전송되었습니다."
-          }
-        ],
-        "Text": "Mail",
-        "TemplateKey": "스타일2"
-      }
-    },
-    "63,71": {
+    "66,71": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
       }
     },
-    "63,75": {
+    "66,75": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
       }
     },
-    "63,79": {
+    "66,79": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
       }
     },
-    "63,83": {
+    "66,83": {
       "BindingInfo": {
         "TableName": "검사결과",
         "ColumnName": "에너지방향"
@@ -1860,326 +1825,197 @@
         "Foreground": 1
       },
       {
-        "FontFamily": 0,
+        "FontFamily": 2,
         "FontSize": 32.0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "HorizontalAlignment": 4
+        "FontWeight": 3,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 6
       },
       {
         "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3
+        "FontWeight": 3,
+        "Formatter": 5
       },
       {
         "FontFamily": 0,
         "FontSize": 14.67,
-        "FontWeight": 2
+        "FontWeight": 3
       },
       {
         "FontFamily": 0,
         "FontSize": 64.0,
-        "FontWeight": 2,
-        "Foreground": 1,
-        "HorizontalAlignment": 5
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 24.0,
-        "FontWeight": 2,
-        "HorizontalAlignment": 5
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "HorizontalAlignment": 5
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 26.666666666666664,
-        "FontWeight": 2,
-        "HorizontalAlignment": 5,
-        "WordWrap": true
-      },
-      {
-        "FontFamily": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderTop": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderTop": 0,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.67,
-        "FontWeight": 2,
-        "HorizontalAlignment": 5,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 6,
-        "FontFamily": 0,
-        "Foreground": 6,
-        "Formatter": 3,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "Foreground": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "BorderTop": 0,
-        "BorderLeft": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "BorderTop": 0
-      },
-      {
-        "FontFamily": 0,
-        "Foreground": 1,
-        "BorderTop": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "BorderTop": 0,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderLeft": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.67,
-        "FontWeight": 2,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.67,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "TextIndent": 20,
+        "FontWeight": 3,
+        "Foreground": 4,
         "HorizontalAlignment": 7
       },
       {
         "FontFamily": 0,
-        "BorderRight": 0
-      },
-      {
-        "Background": 6,
-        "FontFamily": 0,
-        "Foreground": 6,
-        "Formatter": 3
-      },
-      {
-        "Background": 6,
-        "FontFamily": 0,
-        "Foreground": 6
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "HorizontalAlignment": 5,
-        "BorderTop": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "HorizontalAlignment": 5,
-        "BorderTop": 0,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.67,
-        "FontWeight": 2,
-        "HorizontalAlignment": 5
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": 0
-      },
-      {
-        "FontFamily": 0,
-        "Foreground": 1,
-        "BorderBottom": 0
-      },
-      {
-        "FontFamily": 0,
-        "BorderBottom": 0,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "BorderLeft": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.67,
-        "FontWeight": 2,
-        "Formatter": 3,
-        "HorizontalAlignment": 5
-      },
-      {
-        "FontFamily": 8,
         "FontSize": 24.0,
-        "FontStyle": 9,
-        "FontWeight": 9,
+        "FontWeight": 3,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 3,
+        "Formatter": 5,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 26.666666666666664,
+        "FontWeight": 3,
+        "HorizontalAlignment": 7,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 3,
+        "Foreground": 4,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 3,
+        "Formatter": 5,
+        "HorizontalAlignment": 6
+      },
+      {
+        "Background": 8,
+        "FontFamily": 0,
+        "FontSize": 10.666666666666666,
+        "Foreground": 8,
+        "Formatter": 5,
+        "HorizontalAlignment": 7
+      },
+      {
+        "Background": 8,
+        "FontFamily": 0,
+        "Foreground": 8,
+        "Formatter": 5
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 3,
+        "HorizontalAlignment": 6
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 3,
+        "Formatter": 5,
+        "HorizontalAlignment": 9
+      },
+      {
+        "Background": 8,
+        "FontFamily": 0,
+        "Foreground": 8
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.67,
+        "FontWeight": 3,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 10,
+        "FontSize": 24.0,
+        "FontStyle": 11,
+        "FontWeight": 11,
         "Foreground": 1,
         "TextIndent": 17,
-        "HorizontalAlignment": 7,
-        "VerticalAlignment": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 12,
         "WordWrap": true
       },
       {
-        "FontFamily": 0,
-        "BorderBottom": 0,
-        "BorderLeft": 0
+        "BorderBottom": 0
       },
       {
-        "FontFamily": 0,
+        "FontFamily": 10,
         "FontSize": 24.0,
-        "FontWeight": 2,
+        "FontStyle": 11,
+        "FontWeight": 11,
         "Foreground": 1,
-        "TextIndent": 20,
-        "HorizontalAlignment": 7,
-        "VerticalAlignment": 10,
-        "WordWrap": true
-      },
-      {
-        "FontFamily": 8,
-        "FontSize": 24.0,
-        "FontStyle": 9,
-        "FontWeight": 2,
-        "Foreground": 11,
-        "HorizontalAlignment": 5,
-        "WordWrap": true
-      },
-      {
-        "Foreground": 11
+        "TextIndent": 17,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 12,
+        "WordWrap": true,
+        "BorderBottom": 0
       },
       {
         "FontFamily": 0,
-        "Formatter": 3
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 3,
+        "Formatter": 5,
+        "HorizontalAlignment": 6,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 1,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontWeight": 3,
+        "Formatter": 5,
+        "BorderBottom": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 3,
+        "Foreground": 13,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 12,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 10,
+        "FontSize": 18.666666666666664,
+        "FontStyle": 11,
+        "FontWeight": 11,
+        "Foreground": 4,
+        "TextIndent": 17,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 12,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 10,
+        "FontSize": 24.0,
+        "FontStyle": 11,
+        "FontWeight": 3,
+        "HorizontalAlignment": 7,
+        "WordWrap": true
+      },
+      {
+        "Foreground": 14
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 5
       }
     ],
     "Types": {
       "Strs": [
         "Body",
         "Text 1 25",
+        "나눔스퀘어 네오 OTF Heavy",
         "Bold",
+        "#FF576071",
         "[AUTO]General",
         "Right",
         "Center",
@@ -2188,11 +2024,13 @@
         "나눔스퀘어 네오 OTF Regular",
         "Normal",
         "Top",
+        "#FF33A474",
         "#FF000000"
       ],
       "Borders": [
         {
-          "Color": 6
+          "Style": 2,
+          "Color": 4
         }
       ]
     },
@@ -2667,40 +2505,40 @@
       "17,27": 0,
       "17,28": 0,
       "17,29": 0,
-      "17,30": 9,
-      "17,31": 10,
-      "17,32": 10,
-      "17,33": 10,
-      "17,34": 10,
-      "17,35": 10,
-      "17,36": 10,
-      "17,37": 10,
-      "17,38": 10,
-      "17,39": 10,
-      "17,40": 10,
-      "17,41": 10,
-      "17,42": 10,
-      "17,43": 10,
-      "17,44": 10,
-      "17,45": 10,
-      "17,46": 10,
-      "17,47": 10,
-      "17,48": 10,
-      "17,49": 10,
-      "17,50": 10,
-      "17,51": 10,
-      "17,52": 10,
-      "17,53": 10,
-      "17,54": 10,
-      "17,55": 10,
-      "17,56": 10,
-      "17,57": 10,
-      "17,58": 10,
-      "17,59": 10,
-      "17,60": 10,
-      "17,61": 10,
-      "17,62": 10,
-      "17,63": 11,
+      "17,30": 0,
+      "17,31": 0,
+      "17,32": 0,
+      "17,33": 0,
+      "17,34": 0,
+      "17,35": 0,
+      "17,36": 0,
+      "17,37": 0,
+      "17,38": 0,
+      "17,39": 0,
+      "17,40": 0,
+      "17,41": 0,
+      "17,42": 0,
+      "17,43": 0,
+      "17,44": 0,
+      "17,45": 0,
+      "17,46": 0,
+      "17,47": 0,
+      "17,48": 0,
+      "17,49": 0,
+      "17,50": 0,
+      "17,51": 0,
+      "17,52": 0,
+      "17,53": 0,
+      "17,54": 0,
+      "17,55": 0,
+      "17,56": 0,
+      "17,57": 0,
+      "17,58": 0,
+      "17,59": 0,
+      "17,60": 0,
+      "17,61": 0,
+      "17,62": 0,
+      "17,63": 0,
       "17,64": 0,
       "17,65": 0,
       "17,66": 0,
@@ -2721,40 +2559,40 @@
       "18,27": 0,
       "18,28": 0,
       "18,29": 0,
-      "18,30": 12,
-      "18,31": 13,
-      "18,32": 13,
-      "18,33": 13,
-      "18,34": 13,
-      "18,35": 13,
-      "18,36": 13,
-      "18,37": 13,
-      "18,38": 13,
-      "18,39": 13,
-      "18,40": 13,
-      "18,41": 13,
-      "18,42": 13,
-      "18,43": 13,
-      "18,44": 13,
-      "18,45": 14,
-      "18,46": 13,
-      "18,47": 13,
-      "18,48": 13,
-      "18,49": 13,
-      "18,50": 13,
-      "18,51": 13,
-      "18,52": 13,
-      "18,53": 13,
-      "18,54": 13,
-      "18,55": 13,
-      "18,56": 13,
-      "18,57": 13,
-      "18,58": 13,
-      "18,59": 13,
-      "18,60": 13,
-      "18,61": 13,
-      "18,62": 13,
-      "18,63": 15,
+      "18,30": 0,
+      "18,31": 0,
+      "18,32": 0,
+      "18,33": 0,
+      "18,34": 0,
+      "18,35": 0,
+      "18,36": 0,
+      "18,37": 0,
+      "18,38": 0,
+      "18,39": 0,
+      "18,40": 0,
+      "18,41": 0,
+      "18,42": 0,
+      "18,43": 0,
+      "18,44": 0,
+      "18,45": 9,
+      "18,46": 0,
+      "18,47": 0,
+      "18,48": 0,
+      "18,49": 0,
+      "18,50": 0,
+      "18,51": 0,
+      "18,52": 0,
+      "18,53": 0,
+      "18,54": 0,
+      "18,55": 0,
+      "18,56": 0,
+      "18,57": 0,
+      "18,58": 0,
+      "18,59": 0,
+      "18,60": 0,
+      "18,61": 0,
+      "18,62": 0,
+      "18,63": 0,
       "18,64": 0,
       "18,65": 0,
       "18,66": 0,
@@ -2775,38 +2613,38 @@
       "19,27": 0,
       "19,28": 0,
       "19,29": 0,
-      "19,30": 12,
-      "19,31": 13,
-      "19,34": 16,
-      "19,35": 13,
-      "19,36": 13,
-      "19,37": 13,
-      "19,38": 13,
-      "19,39": 13,
-      "19,40": 13,
-      "19,41": 13,
-      "19,42": 13,
-      "19,43": 13,
-      "19,44": 13,
-      "19,45": 13,
-      "19,46": 13,
-      "19,47": 13,
-      "19,48": 13,
-      "19,49": 13,
-      "19,50": 13,
-      "19,51": 13,
-      "19,52": 13,
-      "19,53": 13,
-      "19,54": 13,
-      "19,55": 13,
-      "19,56": 13,
-      "19,57": 13,
-      "19,58": 16,
-      "19,59": 13,
-      "19,60": 13,
-      "19,61": 13,
-      "19,62": 13,
-      "19,63": 15,
+      "19,30": 0,
+      "19,31": 0,
+      "19,33": 10,
+      "19,34": 0,
+      "19,35": 0,
+      "19,37": 0,
+      "19,38": 0,
+      "19,39": 0,
+      "19,40": 0,
+      "19,41": 0,
+      "19,42": 0,
+      "19,43": 0,
+      "19,44": 0,
+      "19,45": 0,
+      "19,46": 0,
+      "19,47": 0,
+      "19,48": 0,
+      "19,49": 0,
+      "19,50": 0,
+      "19,51": 0,
+      "19,52": 0,
+      "19,53": 0,
+      "19,54": 0,
+      "19,55": 0,
+      "19,56": 0,
+      "19,57": 0,
+      "19,58": 3,
+      "19,59": 0,
+      "19,60": 0,
+      "19,61": 0,
+      "19,62": 0,
+      "19,63": 0,
       "19,64": 0,
       "19,65": 0,
       "19,66": 0,
@@ -2832,38 +2670,38 @@
       "20,27": 0,
       "20,28": 0,
       "20,29": 0,
-      "20,30": 12,
-      "20,31": 13,
-      "20,34": 13,
-      "20,35": 13,
-      "20,36": 13,
-      "20,37": 17,
-      "20,38": 17,
-      "20,39": 17,
-      "20,40": 17,
-      "20,41": 17,
-      "20,42": 17,
-      "20,43": 17,
-      "20,44": 17,
-      "20,45": 17,
-      "20,46": 17,
-      "20,47": 17,
-      "20,48": 17,
-      "20,49": 17,
-      "20,50": 17,
-      "20,51": 17,
-      "20,52": 17,
-      "20,53": 17,
-      "20,54": 17,
-      "20,55": 17,
-      "20,56": 17,
-      "20,57": 13,
-      "20,58": 13,
-      "20,59": 13,
-      "20,60": 13,
-      "20,61": 13,
-      "20,62": 13,
-      "20,63": 15,
+      "20,30": 0,
+      "20,31": 0,
+      "20,33": 0,
+      "20,34": 0,
+      "20,35": 0,
+      "20,37": 11,
+      "20,38": 12,
+      "20,39": 12,
+      "20,40": 12,
+      "20,41": 12,
+      "20,42": 12,
+      "20,43": 12,
+      "20,44": 12,
+      "20,45": 12,
+      "20,46": 12,
+      "20,47": 12,
+      "20,48": 12,
+      "20,49": 12,
+      "20,50": 12,
+      "20,51": 12,
+      "20,52": 12,
+      "20,53": 12,
+      "20,54": 12,
+      "20,55": 12,
+      "20,56": 12,
+      "20,57": 0,
+      "20,58": 0,
+      "20,59": 0,
+      "20,60": 0,
+      "20,61": 0,
+      "20,62": 0,
+      "20,63": 0,
       "20,64": 0,
       "20,65": 0,
       "20,66": 0,
@@ -2889,38 +2727,38 @@
       "21,27": 0,
       "21,28": 0,
       "21,29": 0,
-      "21,30": 18,
-      "21,31": 19,
-      "21,34": 19,
-      "21,35": 19,
-      "21,36": 19,
-      "21,37": 19,
-      "21,38": 19,
-      "21,39": 19,
-      "21,40": 19,
-      "21,41": 19,
-      "21,42": 19,
-      "21,43": 19,
-      "21,44": 19,
-      "21,45": 19,
-      "21,46": 19,
-      "21,47": 20,
-      "21,48": 19,
-      "21,49": 19,
-      "21,50": 19,
-      "21,51": 19,
-      "21,52": 19,
-      "21,53": 19,
-      "21,54": 19,
-      "21,55": 19,
-      "21,56": 19,
-      "21,57": 19,
-      "21,58": 19,
-      "21,59": 19,
-      "21,60": 19,
-      "21,61": 19,
-      "21,62": 19,
-      "21,63": 21,
+      "21,30": 0,
+      "21,31": 0,
+      "21,33": 0,
+      "21,34": 0,
+      "21,35": 0,
+      "21,37": 0,
+      "21,38": 0,
+      "21,39": 0,
+      "21,40": 0,
+      "21,41": 0,
+      "21,42": 0,
+      "21,43": 0,
+      "21,44": 0,
+      "21,45": 0,
+      "21,46": 0,
+      "21,47": 1,
+      "21,48": 0,
+      "21,49": 0,
+      "21,50": 0,
+      "21,51": 0,
+      "21,52": 0,
+      "21,53": 0,
+      "21,54": 0,
+      "21,55": 0,
+      "21,56": 0,
+      "21,57": 0,
+      "21,58": 0,
+      "21,59": 0,
+      "21,60": 0,
+      "21,61": 0,
+      "21,62": 0,
+      "21,63": 0,
       "21,64": 0,
       "21,65": 0,
       "21,66": 0,
@@ -2934,51 +2772,51 @@
       "21,74": 0,
       "21,75": 0,
       "22,29": 0,
-      "22,30": 22,
-      "22,31": 23,
-      "22,32": 23,
-      "22,33": 10,
-      "22,34": 10,
-      "22,35": 10,
-      "22,36": 10,
-      "22,37": 10,
-      "22,38": 10,
-      "22,39": 10,
-      "22,40": 10,
-      "22,41": 10,
-      "22,42": 10,
-      "22,43": 10,
-      "22,44": 10,
-      "22,45": 10,
-      "22,46": 10,
-      "22,47": 24,
-      "22,48": 10,
-      "22,49": 10,
-      "22,50": 10,
-      "22,51": 10,
-      "22,52": 10,
-      "22,53": 10,
-      "22,54": 10,
-      "22,55": 10,
-      "22,56": 10,
-      "22,57": 10,
-      "22,58": 10,
-      "22,59": 10,
-      "22,60": 10,
-      "22,61": 10,
-      "22,62": 23,
-      "22,63": 25,
+      "22,30": 3,
+      "22,31": 3,
+      "22,32": 3,
+      "22,33": 13,
+      "22,34": 13,
+      "22,35": 13,
+      "22,36": 0,
+      "22,37": 0,
+      "22,38": 0,
+      "22,39": 0,
+      "22,40": 0,
+      "22,41": 0,
+      "22,42": 0,
+      "22,43": 0,
+      "22,44": 0,
+      "22,45": 0,
+      "22,46": 0,
+      "22,47": 1,
+      "22,48": 0,
+      "22,49": 0,
+      "22,50": 0,
+      "22,51": 0,
+      "22,52": 0,
+      "22,53": 0,
+      "22,54": 0,
+      "22,55": 0,
+      "22,56": 0,
+      "22,57": 0,
+      "22,58": 0,
+      "22,59": 0,
+      "22,60": 0,
+      "22,61": 0,
+      "22,62": 3,
+      "22,63": 3,
       "22,64": 0,
       "22,65": 0,
       "22,66": 0,
       "22,67": 0,
       "23,29": 0,
-      "23,30": 26,
+      "23,30": 0,
       "23,31": 4,
       "23,32": 4,
-      "23,33": 4,
-      "23,34": 0,
-      "23,35": 0,
+      "23,33": 14,
+      "23,34": 13,
+      "23,35": 13,
       "23,36": 0,
       "23,37": 0,
       "23,38": 0,
@@ -2988,10 +2826,7 @@
       "23,42": 0,
       "23,43": 0,
       "23,44": 0,
-      "23,45": 0,
-      "23,46": 4,
-      "23,47": 0,
-      "23,48": 0,
+      "23,45": 9,
       "23,49": 0,
       "23,50": 0,
       "23,51": 0,
@@ -3006,17 +2841,17 @@
       "23,60": 0,
       "23,61": 0,
       "23,62": 4,
-      "23,63": 27,
+      "23,63": 4,
       "23,64": 0,
       "23,65": 0,
       "23,66": 0,
       "23,67": 0,
       "24,29": 0,
-      "24,30": 26,
+      "24,30": 0,
       "24,31": 0,
-      "24,34": 3,
+      "24,33": 10,
+      "24,34": 0,
       "24,35": 0,
-      "24,36": 0,
       "24,37": 0,
       "24,38": 0,
       "24,39": 0,
@@ -3025,10 +2860,6 @@
       "24,42": 0,
       "24,43": 0,
       "24,44": 0,
-      "24,45": 0,
-      "24,46": 0,
-      "24,47": 0,
-      "24,48": 0,
       "24,49": 0,
       "24,50": 0,
       "24,51": 0,
@@ -3037,60 +2868,50 @@
       "24,54": 0,
       "24,55": 0,
       "24,56": 0,
-      "24,57": 28,
-      "24,58": 0,
-      "24,59": 0,
-      "24,60": 0,
-      "24,61": 0,
-      "24,62": 0,
-      "24,63": 29,
+      "24,58": 15,
+      "24,63": 0,
       "24,64": 0,
       "24,65": 0,
       "24,66": 0,
       "24,67": 0,
       "25,29": 0,
-      "25,30": 26,
+      "25,30": 0,
       "25,31": 0,
+      "25,33": 0,
       "25,34": 0,
       "25,35": 0,
-      "25,36": 0,
-      "25,37": 30,
-      "25,38": 30,
-      "25,39": 30,
-      "25,40": 30,
-      "25,41": 30,
-      "25,42": 30,
-      "25,43": 30,
-      "25,44": 30,
-      "25,45": 30,
-      "25,46": 30,
-      "25,47": 31,
-      "25,48": 30,
-      "25,49": 31,
-      "25,50": 30,
-      "25,51": 31,
-      "25,52": 30,
-      "25,53": 31,
-      "25,54": 30,
-      "25,55": 31,
-      "25,56": 30,
+      "25,37": 11,
+      "25,38": 12,
+      "25,39": 12,
+      "25,40": 12,
+      "25,41": 12,
+      "25,42": 12,
+      "25,43": 12,
+      "25,44": 12,
+      "25,45": 12,
+      "25,46": 12,
+      "25,47": 16,
+      "25,48": 12,
+      "25,49": 16,
+      "25,50": 12,
+      "25,51": 16,
+      "25,52": 12,
+      "25,53": 16,
+      "25,54": 12,
+      "25,55": 16,
+      "25,56": 12,
       "25,57": 0,
-      "25,58": 0,
-      "25,59": 0,
-      "25,60": 0,
-      "25,61": 0,
-      "25,62": 0,
-      "25,63": 29,
+      "25,63": 0,
       "25,64": 0,
       "25,65": 0,
       "25,66": 0,
       "25,67": 0,
       "26,29": 0,
-      "26,30": 26,
+      "26,30": 0,
       "26,31": 0,
+      "26,33": 0,
       "26,34": 0,
       "26,35": 0,
-      "26,36": 0,
       "26,37": 0,
       "26,38": 0,
       "26,39": 0,
@@ -3112,62 +2933,57 @@
       "26,55": 0,
       "26,56": 0,
       "26,57": 0,
-      "26,58": 0,
-      "26,59": 0,
-      "26,60": 0,
-      "26,61": 0,
-      "26,62": 0,
-      "26,63": 29,
+      "26,63": 0,
       "26,64": 0,
       "26,65": 0,
       "26,66": 0,
       "26,67": 0,
       "27,29": 0,
-      "27,30": 22,
-      "27,31": 23,
-      "27,32": 23,
-      "27,33": 10,
-      "27,34": 10,
-      "27,35": 10,
-      "27,36": 10,
-      "27,37": 10,
-      "27,38": 10,
-      "27,39": 10,
-      "27,40": 10,
-      "27,41": 10,
-      "27,42": 10,
-      "27,43": 10,
-      "27,44": 10,
-      "27,45": 10,
-      "27,46": 10,
-      "27,47": 24,
-      "27,48": 10,
-      "27,49": 10,
-      "27,50": 10,
-      "27,51": 10,
-      "27,52": 10,
-      "27,53": 10,
-      "27,54": 10,
-      "27,55": 10,
-      "27,56": 10,
-      "27,57": 10,
-      "27,58": 10,
-      "27,59": 10,
-      "27,60": 32,
-      "27,61": 32,
-      "27,62": 32,
-      "27,63": 33,
+      "27,30": 3,
+      "27,31": 3,
+      "27,32": 3,
+      "27,33": 13,
+      "27,34": 13,
+      "27,35": 13,
+      "27,36": 0,
+      "27,37": 0,
+      "27,38": 0,
+      "27,39": 0,
+      "27,40": 0,
+      "27,41": 0,
+      "27,42": 0,
+      "27,43": 0,
+      "27,44": 0,
+      "27,45": 0,
+      "27,46": 0,
+      "27,47": 1,
+      "27,48": 0,
+      "27,49": 0,
+      "27,50": 0,
+      "27,51": 0,
+      "27,52": 0,
+      "27,53": 0,
+      "27,54": 0,
+      "27,55": 0,
+      "27,56": 0,
+      "27,57": 0,
+      "27,58": 0,
+      "27,59": 0,
+      "27,60": 7,
+      "27,61": 7,
+      "27,62": 7,
+      "27,63": 7,
       "27,64": 0,
       "27,65": 0,
       "27,66": 0,
       "27,67": 0,
       "28,29": 0,
-      "28,30": 26,
+      "28,30": 0,
       "28,31": 4,
       "28,32": 4,
-      "28,33": 4,
-      "28,34": 0,
-      "28,35": 0,
+      "28,33": 14,
+      "28,34": 13,
+      "28,35": 13,
       "28,36": 0,
       "28,37": 0,
       "28,38": 0,
@@ -3177,7 +2993,7 @@
       "28,42": 0,
       "28,43": 0,
       "28,44": 0,
-      "28,45": 34,
+      "28,45": 9,
       "28,46": 0,
       "28,47": 0,
       "28,48": 0,
@@ -3195,17 +3011,17 @@
       "28,60": 0,
       "28,61": 0,
       "28,62": 4,
-      "28,63": 27,
+      "28,63": 4,
       "28,64": 0,
       "28,65": 0,
       "28,66": 0,
       "28,67": 0,
       "29,29": 0,
-      "29,30": 26,
+      "29,30": 0,
       "29,31": 0,
-      "29,34": 3,
+      "29,33": 10,
+      "29,34": 0,
       "29,35": 0,
-      "29,36": 0,
       "29,37": 0,
       "29,38": 0,
       "29,39": 0,
@@ -3232,95 +3048,92 @@
       "29,60": 0,
       "29,61": 0,
       "29,62": 0,
-      "29,63": 29,
+      "29,63": 0,
       "29,64": 0,
       "29,65": 0,
       "29,66": 0,
       "29,67": 0,
       "30,29": 0,
-      "30,30": 12,
-      "30,31": 13,
-      "30,32": 35,
+      "30,30": 0,
+      "30,31": 0,
+      "30,33": 0,
       "30,34": 0,
       "30,35": 0,
-      "30,36": 0,
-      "30,37": 30,
-      "30,38": 30,
-      "30,39": 30,
-      "30,40": 30,
-      "30,41": 30,
-      "30,42": 30,
-      "30,43": 30,
-      "30,44": 30,
-      "30,45": 30,
-      "30,46": 30,
-      "30,47": 31,
-      "30,48": 31,
-      "30,49": 31,
-      "30,50": 30,
-      "30,51": 31,
-      "30,52": 30,
-      "30,53": 31,
-      "30,54": 30,
-      "30,55": 31,
-      "30,56": 30,
+      "30,37": 11,
+      "30,38": 12,
+      "30,39": 12,
+      "30,40": 12,
+      "30,41": 12,
+      "30,42": 12,
+      "30,43": 12,
+      "30,44": 12,
+      "30,45": 12,
+      "30,46": 12,
+      "30,47": 16,
+      "30,48": 16,
+      "30,49": 16,
+      "30,50": 12,
+      "30,51": 16,
+      "30,52": 12,
+      "30,53": 16,
+      "30,54": 12,
+      "30,55": 16,
+      "30,56": 12,
       "30,57": 0,
       "30,58": 0,
       "30,59": 0,
       "30,60": 0,
       "30,61": 0,
       "30,62": 0,
-      "30,63": 29,
+      "30,63": 0,
       "30,64": 0,
       "30,65": 0,
       "30,66": 0,
       "30,67": 0,
       "31,29": 0,
-      "31,30": 36,
-      "31,31": 37,
-      "31,32": 38,
-      "31,33": 39,
-      "31,34": 40,
-      "31,35": 40,
-      "31,36": 40,
-      "31,37": 40,
-      "31,38": 40,
-      "31,39": 40,
-      "31,40": 40,
-      "31,41": 40,
-      "31,42": 40,
-      "31,43": 40,
-      "31,44": 40,
-      "31,45": 40,
-      "31,46": 40,
-      "31,47": 41,
-      "31,48": 40,
-      "31,49": 40,
-      "31,50": 40,
-      "31,51": 40,
-      "31,52": 40,
-      "31,53": 40,
-      "31,54": 40,
-      "31,55": 40,
-      "31,56": 40,
-      "31,57": 40,
-      "31,58": 40,
-      "31,59": 40,
-      "31,60": 40,
-      "31,61": 40,
-      "31,62": 40,
-      "31,63": 42,
+      "31,30": 0,
+      "31,31": 0,
+      "31,33": 0,
+      "31,34": 0,
+      "31,35": 0,
+      "31,37": 0,
+      "31,38": 0,
+      "31,39": 0,
+      "31,40": 0,
+      "31,41": 0,
+      "31,42": 0,
+      "31,43": 0,
+      "31,44": 0,
+      "31,45": 0,
+      "31,46": 0,
+      "31,47": 1,
+      "31,48": 0,
+      "31,49": 0,
+      "31,50": 0,
+      "31,51": 0,
+      "31,52": 0,
+      "31,53": 0,
+      "31,54": 0,
+      "31,55": 0,
+      "31,56": 0,
+      "31,57": 0,
+      "31,58": 0,
+      "31,59": 0,
+      "31,60": 0,
+      "31,61": 0,
+      "31,62": 0,
+      "31,63": 0,
       "31,64": 0,
       "31,65": 0,
       "31,66": 0,
       "31,67": 0,
       "32,29": 0,
-      "32,30": 43,
+      "32,30": 3,
       "32,31": 3,
       "32,32": 3,
-      "32,33": 0,
-      "32,34": 0,
-      "32,35": 0,
+      "32,33": 13,
+      "32,34": 13,
+      "32,35": 13,
       "32,36": 0,
       "32,37": 0,
       "32,38": 0,
@@ -3348,18 +3161,18 @@
       "32,60": 0,
       "32,61": 0,
       "32,62": 3,
-      "32,63": 44,
+      "32,63": 3,
       "32,64": 0,
       "32,65": 0,
       "32,66": 0,
       "32,67": 0,
       "33,29": 0,
-      "33,30": 26,
+      "33,30": 0,
       "33,31": 4,
       "33,32": 4,
-      "33,33": 4,
-      "33,34": 0,
-      "33,35": 0,
+      "33,33": 14,
+      "33,34": 13,
+      "33,35": 13,
       "33,36": 0,
       "33,37": 0,
       "33,38": 0,
@@ -3369,7 +3182,7 @@
       "33,42": 0,
       "33,43": 0,
       "33,44": 0,
-      "33,45": 45,
+      "33,45": 17,
       "33,46": 0,
       "33,47": 0,
       "33,48": 0,
@@ -3387,17 +3200,17 @@
       "33,60": 0,
       "33,61": 0,
       "33,62": 4,
-      "33,63": 27,
+      "33,63": 4,
       "33,64": 0,
       "33,65": 0,
       "33,66": 0,
       "33,67": 0,
       "34,29": 0,
-      "34,30": 26,
+      "34,30": 0,
       "34,31": 0,
-      "34,34": 3,
+      "34,33": 10,
+      "34,34": 0,
       "34,35": 0,
-      "34,36": 0,
       "34,37": 0,
       "34,38": 0,
       "34,39": 0,
@@ -3424,116 +3237,165 @@
       "34,60": 0,
       "34,61": 0,
       "34,62": 0,
-      "34,63": 29,
-      "34,64": 46,
-      "34,65": 46,
-      "34,66": 46,
-      "34,67": 46,
+      "34,63": 0,
+      "34,64": 18,
+      "34,65": 18,
+      "34,66": 18,
+      "34,67": 18,
       "35,29": 0,
-      "35,30": 26,
+      "35,30": 0,
       "35,31": 0,
+      "35,33": 0,
       "35,34": 0,
       "35,35": 0,
-      "35,36": 0,
-      "35,37": 30,
-      "35,38": 30,
-      "35,39": 30,
-      "35,40": 30,
-      "35,41": 30,
-      "35,42": 30,
-      "35,43": 30,
-      "35,44": 30,
-      "35,45": 30,
-      "35,46": 30,
-      "35,47": 31,
-      "35,48": 30,
-      "35,49": 30,
-      "35,50": 30,
-      "35,51": 30,
-      "35,52": 30,
-      "35,53": 30,
-      "35,54": 30,
-      "35,55": 30,
-      "35,56": 30,
+      "35,37": 11,
+      "35,38": 12,
+      "35,39": 12,
+      "35,40": 12,
+      "35,41": 12,
+      "35,42": 12,
+      "35,43": 12,
+      "35,44": 12,
+      "35,45": 12,
+      "35,46": 12,
+      "35,47": 16,
+      "35,48": 12,
+      "35,49": 12,
+      "35,50": 12,
+      "35,51": 12,
+      "35,52": 12,
+      "35,53": 12,
+      "35,54": 12,
+      "35,55": 12,
+      "35,56": 12,
       "35,57": 0,
       "35,58": 0,
       "35,59": 0,
       "35,60": 0,
       "35,61": 0,
       "35,62": 0,
-      "35,63": 29,
-      "35,64": 46,
-      "35,65": 46,
-      "35,66": 46,
-      "35,67": 46,
-      "36,29": 46,
-      "36,30": 47,
-      "36,31": 40,
-      "36,32": 39,
-      "36,33": 39,
-      "36,34": 40,
-      "36,35": 40,
-      "36,36": 40,
-      "36,37": 40,
-      "36,38": 40,
-      "36,39": 40,
-      "36,40": 40,
-      "36,41": 40,
-      "36,42": 40,
-      "36,43": 40,
-      "36,44": 40,
-      "36,45": 40,
-      "36,46": 40,
-      "36,47": 41,
-      "36,48": 40,
-      "36,49": 40,
-      "36,50": 40,
-      "36,51": 40,
-      "36,52": 40,
-      "36,53": 40,
-      "36,54": 40,
-      "36,55": 40,
-      "36,56": 40,
-      "36,57": 40,
-      "36,58": 40,
-      "36,59": 40,
-      "36,60": 40,
-      "36,61": 40,
-      "36,62": 40,
-      "36,63": 42,
-      "36,64": 46,
-      "36,65": 46,
-      "36,66": 46,
-      "36,67": 46,
-      "37,25": 46,
-      "37,68": 46,
-      "37,69": 46,
-      "37,70": 46,
-      "37,71": 46,
-      "37,72": 46,
-      "37,73": 46,
-      "37,74": 46,
-      "38,25": 46,
-      "38,68": 46,
-      "38,69": 46,
-      "38,70": 46,
-      "38,71": 46,
-      "38,72": 46,
-      "38,73": 46,
-      "38,74": 46,
-      "39,24": 46,
-      "39,25": 46,
-      "39,26": 46,
-      "39,27": 46,
-      "39,28": 46,
-      "39,29": 48,
+      "35,63": 0,
+      "35,64": 18,
+      "35,65": 18,
+      "35,66": 18,
+      "35,67": 18,
+      "36,29": 18,
+      "36,30": 0,
+      "36,31": 0,
+      "36,33": 0,
+      "36,34": 0,
+      "36,35": 0,
+      "36,37": 0,
+      "36,38": 0,
+      "36,39": 0,
+      "36,40": 0,
+      "36,41": 0,
+      "36,42": 0,
+      "36,43": 0,
+      "36,44": 0,
+      "36,45": 0,
+      "36,46": 0,
+      "36,47": 1,
+      "36,48": 0,
+      "36,49": 0,
+      "36,50": 0,
+      "36,51": 0,
+      "36,52": 0,
+      "36,53": 0,
+      "36,54": 0,
+      "36,55": 0,
+      "36,56": 0,
+      "36,57": 0,
+      "36,58": 0,
+      "36,59": 0,
+      "36,60": 0,
+      "36,61": 0,
+      "36,62": 0,
+      "36,63": 0,
+      "36,64": 18,
+      "36,65": 18,
+      "36,66": 18,
+      "36,67": 18,
+      "37,29": 18,
+      "37,30": 0,
+      "37,31": 0,
+      "37,33": 10,
+      "37,34": 10,
+      "37,35": 10,
+      "37,37": 0,
+      "37,38": 0,
+      "37,39": 0,
+      "37,40": 0,
+      "37,41": 0,
+      "37,42": 0,
+      "37,43": 0,
+      "37,44": 0,
+      "37,45": 0,
+      "37,46": 0,
+      "37,47": 1,
+      "37,48": 0,
+      "37,49": 0,
+      "37,50": 0,
+      "37,51": 0,
+      "37,52": 0,
+      "37,53": 0,
+      "37,54": 0,
+      "37,55": 0,
+      "37,56": 0,
+      "37,57": 0,
+      "37,58": 3,
+      "37,59": 3,
+      "37,60": 3,
+      "37,61": 0,
+      "37,62": 0,
+      "37,63": 0,
+      "37,64": 18,
+      "37,65": 18,
+      "37,66": 18,
+      "37,67": 18,
+      "38,29": 18,
+      "38,30": 0,
+      "38,31": 0,
+      "38,33": 10,
+      "38,34": 10,
+      "38,35": 10,
+      "38,37": 0,
+      "38,38": 0,
+      "38,39": 0,
+      "38,40": 0,
+      "38,41": 0,
+      "38,42": 0,
+      "38,43": 0,
+      "38,44": 0,
+      "38,45": 0,
+      "38,46": 0,
+      "38,47": 1,
+      "38,48": 0,
+      "38,49": 0,
+      "38,50": 0,
+      "38,51": 0,
+      "38,52": 0,
+      "38,53": 0,
+      "38,54": 0,
+      "38,55": 0,
+      "38,56": 0,
+      "38,57": 0,
+      "38,58": 3,
+      "38,59": 3,
+      "38,60": 3,
+      "38,61": 0,
+      "38,62": 0,
+      "38,63": 0,
+      "38,64": 18,
+      "38,65": 18,
+      "38,66": 18,
+      "38,67": 18,
+      "39,29": 18,
       "39,30": 0,
       "39,31": 0,
-      "39,32": 0,
-      "39,33": 0,
-      "39,34": 0,
-      "39,35": 0,
-      "39,36": 0,
+      "39,33": 10,
+      "39,34": 10,
+      "39,35": 10,
       "39,37": 0,
       "39,38": 0,
       "39,39": 0,
@@ -3544,7 +3406,7 @@
       "39,44": 0,
       "39,45": 0,
       "39,46": 0,
-      "39,47": 0,
+      "39,47": 1,
       "39,48": 0,
       "39,49": 0,
       "39,50": 0,
@@ -3555,91 +3417,87 @@
       "39,55": 0,
       "39,56": 0,
       "39,57": 0,
-      "39,58": 0,
-      "39,59": 0,
-      "39,60": 0,
+      "39,58": 3,
+      "39,59": 3,
+      "39,60": 3,
       "39,61": 0,
       "39,62": 0,
       "39,63": 0,
-      "39,64": 0,
-      "39,65": 0,
-      "39,66": 0,
-      "39,67": 0,
-      "39,69": 46,
-      "39,70": 46,
-      "39,71": 46,
-      "39,72": 46,
-      "39,73": 46,
-      "39,74": 46,
-      "41,20": 0,
-      "41,21": 0,
-      "41,22": 0,
-      "41,23": 0,
-      "41,24": 0,
-      "41,25": 0,
-      "41,26": 0,
-      "41,27": 46,
-      "41,67": 0,
-      "41,68": 0,
-      "41,69": 0,
-      "41,70": 0,
-      "41,71": 0,
-      "41,72": 0,
-      "41,73": 0,
-      "41,74": 0,
-      "41,75": 0,
-      "42,19": 0,
-      "42,20": 0,
-      "42,21": 0,
-      "42,22": 0,
-      "42,23": 0,
-      "42,24": 0,
-      "42,25": 0,
-      "42,26": 0,
-      "42,67": 0,
-      "42,68": 0,
-      "42,69": 0,
-      "42,70": 0,
-      "42,71": 0,
-      "42,72": 0,
-      "42,73": 0,
-      "42,74": 0,
-      "42,75": 0,
-      "43,19": 0,
-      "43,20": 0,
-      "43,21": 0,
-      "43,22": 0,
-      "43,23": 0,
-      "43,24": 0,
-      "43,25": 0,
-      "43,26": 0,
+      "39,64": 18,
+      "39,65": 18,
+      "39,66": 18,
+      "39,67": 18,
+      "40,27": 19,
+      "40,28": 19,
+      "40,29": 20,
+      "40,30": 21,
+      "40,31": 21,
+      "40,32": 19,
+      "40,33": 22,
+      "40,34": 22,
+      "40,35": 22,
+      "40,36": 19,
+      "40,37": 21,
+      "40,38": 21,
+      "40,39": 21,
+      "40,40": 21,
+      "40,41": 21,
+      "40,42": 21,
+      "40,43": 21,
+      "40,44": 21,
+      "40,45": 21,
+      "40,46": 21,
+      "40,47": 23,
+      "40,48": 21,
+      "40,49": 21,
+      "40,50": 21,
+      "40,51": 21,
+      "40,52": 21,
+      "40,53": 21,
+      "40,54": 21,
+      "40,55": 21,
+      "40,56": 21,
+      "40,57": 21,
+      "40,58": 24,
+      "40,59": 24,
+      "40,60": 24,
+      "40,61": 21,
+      "40,62": 21,
+      "40,63": 21,
+      "40,64": 20,
+      "40,65": 20,
+      "40,66": 20,
+      "40,67": 20,
+      "41,25": 18,
+      "41,68": 18,
+      "41,69": 18,
+      "41,70": 18,
+      "41,71": 18,
+      "41,72": 18,
+      "41,73": 18,
+      "41,74": 18,
+      "42,25": 18,
+      "42,68": 18,
+      "42,69": 18,
+      "42,70": 18,
+      "42,71": 18,
+      "42,72": 18,
+      "42,73": 18,
+      "42,74": 18,
+      "43,24": 18,
+      "43,25": 18,
+      "43,26": 18,
+      "43,27": 18,
+      "43,28": 18,
+      "43,29": 25,
+      "43,66": 0,
       "43,67": 0,
-      "43,68": 0,
-      "43,69": 0,
-      "43,70": 0,
-      "43,71": 0,
-      "43,72": 0,
-      "43,73": 0,
-      "43,74": 0,
-      "43,75": 0,
-      "44,19": 0,
-      "44,20": 0,
-      "44,21": 0,
-      "44,22": 0,
-      "44,23": 0,
-      "44,24": 0,
-      "44,25": 0,
-      "44,26": 0,
-      "44,67": 0,
-      "44,68": 0,
-      "44,69": 0,
-      "44,70": 0,
-      "44,71": 0,
-      "44,72": 0,
-      "44,73": 0,
-      "44,74": 0,
-      "44,75": 0,
-      "45,19": 0,
+      "43,69": 18,
+      "43,70": 18,
+      "43,71": 18,
+      "43,72": 18,
+      "43,73": 18,
+      "43,74": 18,
       "45,20": 0,
       "45,21": 0,
       "45,22": 0,
@@ -3647,7 +3505,7 @@
       "45,24": 0,
       "45,25": 0,
       "45,26": 0,
-      "45,67": 0,
+      "45,29": 26,
       "45,68": 0,
       "45,69": 0,
       "45,70": 0,
@@ -3664,7 +3522,6 @@
       "46,24": 0,
       "46,25": 0,
       "46,26": 0,
-      "46,67": 0,
       "46,68": 0,
       "46,69": 0,
       "46,70": 0,
@@ -3681,7 +3538,6 @@
       "47,24": 0,
       "47,25": 0,
       "47,26": 0,
-      "47,67": 0,
       "47,68": 0,
       "47,69": 0,
       "47,70": 0,
@@ -3698,7 +3554,6 @@
       "48,24": 0,
       "48,25": 0,
       "48,26": 0,
-      "48,67": 0,
       "48,68": 0,
       "48,69": 0,
       "48,70": 0,
@@ -3715,7 +3570,6 @@
       "49,24": 0,
       "49,25": 0,
       "49,26": 0,
-      "49,67": 0,
       "49,68": 0,
       "49,69": 0,
       "49,70": 0,
@@ -3732,7 +3586,6 @@
       "50,24": 0,
       "50,25": 0,
       "50,26": 0,
-      "50,67": 0,
       "50,68": 0,
       "50,69": 0,
       "50,70": 0,
@@ -3749,7 +3602,6 @@
       "51,24": 0,
       "51,25": 0,
       "51,26": 0,
-      "51,67": 0,
       "51,68": 0,
       "51,69": 0,
       "51,70": 0,
@@ -3758,88 +3610,158 @@
       "51,73": 0,
       "51,74": 0,
       "51,75": 0,
-      "58,28": 49,
-      "58,29": 0,
-      "58,30": 0,
-      "58,31": 0,
-      "58,32": 0,
-      "58,33": 0,
-      "58,34": 49,
-      "58,35": 0,
-      "58,36": 0,
-      "58,37": 0,
-      "58,38": 0,
-      "58,40": 49,
-      "58,41": 0,
-      "58,42": 0,
-      "58,43": 0,
-      "58,44": 0,
-      "58,48": 50,
-      "58,62": 50,
-      "59,28": 0,
-      "59,29": 0,
-      "59,30": 0,
-      "59,31": 0,
-      "59,32": 0,
-      "59,33": 0,
-      "59,34": 0,
-      "59,35": 0,
-      "59,36": 0,
-      "59,37": 0,
-      "59,38": 0,
-      "59,40": 0,
-      "59,41": 0,
-      "59,42": 0,
-      "59,43": 0,
-      "59,44": 0,
-      "62,71": 51,
-      "62,72": 0,
-      "62,73": 0,
-      "62,74": 0,
-      "62,75": 51,
-      "62,76": 0,
-      "62,77": 0,
-      "62,78": 0,
-      "62,79": 51,
-      "62,80": 0,
-      "62,81": 0,
-      "62,82": 0,
-      "62,83": 51,
-      "62,84": 0,
-      "62,85": 0,
-      "62,86": 0,
-      "63,71": 0,
-      "63,72": 0,
-      "63,73": 0,
-      "63,74": 0,
-      "63,75": 0,
-      "63,76": 0,
-      "63,77": 0,
-      "63,78": 0,
-      "63,79": 0,
-      "63,80": 0,
-      "63,81": 0,
-      "63,82": 0,
-      "63,83": 0,
-      "63,84": 0,
-      "63,85": 0,
-      "63,86": 0,
-      "64,71": 0,
-      "64,72": 0,
-      "64,73": 0,
-      "64,74": 0,
-      "64,75": 0,
-      "64,76": 0,
-      "64,77": 0,
-      "64,78": 0,
-      "64,79": 0,
-      "64,80": 0,
-      "64,81": 0,
-      "64,82": 0,
-      "64,83": 0,
-      "64,84": 0,
-      "64,85": 0,
-      "64,86": 0
+      "52,19": 0,
+      "52,20": 0,
+      "52,21": 0,
+      "52,22": 0,
+      "52,23": 0,
+      "52,24": 0,
+      "52,25": 0,
+      "52,26": 0,
+      "52,68": 0,
+      "52,69": 0,
+      "52,70": 0,
+      "52,71": 0,
+      "52,72": 0,
+      "52,73": 0,
+      "52,74": 0,
+      "52,75": 0,
+      "53,19": 0,
+      "53,20": 0,
+      "53,21": 0,
+      "53,22": 0,
+      "53,23": 0,
+      "53,24": 0,
+      "53,25": 0,
+      "53,26": 0,
+      "53,68": 0,
+      "53,69": 0,
+      "53,70": 0,
+      "53,71": 0,
+      "53,72": 0,
+      "53,73": 0,
+      "53,74": 0,
+      "53,75": 0,
+      "54,19": 0,
+      "54,20": 0,
+      "54,21": 0,
+      "54,22": 0,
+      "54,23": 0,
+      "54,24": 0,
+      "54,25": 0,
+      "54,26": 0,
+      "54,68": 0,
+      "54,69": 0,
+      "54,70": 0,
+      "54,71": 0,
+      "54,72": 0,
+      "54,73": 0,
+      "54,74": 0,
+      "54,75": 0,
+      "55,19": 0,
+      "55,20": 0,
+      "55,21": 0,
+      "55,22": 0,
+      "55,23": 0,
+      "55,24": 0,
+      "55,25": 0,
+      "55,26": 0,
+      "55,68": 0,
+      "55,69": 0,
+      "55,70": 0,
+      "55,71": 0,
+      "55,72": 0,
+      "55,73": 0,
+      "55,74": 0,
+      "55,75": 0,
+      "56,68": 0,
+      "57,68": 0,
+      "58,68": 0,
+      "59,68": 0,
+      "61,29": 27,
+      "61,30": 0,
+      "61,31": 0,
+      "61,32": 0,
+      "61,33": 0,
+      "61,34": 0,
+      "61,35": 27,
+      "61,36": 0,
+      "61,37": 0,
+      "61,38": 0,
+      "61,39": 0,
+      "61,40": 0,
+      "61,41": 27,
+      "61,42": 0,
+      "61,43": 0,
+      "61,44": 0,
+      "61,45": 0,
+      "61,48": 28,
+      "61,62": 28,
+      "62,29": 0,
+      "62,30": 0,
+      "62,31": 0,
+      "62,32": 0,
+      "62,33": 0,
+      "62,34": 0,
+      "62,35": 0,
+      "62,36": 0,
+      "62,37": 0,
+      "62,38": 0,
+      "62,39": 0,
+      "62,40": 0,
+      "62,41": 0,
+      "62,42": 0,
+      "62,43": 0,
+      "62,44": 0,
+      "62,45": 0,
+      "65,71": 29,
+      "65,72": 0,
+      "65,73": 0,
+      "65,74": 0,
+      "65,75": 29,
+      "65,76": 0,
+      "65,77": 0,
+      "65,78": 0,
+      "65,79": 29,
+      "65,80": 0,
+      "65,81": 0,
+      "65,82": 0,
+      "65,83": 29,
+      "65,84": 0,
+      "65,85": 0,
+      "65,86": 0,
+      "66,71": 0,
+      "66,72": 0,
+      "66,73": 0,
+      "66,74": 0,
+      "66,75": 0,
+      "66,76": 0,
+      "66,77": 0,
+      "66,78": 0,
+      "66,79": 0,
+      "66,80": 0,
+      "66,81": 0,
+      "66,82": 0,
+      "66,83": 0,
+      "66,84": 0,
+      "66,85": 0,
+      "66,86": 0,
+      "67,71": 0,
+      "67,72": 0,
+      "67,73": 0,
+      "67,74": 0,
+      "67,75": 0,
+      "67,76": 0,
+      "67,77": 0,
+      "67,78": 0,
+      "67,79": 0,
+      "67,80": 0,
+      "67,81": 0,
+      "67,82": 0,
+      "67,83": 0,
+      "67,84": 0,
+      "67,85": 0,
+      "67,86": 0
     },
     "SheetStyle": {
       "FontFamily": 0
@@ -3848,8 +3770,6 @@
   "Spans": [
     "18,45,2,4",
     "19,58,3,3",
-    "23,46,2,3",
-    "24,57,3,6",
     "28,45,2,4",
     "29,58,3,3",
     "33,45,2,4",
@@ -3860,29 +3780,29 @@
     "12,41,4,12",
     "3,40,4,14",
     "7,41,5,3",
-    "39,29,1,39",
-    "63,83,1,4",
-    "62,83,1,4",
-    "63,79,1,4",
-    "62,79,1,4",
-    "63,75,1,4",
-    "62,75,1,4",
-    "63,71,1,4",
-    "62,71,1,4",
-    "64,71,1,4",
-    "64,75,1,4",
-    "64,79,1,4",
-    "64,83,1,4",
-    "41,27,15,40",
-    "58,34,2,5",
-    "58,28,2,5",
-    "19,34,3,3",
-    "24,34,3,3",
-    "29,34,3,3",
-    "34,34,3,3",
-    "58,40,2,5",
-    "58,48,3,14",
-    "58,62,3,7"
+    "66,83,1,4",
+    "65,83,1,4",
+    "66,79,1,4",
+    "65,79,1,4",
+    "66,75,1,4",
+    "65,75,1,4",
+    "66,71,1,4",
+    "65,71,1,4",
+    "67,71,1,4",
+    "67,75,1,4",
+    "67,79,1,4",
+    "67,83,1,4",
+    "23,45,2,4",
+    "24,58,3,5",
+    "19,33,3,3",
+    "24,33,3,3",
+    "29,33,3,3",
+    "34,33,3,3",
+    "43,29,1,37",
+    "45,29,15,37",
+    "61,35,2,5",
+    "61,29,2,5",
+    "64,0,1,8"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3904,7 +3824,7 @@
                 ]
               },
               "value": "E",
-              "Id": "4349360b-a9e5-4569-97af-a9433c9416dd"
+              "Id": "1b06a2e0-a6ee-444a-b074-76ac0da71d23"
             },
             "CommandList": [
               {
@@ -3913,15 +3833,15 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=결과화면!AI20"
+                      "SerializeProperty": "=결과화면!AH20"
                     },
                     "PropertyType": 3,
-                    "Value": "#E13958"
+                    "Value": "#fd7f6f"
                   }
                 ]
               }
             ],
-            "ID": "ee14b7da-40f6-42af-9bce-2e17a0c4a01c"
+            "ID": "a5735d43-4dae-4981-af04-3361de041ec7"
           },
           {
             "Condition": {
@@ -3935,7 +3855,7 @@
                 ]
               },
               "value": "I",
-              "Id": "997f25d0-e924-4311-b7e2-4b4a2365a55f"
+              "Id": "8df7b461-08af-4b1d-baa4-d686c0e54a63"
             },
             "CommandList": [
               {
@@ -3947,12 +3867,12 @@
                       "SerializeProperty": "=결과화면!BG20"
                     },
                     "PropertyType": 3,
-                    "Value": "#009CFF"
+                    "Value": "#7eb0d5"
                   }
                 ]
               }
             ],
-            "ID": "76d8bbbf-6828-4401-b686-ce7561abc782"
+            "ID": "ce07f002-1656-4e98-9d15-4b23fa0fda58"
           }
         ]
       },
@@ -3971,7 +3891,7 @@
                 ]
               },
               "value": "S",
-              "Id": "65882163-5641-4d41-839f-f59b598550a3"
+              "Id": "74a7ff41-9247-4f6b-b6f9-761238d43b09"
             },
             "CommandList": [
               {
@@ -3980,15 +3900,15 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=결과화면!AI25"
+                      "SerializeProperty": "=결과화면!AH25"
                     },
                     "PropertyType": 3,
-                    "Value": "#BAC100"
+                    "Value": "#b2e061"
                   }
                 ]
               }
             ],
-            "ID": "81cee548-9f0f-4f84-ab78-b4b657e450c8"
+            "ID": "2e1450a2-4e70-468b-b423-d0924b6e5a24"
           },
           {
             "Condition": {
@@ -4002,7 +3922,7 @@
                 ]
               },
               "value": "N",
-              "Id": "fb9b0d1d-30cf-4789-b5ee-1295cdf8c78b"
+              "Id": "f36e6889-b915-4fdd-8edc-b2457525c9b0"
             },
             "CommandList": [
               {
@@ -4011,15 +3931,15 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=결과화면!BF25"
+                      "SerializeProperty": "=결과화면!BG25"
                     },
                     "PropertyType": 3,
-                    "Value": "#009CFF"
+                    "Value": "#bd7ebe"
                   }
                 ]
               }
             ],
-            "ID": "3817d73e-1f55-49da-92ea-3735aecbc6d1"
+            "ID": "a3b22938-3d4b-4ea7-acd2-6ccb2e1890eb"
           }
         ]
       },
@@ -4038,7 +3958,7 @@
                 ]
               },
               "value": "T",
-              "Id": "94811091-95dd-401c-a7e8-4ccd05b3b07a"
+              "Id": "01b344ca-5da8-4594-980e-e12f1b662fc3"
             },
             "CommandList": [
               {
@@ -4047,15 +3967,15 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=결과화면!AI30"
+                      "SerializeProperty": "=결과화면!AH30"
                     },
                     "PropertyType": 3,
-                    "Value": "#FF7300"
+                    "Value": "#ffb55a"
                   }
                 ]
               }
             ],
-            "ID": "3972e920-643b-4dfa-9285-bcb7aaf165eb"
+            "ID": "483aec55-907d-46a5-ba80-b97708c6b324"
           },
           {
             "Condition": {
@@ -4069,7 +3989,7 @@
                 ]
               },
               "value": "F",
-              "Id": "def12d42-9f33-4b29-8f6e-190cd0138729"
+              "Id": "25b7da10-eb9b-421e-ab5b-fe7a675840f1"
             },
             "CommandList": [
               {
@@ -4081,12 +4001,12 @@
                       "SerializeProperty": "=결과화면!BG30"
                     },
                     "PropertyType": 3,
-                    "Value": "#19B000"
+                    "Value": "#fdcce5"
                   }
                 ]
               }
             ],
-            "ID": "b82422ba-2b80-4b10-8a3d-b65a921dc950"
+            "ID": "37ae2c96-d3aa-42ee-a9ed-d34e9ade10a3"
           }
         ]
       },
@@ -4105,7 +4025,7 @@
                 ]
               },
               "value": "J",
-              "Id": "d187c4f0-4fff-4bbc-bd11-e65b4606a720"
+              "Id": "90c2ee13-aa11-47e3-a8b0-0e452adbebcd"
             },
             "CommandList": [
               {
@@ -4114,15 +4034,15 @@
                   {
                     "TargetCells": {
                       "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                      "SerializeProperty": "=결과화면!AI35"
+                      "SerializeProperty": "=결과화면!AH35"
                     },
                     "PropertyType": 3,
-                    "Value": "#D800DA"
+                    "Value": "#beb9db"
                   }
                 ]
               }
             ],
-            "ID": "f3fc1549-c9a6-4075-84c2-4d5bc8913a18"
+            "ID": "eb1e9706-e994-4eba-aab8-8c5709a01054"
           },
           {
             "Condition": {
@@ -4136,7 +4056,7 @@
                 ]
               },
               "value": "P",
-              "Id": "f598b71b-89c8-4a09-9d2d-7297f72016ad"
+              "Id": "58272e5a-9f51-482e-9ff7-c4c2b6554a95"
             },
             "CommandList": [
               {
@@ -4148,12 +4068,12 @@
                       "SerializeProperty": "=결과화면!BG35"
                     },
                     "PropertyType": 3,
-                    "Value": "#9C00FF"
+                    "Value": "#8bd3c7"
                   }
                 ]
               }
             ],
-            "ID": "a925ef39-0397-4b1a-bf7b-0273ff9eb3b7"
+            "ID": "88fbb98e-1118-4a29-830e-b24e457d05bb"
           }
         ]
       },
@@ -4178,7 +4098,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "3630d8a8-85a8-4172-a714-401e88dc4154"
+                    "Id": "f1be055b-e686-4823-82e1-8d8c7a2b2e54"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4191,9 +4111,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "f03fce7e-95ed-4769-95f8-bccf6654cea7"
+                    "Id": "17fc376d-09d7-4de4-8ce6-b094a4609041"
                   },
-                  "Id": "574ed0d2-88ce-4802-8447-d7ee42ccd387"
+                  "Id": "988485ae-795c-44d0-9525-38b120173206"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4206,9 +4126,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "0d7f0634-c2ea-457c-9563-863b7480489a"
+                  "Id": "6513d7e3-ba2b-4ea8-9e1d-26212415b926"
                 },
-                "Id": "22018e09-06da-423f-ba1d-07888341839d"
+                "Id": "7435f385-062d-43f5-8cc6-5b61685b30d5"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4221,9 +4141,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "e68e6be4-d895-45f8-a660-d37f5cb721d1"
+                "Id": "76334b3c-6bf4-42d5-97bd-1c2947abec2c"
               },
-              "Id": "656ec8c1-37e6-4a72-9eaf-0ef8a3e39310"
+              "Id": "67f708ab-ca6e-41e2-b4df-13060077b5b0"
             },
             "CommandList": [
               {
@@ -4242,7 +4162,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#FF737F4D"
+                    "Value": "#A4AA90"
                   },
                   {
                     "TargetCells": {
@@ -4261,7 +4181,7 @@
                 ]
               }
             ],
-            "ID": "479aa3d1-45a6-45bb-af16-60602ff56489"
+            "ID": "6b8d02ca-6ab5-4686-9d07-002b60d46dc1"
           },
           {
             "Condition": {
@@ -4281,7 +4201,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "263963c7-c3ca-41a1-b703-0a0ff0d19880"
+                    "Id": "d7019e2e-efe4-4d9e-be63-64ab727feff9"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4294,9 +4214,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "8858c7c7-c57f-454f-82a0-f0f39bb30599"
+                    "Id": "ad7b019d-1507-45a0-844a-4d2e2fd20491"
                   },
-                  "Id": "6a4b2e83-bb69-4c92-95e4-48af7cdfe22e"
+                  "Id": "e9da6acb-4ce5-4e4c-be66-8b246cc94391"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4309,9 +4229,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "1939ef6d-6373-4e1c-88b2-7241f3bae5e7"
+                  "Id": "40c37d0f-c8a8-411d-980b-df6433aa3c9c"
                 },
-                "Id": "d6212227-c9d3-4c0f-ab94-722c24e3c450"
+                "Id": "3a614912-12e5-4717-ba9f-97f82ad8420e"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4324,9 +4244,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "d9b7e5e6-90d4-4dcf-87c3-766e299002eb"
+                "Id": "6b78c541-459a-47c1-b975-1290a0a1e1a2"
               },
-              "Id": "ae5a08f2-5d79-4823-b326-e2ea881d2e6c"
+              "Id": "386bbaac-0dd6-42a4-95ca-1b6747595415"
             },
             "CommandList": [
               {
@@ -4345,7 +4265,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#209D89"
+                    "Value": "#08B9A7"
                   },
                   {
                     "TargetCells": {
@@ -4364,7 +4284,7 @@
                 ]
               }
             ],
-            "ID": "6f075c2c-56e5-4b37-9a94-56b7f39c1525"
+            "ID": "5e7ae415-4606-4ab6-955a-a05803b05a0f"
           },
           {
             "Condition": {
@@ -4384,7 +4304,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "9a9bfb93-876b-480a-9d3f-7c10dd9d6653"
+                    "Id": "aa2dc605-228c-473d-b762-4466356f22fe"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4397,9 +4317,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "ca2821e2-b6d8-49e8-952a-ef0863a6bf16"
+                    "Id": "69739a9d-c643-459c-83f4-19e3aa82c51e"
                   },
-                  "Id": "35050ce1-89e2-48ad-a327-72c8fc604042"
+                  "Id": "6c34bbc9-eb11-49f3-b7d7-b6c34d9cdd4b"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4412,9 +4332,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "3f64c640-8168-467e-99f1-340b6b5cc66b"
+                  "Id": "9c461a56-28ea-4700-91e5-eb58baed1989"
                 },
-                "Id": "2e7af909-6dbd-4108-99a3-94bbc75d2942"
+                "Id": "595931e2-6853-479f-a516-ff36308f11c4"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4427,9 +4347,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "9dc1fb94-3af4-4a83-a879-17ee77fdca59"
+                "Id": "8682e0f9-85ac-46aa-94d9-c112ffef6c55"
               },
-              "Id": "19eb91e3-5d3e-4bcb-81f5-7f440c7abb4f"
+              "Id": "558c0dec-76c2-40a8-a654-550547483c0f"
             },
             "CommandList": [
               {
@@ -4448,7 +4368,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#FFF2634E"
+                    "Value": "#F9A29B"
                   },
                   {
                     "TargetCells": {
@@ -4467,7 +4387,7 @@
                 ]
               }
             ],
-            "ID": "418a5887-9091-46bf-9098-f67cd8080ff7"
+            "ID": "94c3683f-a192-4d27-8823-23af14fa6af1"
           },
           {
             "Condition": {
@@ -4487,7 +4407,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "3f48480f-40f5-4e25-9b15-8c14fa899f5f"
+                    "Id": "6856a367-01c0-4a21-963d-8a97449248cc"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4500,9 +4420,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "16811dca-58b2-4784-8a05-c615a9adf4a3"
+                    "Id": "bf05027f-e8a5-472f-9cdf-35a307504946"
                   },
-                  "Id": "5774daee-59af-47b5-bc03-1a13f8f5dd07"
+                  "Id": "6579aa81-e791-4ff3-97bf-6665c7389f64"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4515,9 +4435,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "4b245162-01ba-4e31-844f-7c2338578e53"
+                  "Id": "19f99a68-bfa5-4858-9166-b0de25fe856a"
                 },
-                "Id": "a9266567-56ca-4745-a418-fb60230c90af"
+                "Id": "f1c05966-013e-4b59-a5b0-01443c1e56ba"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4530,9 +4450,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "9e3a5416-4a4d-468b-b65e-56df8d309072"
+                "Id": "72baaf6a-5f1a-4a46-ae0f-acf50de99be8"
               },
-              "Id": "d8dfc0a2-85e7-468d-be2e-6fcae4fe226d"
+              "Id": "e02471e0-bf20-48ba-8343-2d669144a0fb"
             },
             "CommandList": [
               {
@@ -4551,7 +4471,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#9BBA3A"
+                    "Value": "#AECD87"
                   },
                   {
                     "TargetCells": {
@@ -4570,7 +4490,7 @@
                 ]
               }
             ],
-            "ID": "162b4168-5f0d-48dc-b0cf-1aefaa8dc173"
+            "ID": "a287e407-4841-4264-9df0-0876def1d011"
           },
           {
             "Condition": {
@@ -4590,7 +4510,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "bdeea553-daaf-413c-9fa1-da42e6b5d637"
+                    "Id": "630de82e-d9da-4397-b597-39ae6744c6a1"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4603,9 +4523,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "5a3a8a3f-7451-4833-87a5-d0c5c2ed84b0"
+                    "Id": "9238eff3-ae42-41fa-81ee-db3da28233d1"
                   },
-                  "Id": "b75c4654-04c4-4a29-8545-95d20114ba54"
+                  "Id": "cbb67c4d-3710-4bd8-8997-d982f28a29bd"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4618,9 +4538,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "f030f2ab-4c7d-4bd3-86e0-92007696e789"
+                  "Id": "8594bd74-cc24-4dd4-97d2-7617336d5d69"
                 },
-                "Id": "73a6f0ee-bda3-4c56-9ed7-9b47d8425e3a"
+                "Id": "0c4a7c57-b825-41b1-a211-d32f4ed63b1d"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4633,9 +4553,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "32b32210-6a26-4c78-9139-1223b937d2cd"
+                "Id": "18f693f2-c57c-439e-be9b-fe04a2d66832"
               },
-              "Id": "4e3c082a-995c-4ec1-804a-bbcab326c78a"
+              "Id": "3fcda984-c3c7-4919-9a2e-0e075f3e36a0"
             },
             "CommandList": [
               {
@@ -4654,7 +4574,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#724F9A"
+                    "Value": "#A891C5"
                   },
                   {
                     "TargetCells": {
@@ -4673,7 +4593,7 @@
                 ]
               }
             ],
-            "ID": "ed0c8a1f-7b02-4648-8716-5d008241eb7d"
+            "ID": "62419e5b-ea17-43f4-92f1-11e1dfe90cf4"
           },
           {
             "Condition": {
@@ -4693,7 +4613,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "a584d7eb-6dcd-4e35-ac62-a4dab3ad6210"
+                    "Id": "3d2ba348-e4b3-4b1b-9355-5673cb4233f8"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4706,9 +4626,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "f6864c7e-1040-4861-9669-220f04a9d655"
+                    "Id": "beb60f27-7a19-4a50-9d35-e42bf2a2b262"
                   },
-                  "Id": "93156aae-0938-46e2-842f-e7e8ef0ca4a4"
+                  "Id": "67f01bfb-b36f-49a5-94e9-bd36db776a42"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4721,9 +4641,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "b73cdd67-0c65-4b12-88c8-53ac4fe37e18"
+                  "Id": "9491ba1b-ce06-426d-add9-26490e8b88cd"
                 },
-                "Id": "54359f08-a97d-4665-bade-089d5de7c9a3"
+                "Id": "9c1da08c-bd76-491d-8614-9a0c25567e33"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4736,9 +4656,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "592501be-1622-492f-871f-29e4e0ca0911"
+                "Id": "6dd39430-15ea-428e-9e08-7d2f3d29eeda"
               },
-              "Id": "d1518768-4f5d-4f39-9e30-b0aa690076e1"
+              "Id": "ac34b79c-e895-49c8-aa0d-5f0f8655063c"
             },
             "CommandList": [
               {
@@ -4757,7 +4677,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#C3141A"
+                    "Value": "#F56773"
                   },
                   {
                     "TargetCells": {
@@ -4776,7 +4696,7 @@
                 ]
               }
             ],
-            "ID": "9c09f051-8ae5-4863-b7d4-abe4f9110583"
+            "ID": "24a8e1a0-77cb-40aa-85e3-a628cb92068d"
           },
           {
             "Condition": {
@@ -4796,7 +4716,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "1874b85f-3cf2-4527-93f9-dc0674afde66"
+                    "Id": "24c9d98c-c3ed-419a-b909-b0dc348c8c8d"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4809,9 +4729,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "68172158-3524-4518-8314-f95d131aba50"
+                    "Id": "32f8881d-f301-4b10-8c2b-9e887ae2b7ac"
                   },
-                  "Id": "9289b7df-ad3b-4019-860e-473a48c1343e"
+                  "Id": "2dcfb770-079b-413b-b98d-73699cbdd930"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4824,9 +4744,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "da8d2bba-2acb-45b7-b60c-f8c54193f6be"
+                  "Id": "4cd9fac3-95a5-4f62-b803-cc8d64ffe9cd"
                 },
-                "Id": "1af62807-04e4-46a6-ae7f-c94dba96653d"
+                "Id": "3bdc89db-6a68-461d-b235-a684cc50705e"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4839,9 +4759,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "2c34663e-7635-4bed-af81-b29fd02411fa"
+                "Id": "1453a7b2-3955-489b-a992-59e540cca242"
               },
-              "Id": "25330c0d-5f14-461a-8e7b-5f88dab52f9d"
+              "Id": "40ff8a91-96c2-47db-a421-e5a7c51e30f0"
             },
             "CommandList": [
               {
@@ -4860,7 +4780,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#F4781E"
+                    "Value": "#F8AA62"
                   },
                   {
                     "TargetCells": {
@@ -4879,7 +4799,7 @@
                 ]
               }
             ],
-            "ID": "8dcdbc8f-ddf8-4bda-83d0-4d436d1879c9"
+            "ID": "1059c9fe-2e82-41fd-8eef-18572671c2eb"
           },
           {
             "Condition": {
@@ -4899,7 +4819,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "87675c4f-21e4-4145-b5bc-f01184fad707"
+                    "Id": "0adfc683-a140-4fd3-9473-9bea9c084aff"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4912,9 +4832,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "44a66722-6a03-4fbf-9f24-32ab2dcfca0d"
+                    "Id": "392b7b74-b0f4-4497-b389-c210a55f56af"
                   },
-                  "Id": "d268c1ad-d46a-4c5c-aa6f-75345b25c076"
+                  "Id": "56adb27e-debc-4aff-b184-10eeeca2f79a"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4927,9 +4847,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "b9381032-057d-43e4-b48a-437282e6a745"
+                  "Id": "dd54349d-fba2-446b-a516-df7cb6d5fc15"
                 },
-                "Id": "ae6bad33-ff32-473f-90cc-1af475faaff1"
+                "Id": "ff8b0b37-d9be-46b7-8d4f-83fb5104d132"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4942,9 +4862,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "46c1b50d-39c4-4b08-ab44-35db1938f2b1"
+                "Id": "8597b4ba-6221-4dc4-b102-1ab561904202"
               },
-              "Id": "a1692678-aaed-4201-876b-16d722c5a568"
+              "Id": "7b8a6868-0c88-4aac-ae55-9a7602f1fc1d"
             },
             "CommandList": [
               {
@@ -4963,7 +4883,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#77246C"
+                    "Value": "#AB55A0"
                   },
                   {
                     "TargetCells": {
@@ -4982,7 +4902,7 @@
                 ]
               }
             ],
-            "ID": "25f3cf7b-8811-4306-9d83-845022b04079"
+            "ID": "d477dc87-3395-4a44-b037-b6d502d94eb7"
           },
           {
             "Condition": {
@@ -5002,7 +4922,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "fb0b5875-aaec-4219-9ef2-9d17db933d05"
+                    "Id": "34a6aa31-93ea-4cc6-a6a6-c09e04a47fb8"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5015,9 +4935,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "9f648390-13f9-4840-b92a-b53d8d126bb2"
+                    "Id": "be50d8a3-56a5-4776-93a5-ef24fd3a247e"
                   },
-                  "Id": "60e74037-a48f-4548-b643-1f1b15183c6f"
+                  "Id": "7fa408db-9ec1-4fbd-9db5-78047744105d"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5030,9 +4950,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "dd06ac61-bf29-4fd7-ae84-fa059c3a079d"
+                  "Id": "8b8f0499-0391-459f-8293-338795e7306b"
                 },
-                "Id": "9220dada-d6ca-4237-b0c1-51fccc805d51"
+                "Id": "51ca0ef1-12f0-4f20-aec1-fbfd37557a8c"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5045,9 +4965,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "45ab2a04-20d0-4d5a-a860-ef3aa2b9a6e1"
+                "Id": "0e085cd1-78d8-40a8-a43a-359d2b498a8b"
               },
-              "Id": "4ed15ebe-3e5d-4b3d-b51b-4960b656c99e"
+              "Id": "3dd1cc49-dcef-4217-98ea-fbfe2133947c"
             },
             "CommandList": [
               {
@@ -5066,7 +4986,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#00ADEF"
+                    "Value": "#03B6DF"
                   },
                   {
                     "TargetCells": {
@@ -5085,7 +5005,7 @@
                 ]
               }
             ],
-            "ID": "dcfbeb54-08a0-4bf0-889f-0cec4730e1fa"
+            "ID": "76efa01d-9197-4432-9734-24d5c13193fc"
           },
           {
             "Condition": {
@@ -5105,7 +5025,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "a3cde3d8-5367-4784-bf47-1be86b90a2f1"
+                    "Id": "40e3ccb1-626b-41c5-b58a-950b9cb8c32f"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5118,9 +5038,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "251fab75-6db1-4a66-b947-8193fe66e813"
+                    "Id": "abe0833a-67d9-41d1-9390-2db09bc0e36d"
                   },
-                  "Id": "5c8e5601-47ab-4a5b-8205-a88cd3dcfe54"
+                  "Id": "c467bbfe-9b75-4d61-8475-0997252f3be0"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5133,9 +5053,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "14512ac3-6faa-495c-81a3-e585e3c8b05f"
+                  "Id": "c5801d50-42b3-44ae-941e-ea101ce5f22c"
                 },
-                "Id": "e9b2af78-822d-42d1-ae6f-3816a78f58b9"
+                "Id": "0b79f835-bded-4375-bc9a-b8400011ac71"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5148,9 +5068,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "c6494112-a073-4b00-abac-6dd12a7070cb"
+                "Id": "64b3aa80-e879-44e1-87da-13430d3bd663"
               },
-              "Id": "b1eaa522-2c35-43c4-84cd-7ace729fdc87"
+              "Id": "63fedb55-afe3-4188-a6e5-9b6ca458c0d6"
             },
             "CommandList": [
               {
@@ -5169,7 +5089,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#1A9149"
+                    "Value": "#72C5AC"
                   },
                   {
                     "TargetCells": {
@@ -5188,7 +5108,7 @@
                 ]
               }
             ],
-            "ID": "afd83bcc-77d3-465e-b10a-c7bdba3b2da7"
+            "ID": "fae69970-c5f3-4211-84c9-4025a96ab5ea"
           },
           {
             "Condition": {
@@ -5208,7 +5128,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "d586fba0-be1b-42c4-b766-287e590b02aa"
+                    "Id": "5e03b41a-5b2e-4464-893b-776c494baf30"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5221,9 +5141,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "f67ca3e4-beec-4e06-bcb2-b3dbe60b0042"
+                    "Id": "45e45964-b820-4c34-9b93-577347a7687f"
                   },
-                  "Id": "527f3cd7-24e6-4065-be4c-837856c0a07c"
+                  "Id": "dbec6328-d32d-4e44-a5a1-c7fed773652c"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5236,9 +5156,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "0489981e-d2a9-401b-b848-10840ea99254"
+                  "Id": "b4fcb650-45f7-445b-8b9d-cc71c57cd084"
                 },
-                "Id": "8a8b8a3e-6eb0-49bd-8a96-47827a94f2d7"
+                "Id": "10e9ac89-a281-48af-8fac-5fb71e75d33f"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5251,9 +5171,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "a837b5c2-82f1-4a81-8641-b89de20f859a"
+                "Id": "c2a7cad0-bc37-4831-b883-5680ca5ba444"
               },
-              "Id": "41ca3631-c6ef-4272-8e1d-8ab275488e29"
+              "Id": "20dae117-cdeb-4dae-af14-e9a011f5a155"
             },
             "CommandList": [
               {
@@ -5272,7 +5192,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#E4A71F"
+                    "Value": "#F2C254"
                   },
                   {
                     "TargetCells": {
@@ -5291,7 +5211,7 @@
                 ]
               }
             ],
-            "ID": "ed9a7df5-4c8c-442c-a533-ce5383228c69"
+            "ID": "c948d9c3-cda1-40b2-9349-78bdd501b80a"
           },
           {
             "Condition": {
@@ -5311,7 +5231,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "a95f33f3-858b-4f7e-92b3-0cfbcce95160"
+                    "Id": "49556b3f-b772-4ab3-9bff-7e74e7bff03a"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5324,9 +5244,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "8f68223b-ff69-4530-94c3-ad27c44b1b68"
+                    "Id": "90d3b3bb-d7f9-41bb-9896-0eccbb7c5e3a"
                   },
-                  "Id": "30c711c7-d4e8-4340-afdc-cedf217e34ea"
+                  "Id": "8eda36f2-b556-4fc0-964e-8d03c8147c81"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5339,9 +5259,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "94dec55a-3fdd-45fc-9a75-9fa19b488221"
+                  "Id": "520fcf3f-1198-4b31-ba7b-d7857dc28b85"
                 },
-                "Id": "f6e143fc-2d94-434c-886b-ec982d1d220c"
+                "Id": "846881d9-99db-4fbb-b25a-532d26dc20f3"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5354,9 +5274,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "7e1dc558-1563-4992-849a-c61b639a2461"
+                "Id": "83efe061-3c07-4842-9a77-695e120520f0"
               },
-              "Id": "01fb8ee1-77d5-4226-93bf-5eea7f65d273"
+              "Id": "7a21ee3d-d636-41eb-82bd-42c43d1db809"
             },
             "CommandList": [
               {
@@ -5375,7 +5295,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#337985"
+                    "Value": "#059BA9"
                   },
                   {
                     "TargetCells": {
@@ -5394,7 +5314,7 @@
                 ]
               }
             ],
-            "ID": "536adc83-1a00-4b32-a920-2ab8a083f956"
+            "ID": "6ec3bcbf-8f46-4dde-8216-9b5bc543ef9a"
           },
           {
             "Condition": {
@@ -5414,7 +5334,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "254f184a-aa3b-4103-8f7e-fa820f9cfb19"
+                    "Id": "8b4c0b25-ad7e-453e-bdb4-14960b594287"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5427,9 +5347,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "2c38082f-6d27-4d92-a3a5-789c4c1d7bbe"
+                    "Id": "3eb0f9b5-505d-429b-8c4f-277f5edcc88f"
                   },
-                  "Id": "fe92640d-07dd-40ea-87d2-c25c00cff609"
+                  "Id": "d36eb565-8032-482f-8725-037419487d50"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5442,9 +5362,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "bf6f24ed-2900-456b-81dd-2faae83f52cf"
+                  "Id": "b91f26f0-4958-4b5a-99da-cbfcbcde7d13"
                 },
-                "Id": "75161d5e-b572-43f5-add8-828185b3ba3e"
+                "Id": "4035c42c-7cc8-4253-87b4-efef67c96ca8"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5457,9 +5377,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "93740f5e-b586-4099-86ed-2d19ada71a21"
+                "Id": "8dcc0e28-1934-405e-b27b-2b4faaedbd0e"
               },
-              "Id": "1c94c5bd-de7b-43ab-810f-16a9b197e0b5"
+              "Id": "81163341-cc90-4412-b8f5-e9021db369be"
             },
             "CommandList": [
               {
@@ -5478,7 +5398,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#A4C535"
+                    "Value": "#BCD148"
                   },
                   {
                     "TargetCells": {
@@ -5497,7 +5417,7 @@
                 ]
               }
             ],
-            "ID": "eee668e9-48b2-46ad-9477-ea89448f1c48"
+            "ID": "a04aa6a9-fb68-4159-aecd-d03d63740c4c"
           },
           {
             "Condition": {
@@ -5517,7 +5437,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "6f6041bb-d25d-4ef2-906a-e63bcbb3a25e"
+                    "Id": "34c46fd2-6408-4470-bd8c-08bafd4ecc99"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5530,9 +5450,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "76157a3a-ea96-4362-8ef2-72e338d45926"
+                    "Id": "dcfc1ef2-4118-4538-860a-4ee10835b4c6"
                   },
-                  "Id": "af68fea6-132d-4baf-bea4-650e033c19d0"
+                  "Id": "6814c04a-86bf-43be-a341-754dc086878c"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5545,9 +5465,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "add5ebef-3ded-495a-8fdd-85c8819650be"
+                  "Id": "6d0b3e59-8736-4230-9187-61564377904d"
                 },
-                "Id": "32dfd0c2-330c-4f9d-a2b2-fd24d6512e38"
+                "Id": "6abceafb-ed2f-4f9e-82a9-3afc6e615de5"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5560,9 +5480,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "70125c8c-98ec-49d8-9218-b763ca50b96e"
+                "Id": "a84fcdfa-9c67-40c8-a012-0530dca6883b"
               },
-              "Id": "72ebb78f-f3db-4478-b982-b1018af6d857"
+              "Id": "b4bbd63c-6d71-45f7-8db7-6836f5eceb33"
             },
             "CommandList": [
               {
@@ -5581,7 +5501,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#D9185B"
+                    "Value": "#F05AA2"
                   },
                   {
                     "TargetCells": {
@@ -5600,7 +5520,7 @@
                 ]
               }
             ],
-            "ID": "2dc43095-74ba-4787-9456-6bc3fdae0792"
+            "ID": "5488bcb4-5d93-4c2f-8650-1a3a1e9e7ab4"
           },
           {
             "Condition": {
@@ -5620,7 +5540,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "cc71e891-6688-4129-a54f-a99a33775033"
+                    "Id": "a14ec912-4c54-4f24-8f5c-c62a44797af0"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5633,9 +5553,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "75b91754-647a-40c1-a66b-a57907d4d310"
+                    "Id": "0ef36aca-5019-467f-98b9-b6790491fbcf"
                   },
-                  "Id": "ff311c1c-d47e-4f0b-bf0b-9372d38f62b1"
+                  "Id": "4c174220-37c3-4e9b-9fd6-98272b72ee04"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5648,9 +5568,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "8e03d9c9-75f7-46c8-bb8a-497a79f5d250"
+                  "Id": "e9372a5b-be4d-472f-a23a-682a28054674"
                 },
-                "Id": "bbfea2da-f7e2-44f6-93b3-625900dcdbe1"
+                "Id": "821d265c-4ee0-4f05-92c9-5dc5917e55f9"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5663,9 +5583,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "bc37d2d5-fbeb-4ef6-a45b-0df0d1018b59"
+                "Id": "7f560b62-2edf-4049-b711-d4e2a4874dd8"
               },
-              "Id": "7fbcdd18-83a9-4169-a955-f107b390e551"
+              "Id": "c8160fd9-6618-41c0-b2ac-7410c8d02510"
             },
             "CommandList": [
               {
@@ -5684,7 +5604,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#7A87A2"
+                    "Value": "#3B78A7"
                   },
                   {
                     "TargetCells": {
@@ -5703,7 +5623,7 @@
                 ]
               }
             ],
-            "ID": "31b5c703-c0ed-42d3-9ea1-7812e33ada94"
+            "ID": "fdb3cf86-724e-4aed-a230-a6b898f3d422"
           },
           {
             "Condition": {
@@ -5723,7 +5643,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "8f50269e-ac5f-4143-8db5-c7d759b0030e"
+                    "Id": "b961a962-d2a6-4104-b62a-51d002ab210c"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5736,9 +5656,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "dd5f8d34-114e-423a-9015-352be6f376cf"
+                    "Id": "84be1dd3-a148-48bb-a22e-1721bbbf5bb0"
                   },
-                  "Id": "06535928-a8b6-45f3-b9ef-0293efd94080"
+                  "Id": "e6c2ad61-6794-4fc5-9d78-1c6fab3cef3e"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5751,9 +5671,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "a6b3b37f-3253-49b1-82bd-0cf82089b243"
+                  "Id": "c12de7cf-64c0-4e4a-9cc2-030a24b2fb88"
                 },
-                "Id": "5e9c8665-f917-413a-ae9d-4268c74776cd"
+                "Id": "8c2c239d-cf93-43ea-8f30-ba37bff442d7"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5766,9 +5686,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "0f20cf84-2b7c-4e98-bc3d-bcc5a366b555"
+                "Id": "c212bf2d-6318-47b4-aeb0-13a7b5bab0d1"
               },
-              "Id": "e4d43563-af89-446b-9f5d-ebae6f2a0db9"
+              "Id": "fade93f6-a58d-4c64-8fe0-48812da115be"
             },
             "CommandList": [
               {
@@ -5787,7 +5707,7 @@
                       "SerializeProperty": "=결과화면!result"
                     },
                     "PropertyType": 3,
-                    "Value": "#DC5524"
+                    "Value": "#EE935C"
                   },
                   {
                     "TargetCells": {
@@ -5806,7 +5726,7 @@
                 ]
               }
             ],
-            "ID": "bb7acf29-495c-452e-8164-72604b410370"
+            "ID": "224cb739-c7d2-4525-9074-37309de7917c"
           }
         ]
       }
@@ -5821,7 +5741,7 @@
     "ColumnStart": 22,
     "ColumnEnd": 70,
     "RowStart": 0,
-    "RowEnd": 57,
+    "RowEnd": 60,
     "Margin": {},
     "FitPagesWide": 1,
     "PaperSize": {}
@@ -5833,15 +5753,15 @@
     },
     {
       "Name": "explain",
-      "Formula": "결과화면!$AD$40"
+      "Formula": "결과화면!$AD$44"
     },
     {
       "Name": "explain2",
-      "Formula": "결과화면!$AB$42"
+      "Formula": "결과화면!$AD$46"
     },
     {
       "Name": "ID",
-      "Formula": "결과화면!$A$62"
+      "Formula": "결과화면!$A$65"
     }
   ]
-}//8I5Ttju01IDOe3BBVSjvwJoLntuov6YLWKcjLSFuJ2qtlXicIRGIabRxd1UUL9sUZUg/A8tgg8/WdwVWay3e8nRMZ9RsXYyCBq1m8tXLz54X2RdZ1lr9e+ipveZUUOqxrqhGhVpmXA2aSXX121p1MM9hPUgUeTyOt1z2jiw18dmDpqsG+tq+oWg+YxS/qkUuBLMCer4tsJOK/N1gmxsG16BpvEqzXNaxBKZ6vAH1LUil3oGUWXo4KI9M73OP5EVODJ7L7RCJXmMh2lIQy7lyNO51e/ybd6UI7GYAFWGRSGVzUEqGPZ+lS/CBofxx8Q3XCX8oSMteQ2E22IzJkTCa9GGwsKzJ82tu/lOnAjCUbO4v3tgBDB0Z7nEuiLz+8cjF1bbxtOI1nS1Hwa0ALQo+xkqSmnJlBQ60kAfUVeFT9mu3uXsWa03MMgLLCt4BGQ7MSxjeVN29AM3WV3kQwE/2HjzXb5JA3JJZQWOZtdnawDcDdFcU06xGLN/ZgF3qCN1M2q7D2iyu5BVDzOeGr8w6aI/V9SGkdix3OYIzJqZF81UipD7yKlFuq+YZuv0Pt9dO2ko0U1QbaJcPJEJt8YPnk9ul87K8D354pVFnD7CJumZjAxPrcrDyJecmsrSrjrd21MetpfigmohNejZPzkHbS31717wmnYgX9l0TcN3M1IHhJGDn7c8JkNMI6c8nv7osf4ifN/t8djisf+JivKwRb0Ru6wQP9sPVgaoZNCg/mHCMmtBzFCUGEy92n2dQyJQ3m8POL0ibm9tzIRkmG8XEtRlWZRLcTVbpvT2UR1LPYzrHRsm8vANxBY+KvSQg+T64rY+mvSuBwZL4YQKPfu/+AuSxayRurluOT0a2dsKR7GNsIDVgHlupxmE/7mttpz7CvJegpQ1WJ7p1oxOX++DK4A==|920
+}//xCu/4j5JEYe/e0MnC7jhwU38JPq8ccYKZ6NlHc6UvXCwTwJNMR6GwQUTudmxm5hEniJiHQQjmPNbDzX9bqrp131Y1ZhQ1/lx4amgNoexwu5EdFiiQsav3Wid4OM0KzX7DW1nveGVYiOvKfKIu4Wg7mp9OHp+PtI1hdmzfh4l1onQIwIDI1DWO4VAtw2YQfsqyKLNoDMFtxqc7SRnWswe6R5lmU5PXbsG2kWy1Qu7sqwHM1xrpXV7lwxGvzOfMwzzxUqlCrIv5o3j97FAkasQ1HmDI+WVQWwDmJRBhcUeAfaCjAv+0q4Ci5OAW4F1/7F+N48xb/9U61bX9EpmHjNfbUbOwFC4DWAuEy+qUK7yRD8fjzAWDDtjiFurZbEzR7E3O2SGpQYkSly+uhOizVOu1PsBdGJYszEN0+sg7lRPhxUAcY+HfBY4erUheQHcOugE4Km49Yvq5TJetDUxzxG6xNj9tKKHE/tTaE6T6HVF9XGBhmFIBzi5anymVdw85A8OMB5XF1dPbIK62ZUCoASZs87xV2uV9RVb6sSjiq6uLZlQJkCcbH/Y6oHZmHlt6OyPbDBAwtyi8qpXuz+spTNpOusaULWLyfCaSzqGJc/hSJkNrZHWQ6isRxNDCYg03+tYE+vfd86d9EjKNuiYmE78e464hu6+YYNnOBliVCei3g5wr/c5ko8nogBGeuyskxxORcPKrK1SyI3yakfAO32RjFmjCYu8rdaLjhNYJLUcm6AYSmgsKxZAK09A9PhG0DSJSeiE8X55BTbw9W3V9TrU1jPv0yq2UKxuMa55SbmOxopMoBKMxBsydh8x7hf0P8BeV6ks7U4kA5fM/n5hah5YVoCnTU/B+MMcaGHntxUMbk7L8kMmk+HbqzrQyNOXoT89iaB95fdm9BSxZXoC9teFKw==|920
