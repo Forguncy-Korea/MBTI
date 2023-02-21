@@ -115,7 +115,16 @@
   },
   {
     "ModuleName": "PCPage/기본검사페이지_2",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T16:50:17.3224977+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\기본검사페이지_2.json"
+    ]
   },
   {
     "ModuleName": "PCPage/결과화면",
