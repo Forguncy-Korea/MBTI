@@ -203,7 +203,16 @@
   },
   {
     "ModuleName": "MobilePage/모바일_검사결과",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T14:53:19.4118583+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\모바일_검사결과.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/모바일_시작화면",
