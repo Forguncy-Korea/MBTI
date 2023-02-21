@@ -272,7 +272,16 @@
   },
   {
     "ModuleName": "ServerCommand/메일보내기",
-    "ModuleType": 15
+    "State": 2,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T16:27:41.611465+09:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\메일보내기.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
