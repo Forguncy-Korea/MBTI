@@ -114,7 +114,16 @@
   },
   {
     "ModuleName": "PCPage/시작화면",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T16:41:10.3977584+09:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\시작화면.json"
+    ]
   },
   {
     "ModuleName": "PCPage/성격 유형",
