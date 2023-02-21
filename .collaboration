@@ -195,7 +195,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T17:10:37.869055+09:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "C:\\Users\\90707\\Documents\\ForguncyCollaboration\\MBTI-master\\Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "ImageSelector",
