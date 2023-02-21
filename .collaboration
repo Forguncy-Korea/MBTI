@@ -214,5 +214,15 @@
   {
     "ModuleName": "Upload",
     "ModuleType": 26
+  },
+  {
+    "ModuleName": "TaskScheduler/미완료삭제",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T16:51:29.5527475+09:00",
+    "ModuleType": 16
   }
 ]
