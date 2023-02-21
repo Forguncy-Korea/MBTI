@@ -1,17 +1,7 @@
 [
   {
     "ModuleName": "Table/검사결과",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T16:51:39.1174209+09:00",
     "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\검사결과.json",
-      "ForguncyDB.sqlite3"
-    ],
     "ExclusiveType": 0
   },
   {
@@ -112,55 +102,19 @@
   },
   {
     "ModuleName": "PCPage/기본검사페이지_1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T16:49:46.2789391+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\기본검사페이지_1.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/기본검사페이지_2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T16:50:17.3224977+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\기본검사페이지_2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/결과화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T17:11:14.401235+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\결과화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/시작화면",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T16:42:08.857282+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\시작화면.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/성격 유형",
@@ -204,20 +158,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T17:10:37.869055+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "C:\\Users\\90707\\Documents\\ForguncyCollaboration\\MBTI-master\\Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "ImageSelector",
@@ -229,22 +170,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T17:00:43.1254107+09:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\MainPageCSS.css",
-      "UserFile\\NanumSquareNeoOTF-aLt.otf",
-      "UserFile\\NanumSquareNeoOTF-bRg.otf",
-      "UserFile\\NanumSquareNeoOTF-cBd.otf",
-      "UserFile\\NanumSquareNeoOTF-dEb.otf",
-      "UserFile\\NanumSquareNeoOTF-eHv.otf"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",
@@ -264,12 +190,6 @@
   },
   {
     "ModuleName": "TaskScheduler/미완료삭제",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "DESKTOP-SFEU14D\\NamHee",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-02-21T16:51:29.5527475+09:00",
     "ModuleType": 16
   }
 ]

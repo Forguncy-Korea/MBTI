@@ -1,0 +1,31 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44978.0,
+      "ScheduleRunInDebugServer": false
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "검사결과",
+      "UpdateType": "delete",
+      "ShowConfirm": true,
+      "ConfirmText": "데이터를 삭제하시겠습니까?",
+      "RowsToUpdate": 1,
+      "RowsToUpdateCondition": {
+        "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+        "ColumnBindingInfo": {
+          "TableName": "검사결과",
+          "ColumnName": "MBTI"
+        },
+        "Value": "%Null%",
+        "Id": "7ca3319c-504d-4a88-853a-a7d781ad1eb5"
+      },
+      "UpdateValues": []
+    }
+  ],
+  "Name": "미완료삭제"
+}

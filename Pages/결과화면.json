@@ -73,8 +73,8 @@
     "20,55": 10.0,
     "20,56": 5.0,
     "23,45": "에너지",
-    "24,33": "직관형",
-    "24,58": "현실주의형",
+    "24,33": "감각형",
+    "24,58": "직관형",
     "25,37": 100,
     "25,38": 95,
     "25,39": 90.0,
@@ -3824,7 +3824,7 @@
                 ]
               },
               "value": "E",
-              "Id": "1b06a2e0-a6ee-444a-b074-76ac0da71d23"
+              "Id": "dd63dec6-1027-4a7c-a03a-eb4395b46ca5"
             },
             "CommandList": [
               {
@@ -3841,7 +3841,7 @@
                 ]
               }
             ],
-            "ID": "a5735d43-4dae-4981-af04-3361de041ec7"
+            "ID": "53900806-5db5-4adb-a292-0082aedae1a2"
           },
           {
             "Condition": {
@@ -3855,7 +3855,7 @@
                 ]
               },
               "value": "I",
-              "Id": "8df7b461-08af-4b1d-baa4-d686c0e54a63"
+              "Id": "368cf1df-63cb-45fa-b292-d4f6a3a25ccb"
             },
             "CommandList": [
               {
@@ -3872,7 +3872,7 @@
                 ]
               }
             ],
-            "ID": "ce07f002-1656-4e98-9d15-4b23fa0fda58"
+            "ID": "556115fb-2a40-4671-bae1-4352989b5cf9"
           }
         ]
       },
@@ -3891,7 +3891,7 @@
                 ]
               },
               "value": "S",
-              "Id": "74a7ff41-9247-4f6b-b6f9-761238d43b09"
+              "Id": "39af498b-444d-4289-80d8-3b4a92f29851"
             },
             "CommandList": [
               {
@@ -3908,7 +3908,7 @@
                 ]
               }
             ],
-            "ID": "2e1450a2-4e70-468b-b423-d0924b6e5a24"
+            "ID": "0cbc4a99-d6bf-4355-89a7-2d3bcd8c3ca2"
           },
           {
             "Condition": {
@@ -3922,7 +3922,7 @@
                 ]
               },
               "value": "N",
-              "Id": "f36e6889-b915-4fdd-8edc-b2457525c9b0"
+              "Id": "8cd0ab79-92d4-41c4-8f9e-39a7e2f154c9"
             },
             "CommandList": [
               {
@@ -3939,7 +3939,7 @@
                 ]
               }
             ],
-            "ID": "a3b22938-3d4b-4ea7-acd2-6ccb2e1890eb"
+            "ID": "a28cd742-de5d-45bc-be45-b5a7b723ba02"
           }
         ]
       },
@@ -3958,7 +3958,7 @@
                 ]
               },
               "value": "T",
-              "Id": "01b344ca-5da8-4594-980e-e12f1b662fc3"
+              "Id": "262e83bc-d130-4815-aa42-34305bd7ab0c"
             },
             "CommandList": [
               {
@@ -3975,7 +3975,7 @@
                 ]
               }
             ],
-            "ID": "483aec55-907d-46a5-ba80-b97708c6b324"
+            "ID": "a0a1f1b4-9fba-41e3-a4c4-e0fa9addf5a5"
           },
           {
             "Condition": {
@@ -3989,7 +3989,7 @@
                 ]
               },
               "value": "F",
-              "Id": "25b7da10-eb9b-421e-ab5b-fe7a675840f1"
+              "Id": "9f1aebb0-231b-4dda-aa75-fe975c46f478"
             },
             "CommandList": [
               {
@@ -4006,7 +4006,7 @@
                 ]
               }
             ],
-            "ID": "37ae2c96-d3aa-42ee-a9ed-d34e9ade10a3"
+            "ID": "ca19f18f-2b01-4396-8299-67fdc5acfa19"
           }
         ]
       },
@@ -4025,7 +4025,7 @@
                 ]
               },
               "value": "J",
-              "Id": "90c2ee13-aa11-47e3-a8b0-0e452adbebcd"
+              "Id": "ba85d56b-9e77-4b72-b35a-f86f31e1da8b"
             },
             "CommandList": [
               {
@@ -4042,7 +4042,7 @@
                 ]
               }
             ],
-            "ID": "eb1e9706-e994-4eba-aab8-8c5709a01054"
+            "ID": "84cd39f1-a0e3-4e74-8866-dfb4d08f5542"
           },
           {
             "Condition": {
@@ -4056,7 +4056,7 @@
                 ]
               },
               "value": "P",
-              "Id": "58272e5a-9f51-482e-9ff7-c4c2b6554a95"
+              "Id": "791a6922-49a1-4068-afc1-38b8b2663bef"
             },
             "CommandList": [
               {
@@ -4073,7 +4073,7 @@
                 ]
               }
             ],
-            "ID": "88fbb98e-1118-4a29-830e-b24e457d05bb"
+            "ID": "53c6a922-5d30-4b42-beca-4374d085c18e"
           }
         ]
       },
@@ -4098,7 +4098,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "f1be055b-e686-4823-82e1-8d8c7a2b2e54"
+                    "Id": "0490a50b-5e3f-43a4-8ed6-1fd72787d382"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4111,9 +4111,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "17fc376d-09d7-4de4-8ce6-b094a4609041"
+                    "Id": "95071359-ce4f-4490-a168-e38e12836647"
                   },
-                  "Id": "988485ae-795c-44d0-9525-38b120173206"
+                  "Id": "49fd832c-c5c7-4fd6-8240-08d0515f2246"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4126,9 +4126,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "6513d7e3-ba2b-4ea8-9e1d-26212415b926"
+                  "Id": "bf277957-d65c-42a9-93ed-d18066ee42f4"
                 },
-                "Id": "7435f385-062d-43f5-8cc6-5b61685b30d5"
+                "Id": "32ce2a45-1b89-48a7-84c4-b98d5ea36146"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4141,9 +4141,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "76334b3c-6bf4-42d5-97bd-1c2947abec2c"
+                "Id": "f9ab3854-f9ee-45a4-9e5e-c74481cf64d1"
               },
-              "Id": "67f708ab-ca6e-41e2-b4df-13060077b5b0"
+              "Id": "5b0aa6c6-0615-4545-9e69-8ac529f759a9"
             },
             "CommandList": [
               {
@@ -4181,7 +4181,7 @@
                 ]
               }
             ],
-            "ID": "6b8d02ca-6ab5-4686-9d07-002b60d46dc1"
+            "ID": "4f67d8c1-d320-4ba3-bdba-34dd39f9d464"
           },
           {
             "Condition": {
@@ -4201,7 +4201,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "d7019e2e-efe4-4d9e-be63-64ab727feff9"
+                    "Id": "3aed6bf8-cb7b-4653-807b-848746d52fcd"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4214,9 +4214,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "ad7b019d-1507-45a0-844a-4d2e2fd20491"
+                    "Id": "13871c90-8dba-4263-902e-02e8fc6052f0"
                   },
-                  "Id": "e9da6acb-4ce5-4e4c-be66-8b246cc94391"
+                  "Id": "2aedf693-f046-40e2-919f-9116d4056f35"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4229,9 +4229,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "40c37d0f-c8a8-411d-980b-df6433aa3c9c"
+                  "Id": "1c5b8bac-e759-463f-88e3-470b492113e9"
                 },
-                "Id": "3a614912-12e5-4717-ba9f-97f82ad8420e"
+                "Id": "a5900fdf-4865-4167-80c7-88591f37969b"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4244,9 +4244,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "6b78c541-459a-47c1-b975-1290a0a1e1a2"
+                "Id": "c34330f6-aff9-4800-b897-6b5758120275"
               },
-              "Id": "386bbaac-0dd6-42a4-95ca-1b6747595415"
+              "Id": "08dd1a30-0f67-423e-bfa5-97baae77231f"
             },
             "CommandList": [
               {
@@ -4284,7 +4284,7 @@
                 ]
               }
             ],
-            "ID": "5e7ae415-4606-4ab6-955a-a05803b05a0f"
+            "ID": "1d2c50ad-90c5-4b19-bdef-9fc2b657774b"
           },
           {
             "Condition": {
@@ -4304,7 +4304,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "aa2dc605-228c-473d-b762-4466356f22fe"
+                    "Id": "91881007-cfea-480d-b730-7de02368e4a9"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4317,9 +4317,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "69739a9d-c643-459c-83f4-19e3aa82c51e"
+                    "Id": "bcf9cfd9-5789-4518-bbfe-400db571a82d"
                   },
-                  "Id": "6c34bbc9-eb11-49f3-b7d7-b6c34d9cdd4b"
+                  "Id": "42a7836d-912f-4ca6-a668-6e9be282e687"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4332,9 +4332,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "9c461a56-28ea-4700-91e5-eb58baed1989"
+                  "Id": "bcc749c8-3e3b-47e0-b055-a859f74c84cf"
                 },
-                "Id": "595931e2-6853-479f-a516-ff36308f11c4"
+                "Id": "107e9267-6e2e-4d05-8f82-c8b9f56fca73"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4347,9 +4347,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "8682e0f9-85ac-46aa-94d9-c112ffef6c55"
+                "Id": "1299abf0-6c70-4568-b4d1-b7fe89a85988"
               },
-              "Id": "558c0dec-76c2-40a8-a654-550547483c0f"
+              "Id": "02f6aceb-1b0a-4411-9931-1a15490efce9"
             },
             "CommandList": [
               {
@@ -4387,7 +4387,7 @@
                 ]
               }
             ],
-            "ID": "94c3683f-a192-4d27-8823-23af14fa6af1"
+            "ID": "4a038261-a65b-4ca8-b91b-916b6630ea90"
           },
           {
             "Condition": {
@@ -4407,7 +4407,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "6856a367-01c0-4a21-963d-8a97449248cc"
+                    "Id": "8f7c9a19-cb32-4eaf-bc39-83fb20698e73"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4420,9 +4420,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "bf05027f-e8a5-472f-9cdf-35a307504946"
+                    "Id": "54bd01f6-689c-431f-8b22-a48cf7007a4d"
                   },
-                  "Id": "6579aa81-e791-4ff3-97bf-6665c7389f64"
+                  "Id": "566fda75-b154-40b0-8327-2d5e4194eaeb"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4435,9 +4435,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "19f99a68-bfa5-4858-9166-b0de25fe856a"
+                  "Id": "adcf0dab-6621-4c33-84b3-bf678d68c115"
                 },
-                "Id": "f1c05966-013e-4b59-a5b0-01443c1e56ba"
+                "Id": "84dcf3aa-6369-48ab-9619-0266afdd0465"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4450,9 +4450,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "72baaf6a-5f1a-4a46-ae0f-acf50de99be8"
+                "Id": "0a565899-eedb-4544-ab79-b38f3327fbf4"
               },
-              "Id": "e02471e0-bf20-48ba-8343-2d669144a0fb"
+              "Id": "b8fea841-deb5-4f72-a920-f58bc6ab9948"
             },
             "CommandList": [
               {
@@ -4490,7 +4490,7 @@
                 ]
               }
             ],
-            "ID": "a287e407-4841-4264-9df0-0876def1d011"
+            "ID": "d99cbcc3-bd7c-4408-a311-b34eb4e959c8"
           },
           {
             "Condition": {
@@ -4510,7 +4510,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "630de82e-d9da-4397-b597-39ae6744c6a1"
+                    "Id": "ac327d7f-01e2-4206-8ef7-c649c7b198c8"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4523,9 +4523,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "9238eff3-ae42-41fa-81ee-db3da28233d1"
+                    "Id": "b5af1dcc-8867-48d3-afc9-ae88fa55c801"
                   },
-                  "Id": "cbb67c4d-3710-4bd8-8997-d982f28a29bd"
+                  "Id": "5936ba73-49c4-442a-9762-aa599f82f275"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4538,9 +4538,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "8594bd74-cc24-4dd4-97d2-7617336d5d69"
+                  "Id": "adb40992-e944-4a6d-a702-be1a12814699"
                 },
-                "Id": "0c4a7c57-b825-41b1-a211-d32f4ed63b1d"
+                "Id": "aa62c7f8-d763-4973-9497-101eda2fa502"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4553,9 +4553,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "18f693f2-c57c-439e-be9b-fe04a2d66832"
+                "Id": "1dff89fd-9047-4042-be66-fdbcf5e4a3fa"
               },
-              "Id": "3fcda984-c3c7-4919-9a2e-0e075f3e36a0"
+              "Id": "c7c194fa-0060-4364-995d-a968eab92f24"
             },
             "CommandList": [
               {
@@ -4593,7 +4593,7 @@
                 ]
               }
             ],
-            "ID": "62419e5b-ea17-43f4-92f1-11e1dfe90cf4"
+            "ID": "6075d5b9-7f58-4330-9631-9ec11c077772"
           },
           {
             "Condition": {
@@ -4613,7 +4613,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "3d2ba348-e4b3-4b1b-9355-5673cb4233f8"
+                    "Id": "97844c3e-4dfb-42c1-8a02-e49a422dae21"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4626,9 +4626,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "beb60f27-7a19-4a50-9d35-e42bf2a2b262"
+                    "Id": "0f035d27-b9a2-4d68-91db-542e379b6bfe"
                   },
-                  "Id": "67f01bfb-b36f-49a5-94e9-bd36db776a42"
+                  "Id": "dc186819-5868-4cf4-a6a3-a036bc950457"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4641,9 +4641,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "9491ba1b-ce06-426d-add9-26490e8b88cd"
+                  "Id": "dd78975a-54f8-40b3-ab8a-7cc5b6c44dd3"
                 },
-                "Id": "9c1da08c-bd76-491d-8614-9a0c25567e33"
+                "Id": "24ff0a61-c84d-4933-be81-1744741397ff"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4656,9 +4656,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "6dd39430-15ea-428e-9e08-7d2f3d29eeda"
+                "Id": "7996d311-d721-4b04-9fc3-b12b05d59b23"
               },
-              "Id": "ac34b79c-e895-49c8-aa0d-5f0f8655063c"
+              "Id": "207398ba-fdc8-44a3-b779-29fa0ee3c08b"
             },
             "CommandList": [
               {
@@ -4696,7 +4696,7 @@
                 ]
               }
             ],
-            "ID": "24a8e1a0-77cb-40aa-85e3-a628cb92068d"
+            "ID": "1a476c20-673b-4ec1-bbe1-4e6f97772e64"
           },
           {
             "Condition": {
@@ -4716,7 +4716,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "24c9d98c-c3ed-419a-b909-b0dc348c8c8d"
+                    "Id": "f57d5b00-3f4b-4c20-b8ca-6142a8a34040"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4729,9 +4729,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "32f8881d-f301-4b10-8c2b-9e887ae2b7ac"
+                    "Id": "1e2ca0b4-f1ad-477b-8175-cd76c7be3128"
                   },
-                  "Id": "2dcfb770-079b-413b-b98d-73699cbdd930"
+                  "Id": "eb28ffc0-0b5c-4559-97db-66b8250c9690"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4744,9 +4744,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "4cd9fac3-95a5-4f62-b803-cc8d64ffe9cd"
+                  "Id": "3278ec8e-0975-43b6-a8ac-c1cababee7ad"
                 },
-                "Id": "3bdc89db-6a68-461d-b235-a684cc50705e"
+                "Id": "83e81fdf-bed4-478b-83f3-f1c08449d456"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4759,9 +4759,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "1453a7b2-3955-489b-a992-59e540cca242"
+                "Id": "799834f7-2665-4d56-aa8c-6b7c49e84631"
               },
-              "Id": "40ff8a91-96c2-47db-a421-e5a7c51e30f0"
+              "Id": "194aacce-406d-41b6-b151-2285c252507c"
             },
             "CommandList": [
               {
@@ -4799,7 +4799,7 @@
                 ]
               }
             ],
-            "ID": "1059c9fe-2e82-41fd-8eef-18572671c2eb"
+            "ID": "5a30ac84-9dd4-411c-bed3-00a6fd42934c"
           },
           {
             "Condition": {
@@ -4819,7 +4819,7 @@
                       ]
                     },
                     "value": "I",
-                    "Id": "0adfc683-a140-4fd3-9473-9bea9c084aff"
+                    "Id": "41290146-e861-425d-842d-41eb3102785d"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4832,9 +4832,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "392b7b74-b0f4-4497-b389-c210a55f56af"
+                    "Id": "6c11c0ab-2678-4cf6-8004-dcc998a6db3b"
                   },
-                  "Id": "56adb27e-debc-4aff-b184-10eeeca2f79a"
+                  "Id": "795d82dc-b91d-421f-b020-b21748d0b5f7"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4847,9 +4847,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "dd54349d-fba2-446b-a516-df7cb6d5fc15"
+                  "Id": "5f4a38c6-a167-4ed7-b674-2e5a38ccea19"
                 },
-                "Id": "ff8b0b37-d9be-46b7-8d4f-83fb5104d132"
+                "Id": "8a77354d-abaa-4a24-bf8a-1033438aae36"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4862,9 +4862,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "8597b4ba-6221-4dc4-b102-1ab561904202"
+                "Id": "45ae4351-700d-48d1-8b11-5572541d4b8a"
               },
-              "Id": "7b8a6868-0c88-4aac-ae55-9a7602f1fc1d"
+              "Id": "9c748edd-803d-4ffc-b5d1-b013b9563857"
             },
             "CommandList": [
               {
@@ -4902,7 +4902,7 @@
                 ]
               }
             ],
-            "ID": "d477dc87-3395-4a44-b037-b6d502d94eb7"
+            "ID": "5f481d2b-c4f8-45b2-9a27-ff65a052de1c"
           },
           {
             "Condition": {
@@ -4922,7 +4922,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "34a6aa31-93ea-4cc6-a6a6-c09e04a47fb8"
+                    "Id": "42b76641-07be-47ad-91b3-045d0ad3e33a"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4935,9 +4935,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "be50d8a3-56a5-4776-93a5-ef24fd3a247e"
+                    "Id": "517c0d11-8855-480d-8caf-6d3936b8dd3a"
                   },
-                  "Id": "7fa408db-9ec1-4fbd-9db5-78047744105d"
+                  "Id": "178aa47f-39c5-4001-bfd8-1c8a1cb36697"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4950,9 +4950,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "8b8f0499-0391-459f-8293-338795e7306b"
+                  "Id": "32e2a44c-402e-402b-8559-6376b5d161fd"
                 },
-                "Id": "51ca0ef1-12f0-4f20-aec1-fbfd37557a8c"
+                "Id": "70aeccc7-68d9-4ad7-a0ad-5bfc9f09633e"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -4965,9 +4965,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "0e085cd1-78d8-40a8-a43a-359d2b498a8b"
+                "Id": "3ebd5378-534f-4090-a3e9-a71684e4191b"
               },
-              "Id": "3dd1cc49-dcef-4217-98ea-fbfe2133947c"
+              "Id": "37cbb3d5-8d61-4548-949a-ec4a20edc2f2"
             },
             "CommandList": [
               {
@@ -5005,7 +5005,7 @@
                 ]
               }
             ],
-            "ID": "76efa01d-9197-4432-9734-24d5c13193fc"
+            "ID": "95dcf503-33c8-4167-b1b9-7a0d08fa7eab"
           },
           {
             "Condition": {
@@ -5025,7 +5025,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "40e3ccb1-626b-41c5-b58a-950b9cb8c32f"
+                    "Id": "a475a2f6-d9fa-4f0e-84fc-639e24fc1196"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5038,9 +5038,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "abe0833a-67d9-41d1-9390-2db09bc0e36d"
+                    "Id": "bd9f1c6f-266d-4d3a-a7c6-e53d8d2d1af9"
                   },
-                  "Id": "c467bbfe-9b75-4d61-8475-0997252f3be0"
+                  "Id": "73871d37-58b4-4091-87ea-10c5be042bb2"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5053,9 +5053,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "c5801d50-42b3-44ae-941e-ea101ce5f22c"
+                  "Id": "979d4099-f984-48a1-a162-5240e262e4bb"
                 },
-                "Id": "0b79f835-bded-4375-bc9a-b8400011ac71"
+                "Id": "6ec57c58-2b3f-418a-a423-1991096eef78"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5068,9 +5068,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "64b3aa80-e879-44e1-87da-13430d3bd663"
+                "Id": "a1bb0ce9-6308-4034-8bad-cd4f940d11b7"
               },
-              "Id": "63fedb55-afe3-4188-a6e5-9b6ca458c0d6"
+              "Id": "2b96790d-4421-4530-aab5-65391214b6b7"
             },
             "CommandList": [
               {
@@ -5108,7 +5108,7 @@
                 ]
               }
             ],
-            "ID": "fae69970-c5f3-4211-84c9-4025a96ab5ea"
+            "ID": "22dd7d8b-9bad-4606-9a18-daed62ed31df"
           },
           {
             "Condition": {
@@ -5128,7 +5128,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "5e03b41a-5b2e-4464-893b-776c494baf30"
+                    "Id": "6f0f0c25-a4e6-4a94-9a9f-f703f24bcdaa"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5141,9 +5141,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "45e45964-b820-4c34-9b93-577347a7687f"
+                    "Id": "b5dbe2f6-1241-46ee-995a-a05064acaa80"
                   },
-                  "Id": "dbec6328-d32d-4e44-a5a1-c7fed773652c"
+                  "Id": "662ec8ea-6718-4ec6-9c1c-e761396b4c23"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5156,9 +5156,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "b4fcb650-45f7-445b-8b9d-cc71c57cd084"
+                  "Id": "ed54eec7-17ef-406d-806b-b70dff3f3a7f"
                 },
-                "Id": "10e9ac89-a281-48af-8fac-5fb71e75d33f"
+                "Id": "c249c316-d440-43a6-8047-92b861ad1983"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5171,9 +5171,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "c2a7cad0-bc37-4831-b883-5680ca5ba444"
+                "Id": "f233930b-b355-4274-af7e-ed5bb50062fb"
               },
-              "Id": "20dae117-cdeb-4dae-af14-e9a011f5a155"
+              "Id": "d3a8bd94-f6ca-421d-a72d-354a23364a59"
             },
             "CommandList": [
               {
@@ -5211,7 +5211,7 @@
                 ]
               }
             ],
-            "ID": "c948d9c3-cda1-40b2-9349-78bdd501b80a"
+            "ID": "a46ab2ba-689f-4c87-a072-a9c46ea35e7a"
           },
           {
             "Condition": {
@@ -5231,7 +5231,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "49556b3f-b772-4ab3-9bff-7e74e7bff03a"
+                    "Id": "e2c4c8b0-9741-4ac5-ba34-6215a077ee43"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5244,9 +5244,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "90d3b3bb-d7f9-41bb-9896-0eccbb7c5e3a"
+                    "Id": "6a231de0-37dd-469a-91b2-662f7af2ae1c"
                   },
-                  "Id": "8eda36f2-b556-4fc0-964e-8d03c8147c81"
+                  "Id": "f1c17e46-c4ef-4430-a58f-79392b812b2a"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5259,9 +5259,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "520fcf3f-1198-4b31-ba7b-d7857dc28b85"
+                  "Id": "162fa546-6c43-464c-a98c-8b721320cf29"
                 },
-                "Id": "846881d9-99db-4fbb-b25a-532d26dc20f3"
+                "Id": "ced1ed46-b2a3-480c-808f-e79a0d0dcd7a"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5274,9 +5274,9 @@
                   ]
                 },
                 "value": "P",
-                "Id": "83efe061-3c07-4842-9a77-695e120520f0"
+                "Id": "7a397fe7-1d4f-4c49-941c-aa2772f96a01"
               },
-              "Id": "7a21ee3d-d636-41eb-82bd-42c43d1db809"
+              "Id": "44dd9523-b682-4450-95b7-4ac614a14706"
             },
             "CommandList": [
               {
@@ -5314,7 +5314,7 @@
                 ]
               }
             ],
-            "ID": "6ec3bcbf-8f46-4dde-8216-9b5bc543ef9a"
+            "ID": "cb4fc24d-a563-4cba-a46a-b77106901f9d"
           },
           {
             "Condition": {
@@ -5334,7 +5334,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "8b4c0b25-ad7e-453e-bdb4-14960b594287"
+                    "Id": "4e08e4ea-791d-43f1-93d0-062a556dbada"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5347,9 +5347,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "3eb0f9b5-505d-429b-8c4f-277f5edcc88f"
+                    "Id": "c3a4286d-f7b3-44ba-888f-bd1fe5438785"
                   },
-                  "Id": "d36eb565-8032-482f-8725-037419487d50"
+                  "Id": "1977355b-3f96-4e9a-b1c7-e2fada499dea"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5362,9 +5362,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "b91f26f0-4958-4b5a-99da-cbfcbcde7d13"
+                  "Id": "4d8c4c73-eb6c-4542-ada8-599ce9355c4f"
                 },
-                "Id": "4035c42c-7cc8-4253-87b4-efef67c96ca8"
+                "Id": "a1aabf53-801a-459a-8984-66bb9a9e36f3"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5377,9 +5377,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "8dcc0e28-1934-405e-b27b-2b4faaedbd0e"
+                "Id": "4d66c61f-a2b4-4c3a-bfe5-62f3c448a9c9"
               },
-              "Id": "81163341-cc90-4412-b8f5-e9021db369be"
+              "Id": "a372599d-2e37-47de-b6c4-8063fa2ae2f7"
             },
             "CommandList": [
               {
@@ -5417,7 +5417,7 @@
                 ]
               }
             ],
-            "ID": "a04aa6a9-fb68-4159-aecd-d03d63740c4c"
+            "ID": "840d6b34-9103-4c82-9ef2-7e4eeb59a6eb"
           },
           {
             "Condition": {
@@ -5437,7 +5437,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "34c46fd2-6408-4470-bd8c-08bafd4ecc99"
+                    "Id": "2155ce88-8ed7-42e7-9eee-df582094382b"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5450,9 +5450,9 @@
                       ]
                     },
                     "value": "S",
-                    "Id": "dcfc1ef2-4118-4538-860a-4ee10835b4c6"
+                    "Id": "93c5bf97-ed55-4885-b1e3-e73425a796ec"
                   },
-                  "Id": "6814c04a-86bf-43be-a341-754dc086878c"
+                  "Id": "d2387061-88c3-43a1-823f-6996ca5ee74e"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5465,9 +5465,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "6d0b3e59-8736-4230-9187-61564377904d"
+                  "Id": "5bb14cae-27fb-43fb-bcfc-cfd29518411e"
                 },
-                "Id": "6abceafb-ed2f-4f9e-82a9-3afc6e615de5"
+                "Id": "28622307-39d4-40f4-9812-e97375b758db"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5480,9 +5480,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "a84fcdfa-9c67-40c8-a012-0530dca6883b"
+                "Id": "8691338b-6276-4b7d-bcf8-f87e6d765b0d"
               },
-              "Id": "b4bbd63c-6d71-45f7-8db7-6836f5eceb33"
+              "Id": "65c346ec-6d91-4850-81e4-1a187b274141"
             },
             "CommandList": [
               {
@@ -5520,7 +5520,7 @@
                 ]
               }
             ],
-            "ID": "5488bcb4-5d93-4c2f-8650-1a3a1e9e7ab4"
+            "ID": "5bde7ea9-de4c-4990-ad67-f03e436c5d5e"
           },
           {
             "Condition": {
@@ -5540,7 +5540,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "a14ec912-4c54-4f24-8f5c-c62a44797af0"
+                    "Id": "d119b5a4-58c8-40b9-ab96-c66a353fa26d"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5553,9 +5553,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "0ef36aca-5019-467f-98b9-b6790491fbcf"
+                    "Id": "40341b47-7818-41ac-996e-77992944c5c7"
                   },
-                  "Id": "4c174220-37c3-4e9b-9fd6-98272b72ee04"
+                  "Id": "ef80ba0a-f690-4c01-aa5c-52a4eb7edb55"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5568,9 +5568,9 @@
                     ]
                   },
                   "value": "F",
-                  "Id": "e9372a5b-be4d-472f-a23a-682a28054674"
+                  "Id": "7c72ada3-507a-44d1-82df-6c4210478f44"
                 },
-                "Id": "821d265c-4ee0-4f05-92c9-5dc5917e55f9"
+                "Id": "643824c2-c90f-4fc4-8fd9-d66b47159aa5"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5583,9 +5583,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "7f560b62-2edf-4049-b711-d4e2a4874dd8"
+                "Id": "36191259-170e-4a01-9b2b-53284d256762"
               },
-              "Id": "c8160fd9-6618-41c0-b2ac-7410c8d02510"
+              "Id": "f203c1aa-149a-4a7e-9f97-7b23a6ea35e9"
             },
             "CommandList": [
               {
@@ -5623,7 +5623,7 @@
                 ]
               }
             ],
-            "ID": "fdb3cf86-724e-4aed-a230-a6b898f3d422"
+            "ID": "32fbeb35-0526-469f-9281-03447b9419fe"
           },
           {
             "Condition": {
@@ -5643,7 +5643,7 @@
                       ]
                     },
                     "value": "E",
-                    "Id": "b961a962-d2a6-4104-b62a-51d002ab210c"
+                    "Id": "500d0783-8d11-497c-8f45-f74f719f6b70"
                   },
                   "Condition2": {
                     "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5656,9 +5656,9 @@
                       ]
                     },
                     "value": "N",
-                    "Id": "84be1dd3-a148-48bb-a22e-1721bbbf5bb0"
+                    "Id": "3e34450c-7fb6-4ad9-9edd-1d35db236741"
                   },
-                  "Id": "e6c2ad61-6794-4fc5-9d78-1c6fab3cef3e"
+                  "Id": "ea7855fd-803c-4bba-8de5-5419ff1496ec"
                 },
                 "Condition2": {
                   "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5671,9 +5671,9 @@
                     ]
                   },
                   "value": "T",
-                  "Id": "c12de7cf-64c0-4e4a-9cc2-030a24b2fb88"
+                  "Id": "9286d256-f631-4132-9f61-8cc8dfacefc8"
                 },
-                "Id": "8c2c239d-cf93-43ea-8f30-ba37bff442d7"
+                "Id": "1422b221-d15f-4d5a-ba2b-759dcdc1774d"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
@@ -5686,9 +5686,9 @@
                   ]
                 },
                 "value": "J",
-                "Id": "c212bf2d-6318-47b4-aeb0-13a7b5bab0d1"
+                "Id": "6fa2f362-f2d6-4711-b646-1d3844b72fc4"
               },
-              "Id": "fade93f6-a58d-4c64-8fe0-48812da115be"
+              "Id": "29b4908c-408a-4db4-a978-43038b829386"
             },
             "CommandList": [
               {
@@ -5726,7 +5726,7 @@
                 ]
               }
             ],
-            "ID": "224cb739-c7d2-4525-9074-37309de7917c"
+            "ID": "4624df57-4319-46d0-bf91-35f603dc740d"
           }
         ]
       }
@@ -5764,4 +5764,4 @@
       "Formula": "결과화면!$A$65"
     }
   ]
-}//xCu/4j5JEYe/e0MnC7jhwU38JPq8ccYKZ6NlHc6UvXCwTwJNMR6GwQUTudmxm5hEniJiHQQjmPNbDzX9bqrp131Y1ZhQ1/lx4amgNoexwu5EdFiiQsav3Wid4OM0KzX7DW1nveGVYiOvKfKIu4Wg7mp9OHp+PtI1hdmzfh4l1onQIwIDI1DWO4VAtw2YQfsqyKLNoDMFtxqc7SRnWswe6R5lmU5PXbsG2kWy1Qu7sqwHM1xrpXV7lwxGvzOfMwzzxUqlCrIv5o3j97FAkasQ1HmDI+WVQWwDmJRBhcUeAfaCjAv+0q4Ci5OAW4F1/7F+N48xb/9U61bX9EpmHjNfbUbOwFC4DWAuEy+qUK7yRD8fjzAWDDtjiFurZbEzR7E3O2SGpQYkSly+uhOizVOu1PsBdGJYszEN0+sg7lRPhxUAcY+HfBY4erUheQHcOugE4Km49Yvq5TJetDUxzxG6xNj9tKKHE/tTaE6T6HVF9XGBhmFIBzi5anymVdw85A8OMB5XF1dPbIK62ZUCoASZs87xV2uV9RVb6sSjiq6uLZlQJkCcbH/Y6oHZmHlt6OyPbDBAwtyi8qpXuz+spTNpOusaULWLyfCaSzqGJc/hSJkNrZHWQ6isRxNDCYg03+tYE+vfd86d9EjKNuiYmE78e464hu6+YYNnOBliVCei3g5wr/c5ko8nogBGeuyskxxORcPKrK1SyI3yakfAO32RjFmjCYu8rdaLjhNYJLUcm6AYSmgsKxZAK09A9PhG0DSJSeiE8X55BTbw9W3V9TrU1jPv0yq2UKxuMa55SbmOxopMoBKMxBsydh8x7hf0P8BeV6ks7U4kA5fM/n5hah5YVoCnTU/B+MMcaGHntxUMbk7L8kMmk+HbqzrQyNOXoT89iaB95fdm9BSxZXoC9teFKw==|920
+}///XlFzs5zt0qMsek0zA4WlqcTVQAlhC51nqh2IzfJdt/oAZHXyOmdc8Rp9XO/J+gVa3YyVPTaSEFXKcEzdTvV4IjoXA56axHvTtj/UvCbg06fPl9wxHxM3CMs5/WSFJ6zABK4YwmKb7z5RKV8H+aI+6v4YqFBfaGbqzzKEVjVUt6Gj1KF6W759PPS01pMrJNxbRoVb0cHVyotsLTqmyQCWYzamJx2+HBsLzIFegZSbMtn3P/9jDOdb74q+Rth5KmBwiGpvtCJUkJqIVAxyCF344Flqvk/8HwKCkcw6uZxmsjU+QypVVjFOIcL9Z+sxpiNibCPpk/aYOUCk3QrAryGmmJvupedoQcxQd1B8d6hspupi87z5CHWBKgOQkRuBrIERjAADiul4HwL6tF5LbAitDKPTr5YTpyjfwkgL5jYBEdAYfD92CPrAYRHbYkkZxbHenlhgyubehf7pkdSl2a2ITgYMQsQ4PoJfI8QrDdffCw6Bh2WcLg9G5zbAPBK/Zg7rHBwlvsVC1Zd4SRkhjZkvts9jP6HWvgsxCbk/+XXYb2IVptk5jev5WmP42L4C114/KkHWwPR0r1qj73dAJGysTSuK1lQV44tTgufHtNDMfRA7Tc2sXWAxUR8eMu8Bc8C4k9/NVE+Ptf2d/bzpfvLYyeixGtB3bO8YaoGdzx5f4aXoC3ih6K4KmJdZhZBYOk5edrfLuptMylBlsGUr8B/RAWz6Di5AuldpQEV4ZdA6mosGiDDLpn8gx/ufX8HpPvXvOD/l1XJm5bc0/hZy5MgCJVut5cCQHyS7XCA5HXvp2Df+3HUxoym2nU9oKn25HjQXL4U29RyOOKXNZlbpcVYf+vqCdBiCY6IsPrCkcN2Hdsp5jfClspjAiheoLtaalzWwHhi+85xjFPySmih7UZ7Ng==|920
