@@ -259,7 +259,16 @@
   },
   {
     "ModuleName": "MasterMobilePage/모바일성격유형테스트마스터페이지",
-    "ModuleType": 4
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-LV3CTK1\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T15:02:41.2940393+09:00",
+    "ModuleType": 4,
+    "ToRemoveFiles": [
+      "MasterPages\\모바일성격유형테스트마스터페이지.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/메일보내기",
