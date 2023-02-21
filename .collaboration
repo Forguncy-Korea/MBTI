@@ -1,7 +1,17 @@
 [
   {
     "ModuleName": "Table/검사결과",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-21T16:51:39.1174209+09:00",
     "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\검사결과.json",
+      "ForguncyDB.sqlite3"
+    ],
     "ExclusiveType": 0
   },
   {
