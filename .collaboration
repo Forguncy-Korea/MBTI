@@ -130,7 +130,16 @@
   },
   {
     "ModuleName": "MobilePage/모바일_검사결과",
-    "ModuleType": 2
+    "State": 1,
+    "LockedBy": {
+      "UserName": "DESKTOP-SFEU14D\\NamHee",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-02-22T09:36:49.7848212+09:00",
+    "ModuleType": 2,
+    "ToRemoveFiles": [
+      "Pages\\모바일_검사결과.json"
+    ]
   },
   {
     "ModuleName": "MobilePage/모바일_시작화면",
